@@ -1,0 +1,54 @@
+{
+  "ahri": {
+    "items": ["6655", "3020", "4646", "223137", "4645", "3089"],
+    "runas": {
+      "primario": {
+        "estilo": "perk-images/Styles/7200_Domination.png",
+        "runas": [
+          { "nombre": "DarkHarvest", "icono": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png" },
+          { "nombre": "Sabor a Sangre", "icono": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png" },
+          { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png" },
+          { "nombre": "Cazador Definitivo", "icono": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+        ]
+      },
+      "secundario": {
+        "estilo": "perk-images/Styles/7203_Whimsy.png",
+        "runas": [
+          { "nombre": "Entrega de Galletas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+        ]
+      },
+      "shards": [
+        { "nombre": "Daño Adaptativo", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Daño Adaptativo", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Vida", "icono": "perk-images/StatMods/StatModsHealthScalingIcon.png" }
+      ]
+    }
+  },
+  "yasuo": {
+    "items": ["6673", "3006", "3031", "3046", "3026", "3508"],
+    "runas": {
+      "primario": {
+        "estilo": "perk-images/Styles/Precision/Precision.png",
+        "runas": [
+          { "nombre": "Compás Letal", "icono": "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png" },
+          { "nombre": "Triunfo", "icono": "perk-images/Styles/Precision/Triumph/Triumph.png" },
+          { "nombre": "Leyenda: Presteza", "icono": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" },
+          { "nombre": "Último Esfuerzo", "icono": "perk-images/Styles/Precision/LastStand/LastStand.png" }
+        ]
+      },
+      "secundario": {
+        "estilo": "perk-images/Styles/7203_Whimsy.png",
+        "runas": [
+          { "nombre": "Entrega de Galletas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+        ]
+      },
+      "shards": [
+        { "nombre": "Velocidad de Ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Daño Adaptativo", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Armadura", "icono": "perk-images/StatMods/StatModsArmorIcon.png" }
+      ]
+    }
+  }
+}

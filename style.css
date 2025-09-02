@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f1519;
+  color: white;
+  margin: 0;
+}
+
+.navbar {
+  background: #1c252c;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: #ffffff;
+  margin-right: 600px;
+}
+
+.navbar input {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.navbar button {
+  padding: 8px 12px;
+  border: none;
+  background: #ff1616;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card {
+  background: #1c252c;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.logo {
+    height: "auto";
+    margin-left: 700px;
+    
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.champion-icon {
+  border-radius: 50%;
+  border: 3px solid #000000;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.champion-icon {
+  border-radius: 50%;
+  border: 3px solid #000000;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.section {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.runes-primary, .runes-secondary {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.runes-primary img {
+  width: 50px;
+  height: 50px;
+}
+
+.runes-secondary img {
+  width: 35px;
+  height: 35px;
+  opacity: 0.8;
+}
+
+.shards {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.shards img {
+  width: 28px;
+  height: 28px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.items img {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  background: #1c2b45;
+  padding: 4px;
+}
+
+.arrow {
+  font-size: 20px;
+  color: #aaa;
+  margin: auto 0;
+}
+
+
