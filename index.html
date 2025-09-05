@@ -8,18 +8,21 @@
 </head>
 <body>
   <header class="navbar">
-    <h1>GT</h1>
+  <img src="icono.png" alt="GT Logo" class="logo">
     <input type="text" id="search" placeholder="Buscar campeón...">
     <button onclick="buscarCampeon()">Buscar</button>
   </header>
 
   <main>
-    <section id="resultados">
-    </section>
+    <!-- Aquí se muestran los botones dinámicos -->
+    <div id="botones"></div>
+
+    <!-- Aquí se muestran las builds -->
+    <section id="resultados"></section>
   </main>
 
-  <script src="app.js"></script>
 
-  <img src="icono.png" alt="GT logo" class="logo">
+  <script src="app.js"></script>
 </body>
 </html>
+

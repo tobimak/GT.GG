@@ -14,7 +14,8 @@ body {
 
 .navbar h1 {
   color: #ffffff;
-  margin-right: 600px;
+  margin-right: 700px
+
 }
 
 .navbar input {
@@ -40,9 +41,8 @@ body {
   border-radius: 10px;
 }
 .logo {
-    height: "auto";
-    margin-left: 700px;
-    
+    height: 100px;
+    margin-right: 700px;
 }
 
 .card-header {
@@ -135,4 +135,47 @@ body {
   margin: auto 0;
 }
 
+/* ==== BOTONES DE ROLES ==== */
+#botones {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+#botones button {
+  background: linear-gradient(135deg, #1c252c, #5b7588);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#botones button:hover {
+  background: linear-gradient(135deg, #1e40af, #3b82f6);
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+#botones button:active {
+  transform: scale(0.95);
+}
+#resultados p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #9ca3af; /* gris elegante */
+  margin: auto auto; /* centrado automático */
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  display: inline-block; /* hace que el auto-margin funcione */
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
 
