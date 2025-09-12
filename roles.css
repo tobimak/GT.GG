@@ -1,0 +1,332 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f1519;
+  color: white;
+  margin: 0;
+}
+
+.navbar {
+  background: #1c252c;
+  padding: 15px;
+  display: flex;           /* Asegura que los hijos estén en fila */
+  align-items: center;     /* Centra verticalmente */
+  /* gap: 10px;               Espacio entre elementos */
+  position: relative;
+}
+.roles-separator {
+  width: 90%;
+  height: 2px;
+  background-color: #444; /* gris oscuro, combina con tu fondo */
+  margin: 30px auto;      /* separa hacia arriba y abajo */
+  border: none;
+  border-radius: 2px;
+}
+.roles-wrapper {
+  background-color: #1e2a36;   /* Fondo diferente al de la página */
+  padding: 30px;
+  border-radius: 12px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+.logo {
+  height: 100px;
+  margin-right: 20px; /* ajusta según necesites */
+}
+.titulo {
+      font-family: 'Cinzel', serif;
+      font-size: 48px;
+      font-weight: 700;
+      color: #ff00ee; /* dorado */
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      text-align: center;
+      margin: 20px 0;
+      transition: transform 0.3s ease;
+      cursor: default;
+      user-select: none;
+      z-index: 9999;
+}
+
+.roles-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.role-card {
+  width: 160px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+  position: relative; /* necesario para que el tooltip se posicione bien */
+}
+
+.role-card img {
+  width: 35px;
+  height: 35px;
+}
+
+.role-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* 🎨 Colores de cada rol */
+.assassin {
+  background: #ff4040;
+}
+
+.assault {
+  background: #ffd84d;
+}
+
+.mage {
+  background: #1e1eff;
+}
+
+.tank {
+  background: #10c478;
+}
+
+.role-card .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  width: 220px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%; /* aparece arriba de la tarjeta */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s;
+  font-size: 14px;
+}
+
+/* Flechita */
+.role-card .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Mostrar tooltip al pasar el mouse */
+.role-card:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+.role-card2 {
+  width: 160px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+}
+
+.role-card2 img {
+  width: 35px;
+  height: 35px;
+}
+
+.role-card2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.Aegis {
+  background: linear-gradient(135deg, #10c478, #1e1eff);
+}
+
+.Spellbade {
+  background: linear-gradient(135deg, #ffd84d, #1e1eff);
+}
+
+.Berserker {
+  background: linear-gradient(135deg, #10c478, #ffd84d);
+}
+
+.Warlock {
+  background: linear-gradient(135deg, #ff4040, #1e1eff);
+}
+.Duelist  {
+  background: linear-gradient(135deg, #ff4040, #ffd84d);
+}
+.Rogue {
+  background: linear-gradient(135deg, #10c478, #ff4040);
+}
+
+.role-card3 {
+  width: 200px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+}
+
+.role-card3 img {
+  width: 35px;
+  height: 35px;
+}
+
+.role-card3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.Emberlord {
+  background: linear-gradient(135deg, #10c478, #1e1eff,#ffd84d);
+}
+
+.Arcanist {
+  background: linear-gradient(135deg, #10c478, #1e1eff,#ff4040);
+}
+
+.Revenant {
+  background: linear-gradient(135deg, #10c478, #ffd84d,#ff4040);
+}
+
+.Duskbane {
+  background: linear-gradient(135deg, #ff4040, #1e1eff,#ffd84d);
+}
+
+.role-card4 {
+  width: 200px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+}
+
+.role-card4 img {
+  width: 35px;
+  height: 35px;
+}
+
+.role-card4:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+.Elite {
+  background: linear-gradient(135deg, #ff4040, #1e1eff,#ffd84d,#10c478);
+}
+
+.role-card5 {
+  width: 200px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+}
+
+.role-card5 img {
+  width: 35px;
+  height: 35px;
+}
+
+.role-card5:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.Peeler {
+  background: #f703ff;
+}
+
+.Vanguard {
+  background: #02390c;
+}
+.role-card6 {
+  width: 200px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+}
+
+.role-card6 img {
+  width: 35px;
+  height: 35px;
+}
+
+.role-card6:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+.Playmaker {
+  background: linear-gradient(135deg, #f703ff59, #01470f);
+}
+
+
+.h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 36px;
+      font-weight: 700;
+      color: #ff00ee; /* dorado */
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      text-align: center;
+      margin: 20px 0;
+}
+
+.h5 {
+      font-family: ui-rounded;
+      font-size: 24px;
+      color: #ffffff;
+      text-align: center;
+      margin: 5px 0;
+}
+
+
+

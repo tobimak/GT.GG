@@ -8,17 +8,47 @@
 </head>
 <body>
   <header class="navbar">
-  <img src="icono.png" alt="GT Logo" class="logo">
-    <input type="text" id="search" placeholder="Buscar campeón...">
+  <img src="imagenes/icono.png" alt="GT Logo" class="logo">
+  <div class="search-wrapper">
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Buscar campeón...">
+      <div id="sugerencias" class="sugerencias"></div>
+    </div>
     <button onclick="buscarCampeon()">Buscar</button>
-  </header>
-
+  </div>
+  <a href="Donation.html" class="corner-icon">
+  <img src="imagenes/donation.png" alt="Ir a otra página">
+</a>
+</header>
+  <h1 class="titulo">League Of Legends</h1>
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet" />
   <main>
+    <div id="contenedorBuild"></div>
     <!-- Aquí se muestran los botones dinámicos -->
     <div id="botones"></div>
 
+
+    <div id="resetDePagina"></div>
     <!-- Aquí se muestran las builds -->
-    <section id="resultados"></section>
+    <div id="resultado"></div>
+
+
+   <div id="carrusel" class="carrusel">
+  <div class="cuadro" data-index="0"></div>
+  <div class="cuadro" data-index="1"></div>
+  <div class="cuadro" data-index="2"></div>
+  <div class="cuadro" data-index="3"></div>
+  <div class="cuadro" data-index="4"></div>
+  <div class="cuadro" data-index="5"></div>
+  <div class="cuadro" data-index="6"></div>
+
+</div>
+<div class="botones-home">
+  <a href="roles.html" class="btn-home">CLASSES</a>
+  <a href="donaciones.html" class="btn-home">BLOG</a>
+  <a href="mathes.html" class="btn-home">MATHES</a>
+</div>
+
   </main>
 
 
