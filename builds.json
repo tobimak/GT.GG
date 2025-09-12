@@ -1777,7 +1777,7 @@
       ],"Items_S": ["2055"]
     }
   },
-     "Irelia": {
+    "Irelia": {
     "Elite 🟡🟢🔵🔴": {
       "runas": {
         "primario": {
@@ -2290,7 +2290,7 @@
         "secundario": {
           "nombre": "Inspiración",
           "runas": [
-            { "nombre": "comodin", "icono": "perk-images/Styles/Inspiration/JackOfAllTrades/JackofAllTrades2.png" },
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
             { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
           ]
         },
@@ -2679,6 +2679,427 @@
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],"Items_S": ["2055"]
    }
+  },
+    "Lulu": {
+    "Peeler 🟣": {
+      "runas": {
+        "primario": {
+          "nombre": "valor",
+          "runas": [
+            { "nombre": "Guardian", "icono": "perk-images/Styles/Resolve/Guardian/Guardian.png" },
+            { "nombre": "Triunfo", "icono": "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png" },
+            { "nombre": "LegendHaste", "icono": "perk-images/Styles/Resolve/BonePlating/BonePlating.png" },
+            { "nombre": "Last Stand", "icono": "perk-images/Styles/Resolve/Revitalize/Revitalize.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      },
+      "items": ["3870","3504", "2422", "6621", "6616","3107"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "curacion", "icono": "spell/SummonerHeal.png" }
+      ],"Items_S": ["2055"]
+    }
+  },
+  "Zed": {
+    "Elite 🟡🟢🔵🔴": {
+      "runas": {
+        "primario": {
+          "nombre": "Conqueror",
+          "runas": [
+            { "nombre": "Conqueror", "icono": "perk-images/Styles/Precision/Conqueror/Conqueror.png" },
+            { "nombre": "Triunfo", "icono": "perk-images/Styles/Precision/Triumph.png" },
+            { "nombre": "LegendAlacrity", "icono": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" },
+            { "nombre": "CutDown", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      },
+      "items": ["6697","3171", "6699", "6694", "6692", "3161"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "ignite", "icono": "spell/SummonerDot.png" }
+      ],"Items_S": ["2055"]
+    },
+      "Assasin 🔴": {
+      "runas": {
+        "primario": {
+          "nombre": "Dominación",
+          "runas": [
+          { "nombre": "electrocutar", "icono": "perk-images/Styles/Domination/Electrocute/Electrocute.png" },
+          { "nombre": "Sabor a Sangre", "icono": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png" },
+          { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png" },
+          { "nombre": "UltimateHunter", "icono": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      },
+      "items": ["6697","2422", "6698", "6694", "3142","6701"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "ignite", "icono": "spell/SummonerDot.png" }
+      ],"Items_S": ["2055"]
+    }
+  },
+    "Rakan": {
+    "Vanguard 🟢": {
+      "runas": {
+        "primario": {
+          "nombre": "valor",
+          "runas": [
+            { "nombre": "GlacialAugment", "icono": "perk-images/Styles/Inspiration/GlacialAugment/GlacialAugment.png" },
+            { "nombre": "Triunfo", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "LegendHaste", "icono": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" },
+            { "nombre": "Last Stand", "icono": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "fuente de vida", "icono": "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png" },
+            { "nombre": "Last Stand", "icono": "perk-images/Styles/Resolve/Revitalize/Revitalize.png" }
+          ]
+        },
+        "shards": [
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      },
+      "items": ["3876","3050", "3171", "4629", "3002","2502"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "ignite", "icono": "spell/SummonerDot.png" }
+      ],"Items_S": ["2055"]
+    }
+  },
+  "Rell": {
+    "Vanguard 🟢": {
+      "runas": {
+        "primario": {
+          "nombre": "valor",
+          "runas": [
+            { "nombre": "valor", "icono": "perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png" },
+            { "nombre": "golpe de escudo", "icono": "perk-images/Styles/Resolve/MirrorShell/MirrorShell.png" },
+            { "nombre": "segundo aire", "icono": "perk-images/Styles/Resolve/Conditioning/Conditioning.png" },
+            { "nombre": "Revitalizar", "icono": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" }
+          ]
+        },
+        "shards": [
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      },
+      "items": ["3876","3050", "3171", "4629", "3002","2502"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "ignite", "icono": "spell/SummonerDot.png" }
+      ],"Items_S": ["2055"]
+    }
+  },
+"Braum": {
+    "Vanguard 🟢": {
+      "runas": {
+        "primario": {
+          "nombre": "valor",
+          "runas": [
+            { "nombre": "Guardian", "icono": "perk-images/Styles/Resolve/Guardian/Guardian.png" },
+            { "nombre": "Triunfo", "icono": "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png" },
+            { "nombre": "LegendHaste", "icono": "perk-images/Styles/Resolve/Conditioning/Conditioning.png" },
+            { "nombre": "Last Stand", "icono": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      },
+      "items": ["3876","3190", "2422", "3002", "3107"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "ignite", "icono": "spell/SummonerDot.png" }
+      ],"Items_S": ["2055"]
+    }
+  },
+    "Pyke": {
+    "Playmaker 🟣🟢": {
+      "runas": {
+        "primario": {
+          "nombre": "Dominación",
+          "runas": [
+          { "nombre": "electrocutar", "icono": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png" },
+          { "nombre": "Sabor a Sangre", "icono": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png" },
+          { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png" },
+          { "nombre": "RelentlessHunter", "icono": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      },
+      "items": ["3877","6697","2422", "6701", "6696", "6610","3814"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "ignite", "icono": "spell/SummonerDot.png" }
+      ],"Items_S": ["2055"]
+    }
+  },
+  "Ezreal": {
+  "Spellblade": {
+    "runas": {
+      "primario": {
+        "nombre": "Precisión",
+        "runas": [
+          { "nombre": "Cadencia Letal", "icono": "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png" },
+          { "nombre": "Concentración Profunda", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
+          { "nombre": "Leyenda: Celeridad", "icono": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" },
+          { "nombre": "Corte", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
+        ]
+      },
+      "secundario": {
+        "nombre": "Inspiración",
+        "runas": [
+          { "nombre": "Calzado mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "Tónico triple", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+        ]
+      },
+      "shards": [
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+      ]
+    },
+    "items": ["3006", "3078", "3004", "6694", "3153", "3072"],
+    "spells": [
+      { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+      { "nombre": "Fantasmal", "icono": "spell/SummonerHaste.png" }
+    ],
+    "Items_S": ["2055"]
+  },
+  "Mage 🔵": {
+    "runas": {
+      "primario": {
+        "nombre": "Dominación",
+        "runas": [
+          { "nombre": "Cosecha oscura", "icono": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png" },
+          { "nombre": "Sabor a Sangre", "icono": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png" },
+          { "nombre": "Recuerdos macabros", "icono": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png" },
+          { "nombre": "Cazador definitivo", "icono": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+        ]
+      },
+      "secundario": {
+        "nombre": "Inspiración",
+        "runas": [
+          { "nombre": "Calzado mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "Tónico triple", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+        ]
+      },
+      "shards": [
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+      ]
+    },
+    "items": ["6697", "3004", "6694", "3161", "3158", "3814"],
+    "spells": [
+      { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+      { "nombre": "Barrera", "icono": "spell/SummonerBarrier.png" }
+    ],
+    "Items_S": ["2055"]
+  }
+},
+"Kaisa": {
+  "Assault 🟡": {
+    "runas": {
+      "primario": {
+        "nombre": "Precisión",
+        "runas": [
+          { "nombre": "Cadencia Letal", "icono": "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png" },
+          { "nombre": "Concentración Profunda", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
+          { "nombre": "Leyenda: Celeridad", "icono": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png" },
+          { "nombre": "Corte", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
+        ]
+      },
+      "secundario": {
+        "nombre": "Inspiración",
+        "runas": [
+          { "nombre": "Calzado mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "Tónico triple", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+        ]
+      },
+      "shards": [
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+      ]
+    },
+    "items": ["3087", "3006", "3124", "3302", "4645", "3073"],
+    "spells": [
+      { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+      { "nombre": "Barrera", "icono": "spell/SummonerBarrier.png" }
+    ],
+    "Items_S": ["2055"]
+  }
+},
+"Lucian": {
+  "Assault 🟡": {
+    "runas": {
+      "primario": {
+        "nombre": "Precisión",
+        "runas": [
+          { "nombre": "Cadencia Letal", "icono": "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png" },
+          { "nombre": "Concentración Profunda", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
+          { "nombre": "Leyenda: Aceleración", "icono": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png" },
+          { "nombre": "Corte", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
+        ]
+      },
+      "secundario": {
+        "nombre": "Inspiración",
+        "runas": [
+          { "nombre": "Calzado mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "Tónico triple", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+        ]
+      },
+      "shards": [
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+      ]
+    },
+    "items": ["3158", "3508", "6675", "3071", "3153", "6672"],
+    "spells": [
+      { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+      { "nombre": "Barrera", "icono": "spell/SummonerBarrier.png" }
+    ],
+    "Items_S": ["2055"]
+  }
+},
+"Ashe": {
+  "Assault 🟡": {
+    "runas": {
+      "primario": {
+        "nombre": "Precisión",
+        "runas": [
+          { "nombre": "Cadencia Letal", "icono": "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png" },
+          { "nombre": "Concentración Profunda", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
+          { "nombre": "Leyenda: Linaje", "icono": "perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png" },
+          { "nombre": "Corte", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
+        ]
+      },
+      "secundario": {
+        "nombre": "Inspiración",
+        "runas": [
+          { "nombre": "Calzado mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "Velocidad de aproximación", "icono": "perk-images/Styles/Sorcery/ApproachVelocity/ApproachVelocity.png" }
+        ]
+      },
+      "shards": [
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+      ]
+    },
+    "items": ["3006", "3032", "3085", "3071", "3031", "3072"],
+    "spells": [
+      { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+      { "nombre": "Barrera", "icono": "spell/SummonerBarrier.png" }
+    ],
+    "Items_S": ["2055"]
+  }
+},
+"AurelionSol": {
+  "Aegis 🔵🟢": {
+    "runas": {
+      "primario": {
+        "nombre": "Brujería",
+        "runas": [
+          { "nombre": "Cometa Arcano", "icono": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png" },
+          { "nombre": "Anillo de flujo de maná", "icono": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" },
+          { "nombre": "Concentración Absoluta", "icono": "perk-images/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.png" },
+          { "nombre": "Tormenta Creciente", "icono": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png" }
+        ]
+      },
+      "secundario": {
+        "nombre": "Valor",
+        "runas": [
+          { "nombre": "Coraza ósea", "icono": "perk-images/Styles/Resolve/BonePlating/BonePlating.png" },
+          { "nombre": "Crecimiento Excesivo", "icono": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png" }
+        ]
+      },
+      "shards": [
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+      ]
+    },
+    "items": ["6657", "3158", "3116", "8010", "6653", "4633"],
+    "spells": [
+      { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
+      { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
+    ],
+    "Items_S": ["2055"]
+  }
+}
+  
+
   }
 
   
@@ -2687,7 +3108,7 @@
   
   
  
-}
+
   
 
 
