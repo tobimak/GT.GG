@@ -13,9 +13,18 @@ async function getVersion() {
 }
 
 async function loadBuilds() {
-  const response = await fetch("builds.json"); // leemos el archivo externo
-  builds = await response.json();
+  try {
+    const response = await fetch("builds.json");
+    if (!response.ok) {
+      throw new Error(`Error al cargar builds.json: ${response.status}`);
+    }
+    builds = await response.json();
+    console.log("Builds cargadas:", builds);
+  } catch (error) {
+    console.error("No se pudo cargar el archivo JSON:", error);
+  }
 }
+
 
 function renderBotones(campeonId) {
   const botonesDiv = document.getElementById("botones");
