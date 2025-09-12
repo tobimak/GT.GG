@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f1519;
+  color: white;
+  margin: 0;
+}
+
+.navbar {
+  background: #1c252c;
+  padding: 15px;
+  display: flex;           /* Asegura que los hijos estén en fila */
+  align-items: center;     /* Centra verticalmente */
+  /* gap: 10px;               Espacio entre elementos */
+  position: relative;
+}
+.roles-separator {
+  width: 90%;
+  height: 2px;
+  background-color: #444; /* gris oscuro, combina con tu fondo */
+  margin: 30px auto;      /* separa hacia arriba y abajo */
+  border: none;
+  border-radius: 2px;
+}
+.roles-wrapper {
+  background-color: #1e2a36;   /* Fondo diferente al de la página */
+  padding: 30px;
+  border-radius: 12px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+.logo {
+  height: 100px;
+  margin-right: 20px; /* ajusta según necesites */
+}
+
+.titulo1 {
+      font-family: 'Cinzel', serif;
+      font-size: 48px;
+      font-weight: 700;
+      color: #ffffff; /* dorado */
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      text-align: center;
+      margin: 20px 0;
+      transition: transform 0.3s ease;
+      cursor: default;
+      user-select: none;
+      z-index: 9999;
+}

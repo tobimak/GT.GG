@@ -1,10 +1,5 @@
 let builds = {};
 
-
-
-
-
-
 const contenedorBuild = document.getElementById('contenedorBuild');
 async function getVersion() {
   const response = await fetch("https://ddragon.leagueoflegends.com/api/versions.json");
