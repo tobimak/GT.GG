@@ -1,52 +1,86 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #0f1519;
-  color: white;
-  margin: 0;
-}
-
-.navbar {
-  background: #1c252c;
-  padding: 15px;
-  display: flex;           /* Asegura que los hijos estén en fila */
-  align-items: center;     /* Centra verticalmente */
-  /* gap: 10px;               Espacio entre elementos */
-  position: relative;
-}
-.roles-separator {
-  width: 90%;
-  height: 2px;
-  background-color: #444; /* gris oscuro, combina con tu fondo */
-  margin: 30px auto;      /* separa hacia arriba y abajo */
-  border: none;
-  border-radius: 2px;
-}
-.roles-wrapper {
-  background-color: #1e2a36;   /* Fondo diferente al de la página */
-  padding: 30px;
-  border-radius: 12px;
-  margin: 20px auto;
-  width: 90%;
-  max-width: 1200px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
-}
-
-
-.logo {
-  height: 100px;
-  margin-right: 20px; /* ajusta según necesites */
-}
-
-.titulo1 {
+      background-color: #0f1519;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    h1 {
       font-family: 'Cinzel', serif;
       font-size: 48px;
       font-weight: 700;
-      color: #ffffff; /* dorado */
-      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      color: #FFD700;
+      margin-bottom: 40px;
       text-align: center;
-      margin: 20px 0;
-      transition: transform 0.3s ease;
-      cursor: default;
-      user-select: none;
-      z-index: 9999;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    .opciones-donacion {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      max-width: 400px;
+      width: 100%;
+    }
+    .opcion {
+  display: block; 
+  background: #1c252c;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+  text-decoration: none; /* quitar subrayado */
 }
+.opcion:hover {
+  background-color: #af1e1e;
+}
+    .opcion a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      display: block;
+    }
+    .opcion p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+    .cvu {
+      font-family: monospace;
+      font-size: 18px;
+      background: #222;
+      padding: 10px;
+      border-radius: 8px;
+      user-select: all;
+      margin-top: 10px;
+    }
+    .cbu {
+      font-family: monospace;
+      font-size: 18px;
+      background: #222;
+      padding: 10px;
+      border-radius: 8px;
+      user-select: all;
+      margin-top: 10px;
+    }
+    .volver {
+      margin-top: 40px;
+      font-size: 18px;
+      color: #FFD700;
+      text-decoration: underline;
+      cursor: pointer;
+      user-select: none;
+      text-align: center;
+    }
+    .volver:hover {
+      color: #fff;
+    }
