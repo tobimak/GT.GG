@@ -489,15 +489,34 @@ h1 {
   right: 35px;
   z-index: 10000; /* siempre por encima */
   transition: transform 0.2s ease, filter 0.2s ease;
+  margin-right: 10px;
 }
 
 .corner-icon img {
   width: 60px;   /* ajustá el tamaño */
   cursor: pointer;
   filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
+
 }
 
 .corner-icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px rgb(255, 0, 102));
+}
+.corner-icon2 {
+  top: 35px;
+  right: 60px;
+  z-index: 10000; /* siempre por encima */
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.corner-icon2 img {
+  width: 45px;   /* ajustá el tamaño */
+  cursor: pointer;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
+}
+
+.corner-icon2:hover {
+  transform: scale(1.1);
   filter: drop-shadow(0 0 10px rgb(255, 0, 102));
 }
