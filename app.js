@@ -112,6 +112,10 @@ function mostrarBuild(campeonId, rol) {
       </div>
     ` : `<p>⚠️ No hay build guardada para este campeón</p>`}
   </div>
+  <div style="text-align: center; margin-top: 15px;">
+        <button class="btn-stats" onclick="window.location.href='stats.html?champ=${campeonId}'">Stats</button>
+      </div>
+    </div>
   `;
 }
 

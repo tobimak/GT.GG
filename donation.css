@@ -26,7 +26,7 @@ body {
       width: 100%;
     }
     .opcion {
-  display: block; 
+  display: block; /* para que el <a> se comporte como bloque */
   background: #1c252c;
   border-radius: 12px;
   padding: 20px;
