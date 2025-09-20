@@ -19,15 +19,15 @@ body {
 .navbar {
   background: #1c252c;
   padding: 15px;
-  display: flex;           /* Asegura que los hijos estén en fila */
-  align-items: center;     /* Centra verticalmente */
-  /* gap: 10px;               Espacio entre elementos */
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* separa logo e input */
+  flex-wrap: wrap; /* permite saltar a la línea en móvil */
 }
-.navbar h1 {
-  color: #ffffff;
-  margin-right: 700px
 
+.navbar h1 {
+  margin: 0;
+  font-size: 20px;
 }
 
 .navbar input {
@@ -377,6 +377,12 @@ body {
   align-items: center;
   backface-visibility: hidden;
 }
+@media (max-width: 768px) {
+  .cuadro {
+    width: 100px;
+    height: 100px;
+  }
+}
 
 /* Posiciones y estilos para cada posición */
 .cuadro.pos0 {
@@ -561,3 +567,31 @@ h1 {
     box-shadow: 0 0 0 3px #85c1e9;
   }
   
+  /* Tablet */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  .navbar h1 {
+    font-size: 18px;
+  }
+}
+
+/* Celular */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8em;
+    letter-spacing: 1px;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .search-wrapper {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .carrusel {
+    max-width: 100%;
+  }
+}
