@@ -347,7 +347,8 @@ body {
 
 .carrusel {
   position: relative;
-  width: 900px;
+  width: 100%;              /* se adapta al ancho de la pantalla */
+  max-width: 900px;         /* límite en PC */
   height: 320px;
   margin: 0 auto;
   perspective: 1000px;
@@ -377,13 +378,31 @@ body {
   align-items: center;
   backface-visibility: hidden;
 }
-@media (max-width: 768px) {
+
+/* 📱 Responsivo */
+@media (max-width: 1024px) {
+  .carrusel {
+    height: 250px;
+  }
   .cuadro {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+    top: 120px;
   }
 }
 
+@media (max-width: 600px) {
+  .carrusel {
+    height: 200px;
+  }
+  .cuadro {
+    width: 100px;
+    height: 100px;
+    font-size: 14px;
+    top: 80px;
+  }
+}
 /* Posiciones y estilos para cada posición */
 .cuadro.pos0 {
   transform: translate(calc(-50% - 570px), -50%) scale(0.6);
@@ -567,7 +586,7 @@ h1 {
     box-shadow: 0 0 0 3px #85c1e9;
   }
   
-  /* Tablet */
+/* Tablet */
 @media (max-width: 1024px) {
   h1 {
     font-size: 2.5em;
@@ -592,14 +611,6 @@ h1 {
     margin-top: 10px;
   }
   .carrusel {
-      position: relative;
-  width: 500px;
-  height: 320px;
-  margin: 0 auto;
-  perspective: 1000px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0;
+    max-width: 100%;
   }
 }
