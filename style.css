@@ -346,10 +346,15 @@ body {
 
 
 .carrusel {
-  width: 100%;
-  max-width: 900px;  /* en desktop */
-  height: auto;
-  overflow: hidden;
+  position: relative;
+  width: 900px;
+  height: 320px;
+  margin: 0 auto;
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
 }
 
 .cuadro {
