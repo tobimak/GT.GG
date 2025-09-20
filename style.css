@@ -4,17 +4,6 @@ body {
   color: white;
   margin: 0;
 }
-.root {
-            --primary-bg: #0f1519;
-            --secondary-bg: #1c252c;
-            --accent-color-1: #af1e1e;
-            --accent-color-2: #f63bca;
-            --text-color: white;
-            --card-bg: #1c252c;
-            --border-radius: 10px;
-            --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            --transition: all 0.3s ease;
-        }
 
 .navbar {
   background: #1c252c;
@@ -47,9 +36,12 @@ body {
 }
 
 .search-wrapper {
+  flex: 1;
   display: flex;
-  align-items: center;
   gap: 8px;
+  min-width: 200px;
+  max-width: 400px;
+  
   width: 350px; /* ancho total del input + botón */
   margin: 0 auto; /* centra horizontalmente */
 }
@@ -597,7 +589,7 @@ h1 {
 }
 
 /* Celular */
-@media (max-width: 200px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 1.8em;
     letter-spacing: 1px;
@@ -611,6 +603,6 @@ h1 {
     margin-top: 10px;
   }
   .carrusel {
-    max-width: 10%;
+    max-width: 100%;
   }
 }
