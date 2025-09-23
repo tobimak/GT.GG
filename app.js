@@ -1,7 +1,7 @@
 let builds = {};
 
 const nombreAId = {
-  Wukong: "MonkeyKing",
+  Tobias: "MonkeyKing",
   Aurelionsol: "AurelionSol",
   Reksai: "RekSai",
   Maestroyi: "MasterYi",
@@ -78,10 +78,113 @@ function renderBotones(campeonId) {
   }
 }
 
+function normalizarRol(rol) {
+  return rol.charAt(0).toUpperCase() + rol.slice(1).toLowerCase();
+}
+
+const inforoles = {
+  "Mage": {
+    nombre: "Mage",
+    descripcion: "Campeones que infligen daño constante mediante sus habilidades. No siempre deben ser de poder de habilidad (AP), pero su estilo se centra en maximizar el daño de habilidades, aprovechar la reducción de enfriamiento, la gestión de maná y pasivas que proporcionan mayor daño. Suelen posicionarse en la retaguardia para aplicar presión con su DPS de habilidades."
+  },
+  "Assassin": {
+    nombre: "Assassin",
+    descripcion: "Campeón de alto burst que busca eliminar rápidamente a los objetivos frágiles, no busca peleas largas ni continuas, busca daño bruto y penetracion de armadura ya sea porcentual o plana ."
+  },
+  "Assault": {
+    nombre: "Assault",
+     descripcion: "Campeones centrados en infligir daño sostenido con ataques básicos. Su estilo gira en torno a maximizar el DPS a través de velocidad de ataque, efectos al impacto (on-hit) o críticos(on-attack), aprovechando la presión constante en peleas extendidas."
+  },
+  "Tank": {
+    nombre: "Tank",
+    descripcion: "Campeones resistentes cuya función principal es absorber daño y proteger a su equipo. Se enfocan en acumulación de vida, armadura y resistencia mágica, destacando por su capacidad de iniciar peleas, aplicar control de masas y mantenerse en primera línea."
+  },
+    
+  //2
+  "Aegis": {
+    nombre: "Aegis",
+    descripcion: "Campeones que son Tankes y Mages, por lo tanto buscan peleas donde puedan extender tradeos metiendo daño de habilidades continuos con la variable de poder absorber daño."
+  },
+  "Spellbade": {
+    nombre: "Spellbade",
+    descripcion: "Campeones que son Assault y Mages, por lo tanto buscan peleas donde puedan extender tradeos metiendo daño de habilidades continuos y daño continuo de basicos"
+  },
+  "Berserker": {
+    nombre: "Berserker",
+    descripcion: "Campeones que son Assault y Tank, por lo tanto buscan peleas donde puedan extender tradeos metiendo daño continuo de basicos con la variable de poder absorber daño."
+  },
+  "Warlock": {
+    nombre: "Warlock",
+    descripcion: "Campeones que son Assassin y Mages, por lo tanto buscan peleas donde pueda meter un daño explosivo de habilidades, para deletear a un objetivo"
+  },
+  "Duelist": {
+    nombre: "Duelist",
+    descripcion: "Campeones que son Assassin y Assault, por lo tanto buscan peleas donde pueda meter un daño explosivo de basicos, para deletear a un objetivo"
+  },
+  "Rogue": {
+    nombre: "Rogue",
+    descripcion: "Campeones que son Tank y Assassin, por lo tanto buscan peleas donde puedan meter un daño explosivo, para deletear a un objetivo con la variable de poder absorber daño"
+  },
+
+  //3
+    "Emberlord": {
+    nombre: "Emberlord",
+    descripcion: "Campeones que son Assault, Tank y Mage, por lo tanto buscan peleas donde puedan extender tradeos metiendo daño continuo de basicos y habilidades con la variable de poder absorber daño."
+  },
+    "Arcanist": {
+    nombre: "Arcanist",
+    descripcion: "Campeones que son Assassin, Tank y Mage, por lo tanto buscan peleas donde puedan meter daño explosivo de habilidades con la variable de poder absorber daño."
+  },
+    "Revenant": {
+    nombre: "Revenant",
+    descripcion: "Campeones que son Assassin, Tank y Assault, por lo tanto buscan peleas donde puedan meter daño explosivo de basicos con la variable de poder absorber daño."
+  },
+    "Duskbane": {
+    nombre: "Duskbane",
+    descripcion: "Campeones que son Assault, Assassin y Mage, por lo tanto buscan peleas donde puedan extender tradeos metiendo daño continuo de basicos y habilidades con la variable de poder meter un burts de daño"
+  },
+  //4
+  "Elite": {
+    nombre: "Elite",
+    descripcion: "Campeones que son Assault, Assassin, Mage y Tank, por lo tanto buscan peleas donde puedan extender tradeos metiendo daño continuo de basicos y habilidades con la variable de poder meter un burts de daño y el poder absorber daño"
+  },
+  //5
+"Peeler": { 
+  "nombre": "Peeler",
+  "descripcion": "Campeones enfocados en proteger a los carries, ofreciendo curaciones, escudos y mejoras. Su estilo de juego gira en torno a mantener con vida a los aliados clave y darles las herramientas para brillar en peleas."
+},
+
+"Vanguard": {
+  "nombre": "Vanguard",
+  "descripcion": "Campeones que lideran la carga, absorben daño y aseguran la primera línea. Suelen iniciar peleas, controlar zonas y aportar utilidad defensiva para mantener la cohesión del equipo."
+},
+
+"Playmaker": {
+  "nombre": "Playmaker",
+  "descripcion": "Campeones híbridos que combinan la protección de un Peeler con la iniciativa de un Vanguard. Destacan por generar jugadas clave, ya sea salvando a un aliado o iniciando peleas ventajosas para el equipo."
+}
+
+
+
+
+
+};
+
 
 // ✅ la función se mueve afuera
 function mostrarBuild(campeonId, rol, opcionRunasIndex = 0) {
-  const build = builds[campeonId][rol];
+  const campeonBuilds = builds[campeonId];
+  if (!campeonBuilds) {
+    console.error("No existe build para", campeonId);
+    return;
+  }
+
+  const build = campeonBuilds[rol]; // 👉 usamos la clave exacta, ej: "Mage 🔵"
+  if (!build) {
+    console.error("No existe build con rol", rol, "para", campeonId);
+    return;
+  }
+
   const resultados = document.getElementById("resultado");
   const nombreAmigable = idANombre[campeonId] || campeonId;
   const runas = build.opcionesRunas 
@@ -97,20 +200,18 @@ function mostrarBuild(campeonId, rol, opcionRunasIndex = 0) {
     </div>
 
     ${build ? `
-      
       <div class="section">
         <h3>Runas</h3>
         ${build.opcionesRunas ? `
-  <div class="rune-options">
-    ${build.opcionesRunas.map((r, i) => `
-      <button class="rune-btn ${i == opcionRunasIndex ? "active" : ""}" 
-              onclick="mostrarBuild('${campeonId}', '${rol}', ${i})">
-        ${r.nombre}
-      </button>
-    `).join("")}
-  </div>
-` : ""}
-
+          <div class="rune-options">
+            ${build.opcionesRunas.map((r, i) => `
+              <button class="rune-btn ${i == opcionRunasIndex ? "active" : ""}" 
+                      onclick="mostrarBuild('${campeonId}', '${rol}', ${i})">
+                ${r.nombre}
+              </button>
+            `).join("")}
+          </div>
+        ` : ""}
         <div class="runes-primary">
           ${runas.primario.runas.map(r =>
             `<img src="https://ddragon.leagueoflegends.com/cdn/img/${r.icono}" alt="${r.nombre}">`
@@ -126,11 +227,11 @@ function mostrarBuild(campeonId, rol, opcionRunasIndex = 0) {
             `<img src="https://ddragon.leagueoflegends.com/cdn/img/${s.icono}" alt="${s.nombre}">`
           ).join("")}
         </div>
-          <div class="spells">
-    ${build.spells.map(s =>
-      `<img src="https://ddragon.leagueoflegends.com/cdn/${versionActual}/img/${s.icono}" alt="${s.nombre}">`
-    ).join("")}
-  </div>
+        <div class="spells">
+          ${build.spells.map(s =>
+            `<img src="https://ddragon.leagueoflegends.com/cdn/${versionActual}/img/${s.icono}" alt="${s.nombre}">`
+          ).join("")}
+        </div>
       </div>
 
       <div class="section">
@@ -148,8 +249,15 @@ function mostrarBuild(campeonId, rol, opcionRunasIndex = 0) {
           ).join("")}
         </div>
       </div>
+
+      <!-- 🔹 Info del rol -->
+      <div class="section1">
+        <h3>Rol: ${inforoles[build.rol]?.nombre || build.rol}</h3>
+        <p>${inforoles[build.rol]?.descripcion || "Sin información disponible para este rol."}</p>
+      </div>
     ` : `<p>⚠️ No hay build guardada para este campeón</p>`}
   </div>
+
   <div style="text-align: center; margin-top: 15px;">
     <button class="btn-stats" onclick="window.location.href='stats.html?champ=${campeonId}'">Stats</button>
   </div>
