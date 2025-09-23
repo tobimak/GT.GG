@@ -1,5 +1,25 @@
 let builds = {};
 
+const nombreAId = {
+  Wukong: "MonkeyKing",
+  Aurelionsol: "AurelionSol",
+  Reksai: "RekSai",
+  Maestroyi: "MasterYi",
+  // Agrega aca otros si queres
+  
+};
+function obtenerIdOficial(nombreAmigable) {
+  // Capitaliza para evitar problemas de mayúsculas/minúsculas
+  const nombreCapitalizado = nombreAmigable.charAt(0).toUpperCase() + nombreAmigable.slice(1);
+  return nombreAId[nombreCapitalizado] || nombreCapitalizado;
+}
+// Mapeo inverso ID oficial → nombre amigable
+const idANombre = {};
+for (const [nombre, id] of Object.entries(nombreAId)) {
+  idANombre[id] = nombre;
+}
+
+
 const contenedorBuild = document.getElementById('contenedorBuild');
 async function getVersion() {
   const response = await fetch("https://ddragon.leagueoflegends.com/api/versions.json");
@@ -51,7 +71,7 @@ function renderBotones(campeonId) {
     }
   });
 
-  // 👉 marcar como activo el primer botón automáticamente
+  //  marcar como activo el primer botón automáticamente
   if (firstButton) {
     firstButton.classList.add("active");
     mostrarBuild(campeonId, roles[0]); // mostrar la build del primer rol
@@ -60,37 +80,53 @@ function renderBotones(campeonId) {
 
 
 // ✅ la función se mueve afuera
-function mostrarBuild(campeonId, rol) {
+function mostrarBuild(campeonId, rol, opcionRunasIndex = 0) {
   const build = builds[campeonId][rol];
   const resultados = document.getElementById("resultado");
+  const nombreAmigable = idANombre[campeonId] || campeonId;
+  const runas = build.opcionesRunas 
+    ? build.opcionesRunas[opcionRunasIndex] 
+    : build.runas;
 
   resultados.innerHTML = `
   <div class="card">
     <div class="card-header">
       <img class="champion-icon" 
            src="https://ddragon.leagueoflegends.com/cdn/${versionActual}/img/champion/${campeonId}.png">
-      <h2>${campeonId}</h2>
+      <h2>${nombreAmigable}</h2>
     </div>
 
     ${build ? `
+      
       <div class="section">
         <h3>Runas</h3>
+        ${build.opcionesRunas ? `
+  <div class="rune-options">
+    ${build.opcionesRunas.map((r, i) => `
+      <button class="rune-btn ${i == opcionRunasIndex ? "active" : ""}" 
+              onclick="mostrarBuild('${campeonId}', '${rol}', ${i})">
+        ${r.nombre}
+      </button>
+    `).join("")}
+  </div>
+` : ""}
+
         <div class="runes-primary">
-          ${build.runas.primario.runas.map(r =>
+          ${runas.primario.runas.map(r =>
             `<img src="https://ddragon.leagueoflegends.com/cdn/img/${r.icono}" alt="${r.nombre}">`
           ).join("")}
         </div>
         <div class="runes-secondary">
-          ${build.runas.secundario.runas.map(r =>
+          ${runas.secundario.runas.map(r =>
             `<img src="https://ddragon.leagueoflegends.com/cdn/img/${r.icono}" alt="${r.nombre}">`
           ).join("")}
         </div>
         <div class="shards">
-          ${build.runas.shards.map(s =>
+          ${runas.shards.map(s =>
             `<img src="https://ddragon.leagueoflegends.com/cdn/img/${s.icono}" alt="${s.nombre}">`
           ).join("")}
         </div>
-  <div class="spells">
+          <div class="spells">
     ${build.spells.map(s =>
       `<img src="https://ddragon.leagueoflegends.com/cdn/${versionActual}/img/${s.icono}" alt="${s.nombre}">`
     ).join("")}
@@ -107,15 +143,16 @@ function mostrarBuild(campeonId, rol) {
         </div>
         <h3>Items Situacionales</h3>
         <div class="Items_S">
-          ${build.Items_S.map(id => `<img src="https://ddragon.leagueoflegends.com/cdn/${versionActual}/img/item/${id}.png">`).join("")}
+          ${build.Items_S.map(id => 
+            `<img src="https://ddragon.leagueoflegends.com/cdn/${versionActual}/img/item/${id}.png">`
+          ).join("")}
         </div>
       </div>
     ` : `<p>⚠️ No hay build guardada para este campeón</p>`}
   </div>
   <div style="text-align: center; margin-top: 15px;">
-        <button class="btn-stats" onclick="window.location.href='stats.html?champ=${campeonId}'">Stats</button>
-      </div>
-    </div>
+    <button class="btn-stats" onclick="window.location.href='stats.html?champ=${campeonId}'">Stats</button>
+  </div>
   `;
 }
 
@@ -127,6 +164,13 @@ async function buscarCampeon(nombreParam) {
   } else {
     nombre = nombre.toLowerCase();
   }
+  // Capitalizar primera letra para buscar en el mapeo
+  nombre = nombre.charAt(0).toUpperCase() + nombre.slice(1);
+
+  nombre = nombreAId[nombre] || nombre;
+
+  // Obtener ID oficial para buscar datos
+  const idOficial = obtenerIdOficial(nombre);
   await getVersion();
   if (Object.keys(builds).length === 0) {
     await loadBuilds();
@@ -135,7 +179,8 @@ async function buscarCampeon(nombreParam) {
   const response = await fetch(`https://ddragon.leagueoflegends.com/cdn/${versionActual}/data/es_ES/champion.json`);
   const data = await response.json();
   const campeones = Object.values(data.data);
-  const campeon = campeones.find(c => c.id.toLowerCase() === nombre);
+  // Buscar campeón por ID oficial (minúsculas)
+  const campeon = campeones.find(c => c.id.toLowerCase() === idOficial.toLowerCase());
   if (!campeon) {
     resultados.innerHTML = `<p>⚠️ No se encontró el campeón "${nombre}"</p>`;
     return;
@@ -191,15 +236,18 @@ input.addEventListener("input", () => {
     return;
   }
   
-  const resultados = campeonesNombres.filter(nombre => nombre.toLowerCase().includes(texto)).slice(0, 5);
-
+  // Filtrar por nombre amigable en el array campeones
+  const resultados = campeones
+  .map(c => c.nombre)
+  .filter(nombre => nombre.toLowerCase().includes(texto.toLowerCase()))
+  .slice(0, 5);
   resultados.forEach(nombre => {
     const div = document.createElement("div");
     div.textContent = nombre;
     div.addEventListener("click", () => {
       input.value = nombre;
       sugerenciasDiv.innerHTML = "";
-      buscarCampeon(); // Ejecuta la búsqueda al seleccionar
+      buscarCampeon(nombre); // Buscar con nombre amigable
     });
     sugerenciasDiv.appendChild(div);
   });
@@ -231,7 +279,7 @@ const campeoneslista = [
   "Ivern", "Janna", "JarvanIV", "Jax", "Jayce", "Jhin", "Jinx", "Kaisa", "Kalista", "Karma",
   "Karthus", "Kassadin", "Katarina", "Kayle", "Kayn", "Kennen", "Khazix", "Kindred", "Kled",
   "KogMaw", "KSante", "Leblanc", "LeeSin", "Leona", "Lillia", "Lissandra", "Lucian", "Lulu",
-  "Lux", "Malphite", "Malzahar", "Maokai", "MasterYi", "Milio", "MissFortune", "MonkeyKing",
+  "Lux", "Malphite", "Malzahar", "Maokai", "MasterYi", "Milio", "MissFortune", 
   "Mordekaiser", "Morgana", "Naafiri", "Nami", "Nasus", "Nautilus", "Neeko", "Nidalee", "Nilah",
   "Nocturne", "Nunu", "Olaf", "Orianna", "Ornn", "Pantheon", "Poppy", "Pyke", "Qiyana", "Quinn",
   "Rakan", "Rammus", "RekSai", "Rell", "Renata", "Renekton", "Rengar", "Riven", "Rumble", "Ryze",
@@ -239,13 +287,14 @@ const campeoneslista = [
   "Sivir", "Skarner", "Smolder", "Sona", "Soraka", "Swain", "Sylas", "Syndra", "TahmKench",
   "Taliyah", "Talon", "Taric", "Teemo", "Thresh", "Tristana", "Trundle", "Tryndamere", "TwistedFate",
   "Twitch", "Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Velkoz", "Vex", "Vi", "Viego", "Viktor",
-  "Vladimir", "Volibear", "Warwick", "Xayah", "Xerath", "XinZhao", "Yasuo", "Yone", "Yorick","Yunara",
+  "Vladimir", "Volibear", "Warwick","MonkeyKing", "Xayah", "Xerath", "XinZhao", "Yasuo", "Yone", "Yorick","Yunara",
   "Yuumi", "Zac", "Zed", "Zeri", "Ziggs", "Zilean", "Zoe", "Zyra"
 ];
 
-const campeones = campeoneslista.map(nombre => ({
-  nombre: nombre,
-  img: `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nombre}_0.jpg`
+const campeones = campeoneslista.map(nombreId => ({
+  nombre: idANombre[nombreId] || nombreId, // nombre amigable o el mismo ID si no está en el mapeo
+  id: nombreId,
+  img: `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nombreId}_0.jpg`
 }));
 
 
@@ -273,22 +322,16 @@ function renderizar() {
       <img src="${campeon.img}" alt="${campeon.nombre}" style="width:100%; height:auto; border-radius:12px;">
       <p style="position:absolute; bottom:10px; width:100%; text-align:center; font-weight:bold; margin:0;">${campeon.nombre}</p>
     `;
-
-
-
-
     // Añadir evento click para centrar el cuadro clickeado
-  cuadro.onclick = () => {
+    cuadro.onclick = () => {
   if (i === 3) {
-    const nombreMinuscula = campeones[indiceCampeon].nombre.toLowerCase();
-    const nombre = capitalizarPrimeraLetra(nombreMinuscula);
-    buscarCampeon(nombre);
+    buscarCampeon(campeones[indiceCampeon].nombre); // nombre con mayúsculas internas
   } else {
     indiceCentral = indiceCircular(indiceCentral + desplazamiento);
-
     renderizar();
   }
 };
+
   }
 }
 

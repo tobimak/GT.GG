@@ -1,3 +1,15 @@
+const nombreAId = {
+  Wukong: "MonkeyKing",
+  RekSai: "RekSai",
+  AurelionSol: "AurelionSol",
+  // agrega otros si quieres
+};
+function obtenerIdOficial(nombreAmigable) {
+  const nombreCapitalizado = nombreAmigable.charAt(0).toUpperCase() + nombreAmigable.slice(1);
+  return nombreAId[nombreCapitalizado] || nombreCapitalizado;
+}
+
+
 // Obtener versión actual de Data Dragon
 async function getLatestVersion() {
   const res = await fetch('https://ddragon.leagueoflegends.com/api/versions.json');
@@ -8,7 +20,9 @@ async function getLatestVersion() {
 // Obtener parámetro champ de URL
 function getChampionFromURL() {
   const params = new URLSearchParams(window.location.search);
-  return params.get('champ')?.toLowerCase() || null;
+  const champParam = params.get('champ');
+  if (!champParam) return null;
+  return obtenerIdOficial(champParam);
 }
 
 // Capitalizar primera letra
@@ -17,11 +31,12 @@ function capitalize(str) {
 }
 
 // Obtener datos del campeón desde Data Dragon
-async function getChampionData(championName, version) {
-  const url = `https://ddragon.leagueoflegends.com/cdn/${version}/data/es_ES/champion/${capitalize(championName)}.json`;
+async function getChampionData(championId, version) {
+  const nombreCapitalizado = championId.charAt(0).toUpperCase() + championId.slice(1);
+  const url = `https://ddragon.leagueoflegends.com/cdn/${version}/data/es_ES/champion/${nombreCapitalizado}.json`;
   const res = await fetch(url);
   const data = await res.json();
-  return data.data[capitalize(championName)];
+  return data.data[nombreCapitalizado];
 }
 
 // Obtener datos de items desde Data Dragon
@@ -205,29 +220,26 @@ function renderLevelButtons(selectedLevel) {
 }
 
 // Obtener la primera build disponible para el campeón
-function getFirstBuildItems(buildsData, championName) {
-  const champBuilds = buildsData[capitalize(championName)];
+function getFirstBuildItems(buildsData, championId) {
+  const champBuilds = buildsData[capitalize(championId)];
   if (!champBuilds) return [];
-
   const firstBuildKey = Object.keys(champBuilds)[0];
   if (!firstBuildKey) return [];
-
   return champBuilds[firstBuildKey].items || [];
 }
 
 // Render selector de builds
-function renderBuildSelector(buildsData, championName) {
-  const champBuilds = buildsData[capitalize(championName)];
+function renderBuildSelector(buildsData, championId) {
+  const champBuilds = buildsData[capitalize(championId)];
   if (!champBuilds) return '';
-
   let html = '<label for="build-selector"></label><select id="build-selector">';
   Object.keys(champBuilds).forEach(buildName => {
     html += `<option value="${buildName}">${buildName}</option>`;
   });
   html += '</select><br><br>';
-
   return html;
 }
+
 
 // Función principal
 async function main() {
@@ -250,8 +262,10 @@ async function main() {
     return;
   }
 
-  document.getElementById('champion-name').textContent = capitalize(champ);
-
+  // Mostrar nombre amigable (si quieres)
+  const nombreAmigable = Object.keys(nombreAId).find(key => nombreAId[key] === champ) || champ;
+  document.getElementById('champion-name').textContent = nombreAmigable;
+  
   let selectedLevel = 1;
   let selectedBuildItems = getFirstBuildItems(buildsData, champ);
 

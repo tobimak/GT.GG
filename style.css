@@ -140,12 +140,19 @@ body {
   border-top: 1px solid rgba(255,255,255,0.2);
 }
 
-.runes-primary, .runes-secondary {
+.runes-primary{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: -90px;
+}
+.runes-secondary{
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-top: 20px;
 }
+
 
 .runes-primary img {
   width: 50px;
@@ -606,3 +613,81 @@ h1 {
     max-width: 100%;
   }
 }
+
+
+
+/* --- Estilo del selector de runas --- */
+select {
+  background: linear-gradient(145deg, #1a1a2e, #23233a); /* degradado suave */
+  color: #f5f5f5;              
+  padding: 10px 14px;
+  border: 2px solid #ff4081; 
+  border-radius: 12px;      
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 15px; 
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+select:hover {
+  background: linear-gradient(145deg, #242443, #2e2e4d);
+  border-color: #ff70a3;
+  transform: translateY(-2px); /* efecto “levantar” */
+  box-shadow: 0 6px 14px rgba(0,0,0,0.5);
+}
+
+select:focus {
+  border-color: #ff9bc5; /* borde más brillante al seleccionar */
+  box-shadow: 0 0 8px rgba(255, 64, 129, 0.8);
+}
+
+select option {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* otra forma de botones runas */
+
+
+
+.rune-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.rune-btn {
+  background: linear-gradient(145deg, #1e1e2f, #2a2a40);
+  color: #fff;
+  border: 2px solid #ff4081;
+  border-radius: 20px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-weight: 500;
+}
+
+.rune-btn:hover {
+  background: linear-gradient(145deg, #29293d, #333354);
+  border-color: #ff70a3;
+  transform: translateY(-2px);
+}
+
+.rune-btn.active {
+  background: #ff4081;
+  color: #fff;
+  border-color: #ff70a3;
+  box-shadow: 0 0 8px rgba(255, 64, 129, 0.6);
+}
+
+
+
+

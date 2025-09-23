@@ -184,6 +184,42 @@ body {
   background: linear-gradient(135deg, #10c478, #ff4040);
 }
 
+.role-card2 .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  width: 220px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%; /* aparece arriba de la tarjeta */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s;
+  font-size: 14px;
+}
+
+/* Flechita */
+.role-card2 .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Mostrar tooltip al pasar el mouse */
+.role-card2:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
 .role-card3 {
   width: 200px;
   height: 80px;
@@ -223,6 +259,41 @@ body {
 .Duskbane {
   background: linear-gradient(135deg, #ff4040, #1e1eff,#ffd84d);
 }
+.role-card3 .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  width: 220px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%; /* aparece arriba de la tarjeta */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s;
+  font-size: 14px;
+}
+
+/* Flechita */
+.role-card3 .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Mostrar tooltip al pasar el mouse */
+.role-card3:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
 
 .role-card4 {
   width: 200px;
@@ -249,6 +320,42 @@ body {
 }
 .Elite {
   background: linear-gradient(135deg, #ff4040, #1e1eff,#ffd84d,#10c478);
+}
+
+.role-card4 .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  width: 220px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%; /* aparece arriba de la tarjeta */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s;
+  font-size: 14px;
+}
+
+/* Flechita */
+.role-card4 .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Mostrar tooltip al pasar el mouse */
+.role-card4:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
 }
 
 .role-card5 {
@@ -282,6 +389,43 @@ body {
 .Vanguard {
   background: #02390c;
 }
+
+.role-card5 .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  width: 220px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%; /* aparece arriba de la tarjeta */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s;
+  font-size: 14px;
+}
+
+/* Flechita */
+.role-card5 .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Mostrar tooltip al pasar el mouse */
+.role-card5:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
 .role-card6 {
   width: 200px;
   height: 80px;

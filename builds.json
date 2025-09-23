@@ -1,7 +1,9 @@
 {
   "Ahri": {
     "Mage 🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+      "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -23,7 +25,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6655", "3020", "4646", "3137", "4645", "3089"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -34,7 +37,9 @@
   },
   "Yorick": {
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -56,7 +61,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3078","2422", "3181", "6694", "3748", "2501"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -64,7 +70,9 @@
       ],"Items_S": ["2055"]
     },
     "Emberlord 🟡🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -86,7 +94,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3078","2422", "3161", "3071", "2501", "3053"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -94,7 +103,9 @@
       ],"Items_S": ["2055"]
     },
         "Tank 🟢": {
-      "runas": {
+          "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -116,17 +127,53 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6662","2422", "3071","3053","3065","2502"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],"Items_S": ["2055","3143","6610"]
+    },    
+    "Arcanist 🔴🟢🔵": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
+        "primario": {
+          "nombre": "Conqueror",
+          "runas": [
+            { "nombre": "Conqueror", "icono": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png" },
+            { "nombre": "PresenceOfMind", "icono": "perk-images/Styles/Sorcery/NullifyingOrb/Axiom_Arcanist.png" },
+            { "nombre": "LegendHaste", "icono": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" },
+            { "nombre": "CutDown", "icono": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      }
+    ],
+      "items": ["6697","2422", "6698", "6694", "3161", "6610"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
+      ],"Items_S": ["2055"]
     }
   },  
   "RekSai": {
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -148,7 +195,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","6631","3172", "3078", "3071", "3161"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -156,7 +204,9 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -178,7 +228,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1101","6692", "3170", "3078", "6694", "3748"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -188,7 +239,9 @@
   },
   "Briar": {
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -210,7 +263,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6631","2422", "3073", "3071", "3748", "3153"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -218,7 +272,9 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -240,7 +296,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6672","2422", "6675", "3071", "6673"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -250,7 +307,9 @@
   },
    "Jinx": {
     "Assault 🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "precision",
           "runas": [
@@ -272,7 +331,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3032", "3006", "3036", "3031", "3085", "3072"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -282,7 +342,9 @@
   },  
   "Viego": {
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -304,7 +366,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","6631","3172", "3078", "3071", "3153"],
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
@@ -312,7 +375,9 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -334,7 +399,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1101","6672", "3171", "3078", "3036", "6673"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -344,7 +410,9 @@
   },  
   "Nilah": {
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -366,7 +434,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3508","3172","6675", "3071", "3031", "6673"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -376,7 +445,9 @@
   },
   "MasterYi": {
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "LethalTempo",
           "runas": [
@@ -398,7 +469,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6631","3172", "3073", "3071","3153"],
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
@@ -406,7 +478,9 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -428,7 +502,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6672","2422", "6675", "3071", "6673"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -438,7 +513,9 @@
   },
   "Hecarim": {
     "Rogue 🔴🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "PhaseRush",
           "runas": [
@@ -460,7 +537,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1101","6699", "3170", "3142", "6694", "6692"],
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
@@ -468,7 +546,9 @@
       ],"Items_S": ["2055"]
     },
     "Arcanist 🔴🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -490,7 +570,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","3042", "3171", "3161", "3071","3053"],
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
@@ -500,7 +581,9 @@
   },
   "Caitlyn": {
     "Assault 🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "precision",
           "runas": [
@@ -522,7 +605,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3032", "3006", "3036", "3031", "3085", "3072"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -532,7 +616,9 @@
   },
     "Jhin": {
   "Assault 🟡": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Precisión",
         "runas": [
@@ -554,7 +640,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3006", "3032", "3036", "3031", "3085", "3072"],
     "spells": [
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -562,7 +649,9 @@
     ],"Items_S": ["2055"]
   },
   "Duelist 🔴🟡": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -584,7 +673,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["6697", "3006", "3046", "3036", "3031", "6673"],
     "spells": [
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -594,7 +684,9 @@
  }, 
  "Aphelios": {
   "Assault 🟡": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Precisión",
         "runas": [
@@ -616,7 +708,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3032", "3006", "3036", "3031", "3085", "3072"],
     "spells": [
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -627,7 +720,9 @@
   },
   "Vi": {
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -649,7 +744,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","3078","3172", "3073", "3071", "3161"],
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
@@ -657,7 +753,9 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -679,7 +777,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1101","6699", "3170", "3078", "6694", "3748"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -689,7 +788,9 @@
   },
   "Vayne": {
   "Assault 🟡": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Precisión",
         "runas": [
@@ -711,7 +812,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["6672", "3006", "3124", "3302", "3153", "3073"],
     "Items_S": ["2055"],
     "spells": [
@@ -720,7 +822,9 @@
     ]
   },
   "Duskbane 🔴🟡🔵": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Precisión",
         "runas": [
@@ -742,7 +846,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3078", "3009", "6699", "6694", "3087", "3814"],
     "Items_S": ["2055"],
     "spells": [
@@ -753,7 +858,9 @@
   },
   "Malphite": {
     "Warlock 🔴🔵 ": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "cometa",
           "runas": [
@@ -775,7 +882,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3118","3171", "4646", "3137", "4628"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -783,7 +891,9 @@
       ],"Items_S": ["2055"]
     },
     "Tank 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -805,7 +915,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6662","3174", "6664", "3110", "8020"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -815,7 +926,9 @@
   },
   "Shaco": {
   "Duelist 🔴🟡": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -837,7 +950,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["1101", "6699", "3172", "3078", "3036", "6692"],
     "spells": [
       { "nombre": "ignite", "icono": "spell/SummonerDot.png" },
@@ -845,7 +959,9 @@
     ],"Items_S": ["2055"]
    },
    "Warlock 🔴🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "cometa",
           "runas": [
@@ -867,7 +983,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1101","2503", "3171", "6653", "8010", "3116"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerDot.png" },
@@ -877,7 +994,9 @@
  },
  "Graves": {
     "Revenant 🔴🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "PhaseRush",
           "runas": [
@@ -899,7 +1018,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1101","6697", "3171", "6610", "3071", "3078"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -907,7 +1027,9 @@
       ],"Items_S": ["2055"]
     },
     "Duelist 🔴🟡": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -929,14 +1051,17 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["1102", "6697", "2422", "6675", "3036", "3508","6673"],
     "spells": [
       { "nombre": "ignite", "icono": "spell/SummonerDot.png" },
       { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
     ],"Items_S": ["2055"]
    },"Rogue 🔴🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -958,7 +1083,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1101","6697", "3172", "3142", "6694", "6610", "3814"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -968,7 +1094,9 @@
   },
   "Smolder": {
   "Assault 🟡": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Precisión",
         "runas": [
@@ -990,7 +1118,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3078", "3172", "3074", "6694", "3042", "3161"],
     "Items_S": ["2055"],
     "spells": [
@@ -1001,7 +1130,9 @@
 },
 "Yone": {
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "LethalTempo",
           "runas": [
@@ -1023,7 +1154,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3153","3172","6631", "3302", "3073", "3181"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1031,7 +1163,9 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "PressTheAttack",
           "runas": [
@@ -1053,7 +1187,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6672","3172", "6673", "3031", "3748", "3181"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1063,7 +1198,9 @@
   },
   "Yasuo": {
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "LethalTempo",
           "runas": [
@@ -1085,7 +1222,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3153","3172","3046", "6673", "3073", "3181"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1093,7 +1231,9 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "PressTheAttack",
           "runas": [
@@ -1115,7 +1255,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6672","3172", "6673", "3031", "3748", "3181"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1125,7 +1266,9 @@
   },
   "Volibear": {
     "Berserker 🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "LethalTempo",
           "runas": [
@@ -1147,7 +1290,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3153","3172","3124", "3302", "3073", "3181"],
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
@@ -1155,7 +1299,9 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "PressTheAttack",
           "runas": [
@@ -1177,7 +1323,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","3078", "3170", "6675", "3181", "3748","3053"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1185,7 +1332,9 @@
       ],"Items_S": ["2055"]
     },
     "Tank 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -1207,7 +1356,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6662","2422", "3065", "4633", "3053","2502"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1217,7 +1367,9 @@
   },
   "Illaoi": {
     "Emberlord 🟡🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -1239,7 +1391,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3071","3170", "3042", "3161", "2501", "3053"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1249,7 +1402,9 @@
   },
   "Qiyana": {
   "Warlock 🔴🔵": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Precisión",
         "runas": [
@@ -1271,7 +1426,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["6698", "3171", "3042", "6694", "3161"],
     "Items_S": ["2055"],
     "spells": [
@@ -1280,7 +1436,9 @@
     ]
   },
   "Duskbane 🔴🟡🔵": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Precisión",
         "runas": [
@@ -1302,7 +1460,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["6699", "3170", "3042", "6694", "3078", "6692"],
     "Items_S": ["2055"],
     "spells": [
@@ -1311,7 +1470,9 @@
       ]
     },
     "Assasin 🔴": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -1333,7 +1494,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3176","6697", "6698", "6694", "6701"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1343,7 +1505,9 @@
   },
   "Diana": {
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -1365,7 +1529,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","3115","3172", "3124", "8010", "3116","4633"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1373,7 +1538,9 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -1395,15 +1562,18 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1101","3115", "3171", "4646", "3152", "3135","4645"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
       ],"Items_S": ["2055"]
     },
-        "Arcanist 🔴🟢🔵": {
-      "runas": {
+      "Arcanist 🔴🟢🔵": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -1425,7 +1595,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["2503","3171", "3137", "4633", "6653","3089"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1435,7 +1606,9 @@
   },
   "Mordekaiser": {
     "Aegis 🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -1457,7 +1630,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3116","3170","4629", "8010", "4633", "6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1467,7 +1641,9 @@
   },
   "Sett": {
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "LethalTempo",
           "runas": [
@@ -1489,7 +1665,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3153","3172","6631", "3071", "3073", "3181"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1497,7 +1674,9 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -1519,7 +1698,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3748","3170", "6675", "3161", "3053", "2501"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1529,7 +1709,9 @@
   },
   "MonkeyKing": {
     "Rogue 🔴🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "PhaseRush",
           "runas": [
@@ -1551,7 +1733,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1101","6699", "3170", "3142", "6694", "6692"],
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
@@ -1559,7 +1742,9 @@
       ],"Items_S": ["2055"]
     },
     "Berserker 🟡🟢 ": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -1581,7 +1766,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","3042", "3171", "3161", "3071","3053"],
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
@@ -1589,7 +1775,9 @@
       ],"Items_S": ["2055"]
     },
   "Tank 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -1611,7 +1799,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6662","2422", "3065", "4633", "3053","2502"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1621,7 +1810,9 @@
   },
    "Sylas": {
     "Elite 🟡🟢🔵🔴": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -1643,7 +1834,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3100","2422", "3042", "8010", "4633", "6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1651,7 +1843,9 @@
       ],"Items_S": ["2055"]
     },
     "Rogue 🔴🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -1673,7 +1867,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6655","3171", "4646", "3135", "4645", "6610"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1683,7 +1878,9 @@
   },
   "Kayn": {
     "Assasin 🔴 (blue)": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -1705,7 +1902,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1101","3171","6697", "3142", "6694", "3814"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1713,7 +1911,9 @@
       ],"Items_S": ["2055"]
     },
   "Aegis 🟢🔵 (red)": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "brujeria",
           "runas": [
@@ -1735,7 +1935,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1103","3171","6697", "3161", "6694", "2501","3053"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1745,7 +1946,9 @@
   },
   "Fiora": {
     "Elite 🔴🟢🔵🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "PressTheAttack",
           "runas": [
@@ -1767,7 +1970,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6631","3171", "3161", "2501", "3181", "3053"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1777,7 +1981,9 @@
   },
     "Hwei": {
     "Warlock 🔴🔵": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -1799,7 +2005,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3118","3020", "4646", "4645", "3135", "3089"],
     "spells": [
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
@@ -1808,7 +2015,9 @@
     "Items_S": ["3363"]
   },
   "Mage 🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -1830,7 +2039,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["2503", "3020", "4629","6653", "8010", "3116"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1841,7 +2051,9 @@
   },
     "Irelia": {
     "Elite 🟡🟢🔵🔴": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -1863,7 +2075,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3153","3171", "3161", "3074", "2501", "3053"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1871,7 +2084,9 @@
       ],"Items_S": ["2055"]
     },
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -1893,7 +2108,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3153","2422", "3181", "3302", "6631", "2501"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1903,7 +2119,9 @@
   },
      "Jax": {
     "Rogue 🔴🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -1925,7 +2143,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1101","3100", "2422", "3152", "4646", "4645","3135"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1933,7 +2152,9 @@
       ],"Items_S": ["2055"]
     },
     "Emberlord 🟡🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -1955,7 +2176,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","3078", "3171", "3161", "4633", "3302","2501"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1965,7 +2187,9 @@
   },
   "Anivia": {
   "Warlock 🔴🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "brujeria",
           "runas": [
@@ -1987,7 +2211,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3118","2422","4646", "3137", "4645", "3089"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -1997,7 +2222,9 @@
   },
   "Naafiri": {
     "Assasin 🔴": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -2019,7 +2246,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6697","2422", "3142", "6694", "6692", "6701"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2027,7 +2255,9 @@
       ],"Items_S": ["2055"]
     },
     "Emberlord 🟡🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -2049,7 +2279,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6631","3171", "3161", "3071", "2501", "3053"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2059,7 +2290,9 @@
   },
   "Riven": {
     "Elite 🟡🟢🔵🔴": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -2081,7 +2314,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6692","2422", "3161", "6694", "6610", "3053"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2089,7 +2323,9 @@
       ],"Items_S": ["2055"]
     },
     "Emberlord 🟡🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -2111,7 +2347,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3074","2422", "3071", "3161", "2501", "3053"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2121,7 +2358,9 @@
   },
     "Aatrox": {
     "Aegis 🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -2143,7 +2382,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6697","3171", "6694", "3161", "2501", "3053"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2153,7 +2393,9 @@
   },
   "Corki": {
     "Mage 🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -2175,7 +2417,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6697","2422", "3042", "6694", "3161", "3814"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2185,7 +2428,9 @@
   },
   "Rengar": {
     "Assasin 🔴": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "PhaseRush",
           "runas": [
@@ -2207,7 +2452,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","6697", "3171", "6698", "6701", "3036","3031"],
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
@@ -2215,7 +2461,9 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🟡🔴🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Lethal Tempo",
           "runas": [
@@ -2237,7 +2485,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","3073", "2422", "6675", "3036", "3031","6673"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2245,7 +2494,9 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Sobre la marcha",
           "runas": [
@@ -2267,7 +2518,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","6699", "2422", "3078", "6694", "3142","3814"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2275,7 +2527,9 @@
       ],"Items_S": ["2055"]
     },
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -2297,7 +2551,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","3073", "3172","3078", "3071", "3153", "2501"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2307,7 +2562,9 @@
   },
   "Kassadin": {
     "Aegis 🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -2329,7 +2586,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3040","2422", "3100", "8010", "4633", "6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2339,7 +2597,9 @@
   },
   "LeeSin": {
     "Elite 🟡🟢🔵🔴": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -2361,7 +2621,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1103","6697", "3171", "6692", "6694", "3161", "3053"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2369,7 +2630,9 @@
       ],"Items_S": ["2055"]
     },
     "Rogue 🔴🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -2391,7 +2654,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1101","6697", "2422", "6692", "6694", "3142", "3814"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2401,7 +2665,9 @@
   },
    "Pantheon": {
     "Arcanist 🔴🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -2423,7 +2689,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3071","3170", "3161", "6692", "6610", "3053"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2431,7 +2698,9 @@
       ],"Items_S": ["2055"]
     },
     "Rogue 🔴🟢": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -2453,7 +2722,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["1103", "6697", "2422", "6692", "6610", "3142","6701"],
     "spells": [
       { "nombre": "ignite", "icono": "spell/SummonerDot.png" },
@@ -2463,7 +2733,9 @@
   },
   "Orianna": {
     "Warlock 🔴🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -2485,7 +2757,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3118", "2422", "3137", "4646", "4645", "3089"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2493,7 +2766,9 @@
       ],
       "Items_S": ["2055"]
     },"mago 🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "sorcery",
           "runas": [
@@ -2515,7 +2790,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["2503", "2422", "4629", "3137", "6653", "3089"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2526,7 +2802,9 @@
   },
     "Gwen": {
     "Emberlord 🟡🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -2548,7 +2826,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","3115", "2422", "3100", "8010", "4633","6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2556,7 +2835,9 @@
       ],"Items_S": ["2055"]
     },
         "Aegis 🔵🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "sorcery",
           "runas": [
@@ -2578,7 +2859,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1103","4629", "2422", "3100", "8010", "4633","6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2586,7 +2868,9 @@
       ],"Items_S": ["2055"]
     },        
     "Aegis 🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -2608,7 +2892,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6662","3171", "8020", "8010", "4633","6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2618,7 +2903,9 @@
   },
     "Warwick": {
     "Berserker 🟡🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -2640,7 +2927,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1102","6631", "2422", "3124", "3302", "3181","2501"],
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
@@ -2650,7 +2938,9 @@
   },
       "Yunara": {
     "Assault 🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Sobre la marcha",
           "runas": [
@@ -2672,7 +2962,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3032", "3006", "3085", "3036", "3031", "3072"],
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
@@ -2682,7 +2973,9 @@
   },
      "Galio": {
     "Aegis 🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -2704,7 +2997,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6657","2422", "4629", "8010", "4633","6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2712,7 +3006,9 @@
       ],"Items_S": ["2055"]
     },
     "Rogue 🔴🟢": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -2734,7 +3030,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["4646", "2422", "4645", "6610", "3137", "3089"],
     "spells": [
       { "nombre": "ignite", "icono": "spell/SummonerDot.png" },
@@ -2744,7 +3041,9 @@
   },
     "Lulu": {
     "Peeler 🟣": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -2766,7 +3065,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3870","3504", "2422", "6621", "6616","3107"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2776,7 +3076,9 @@
   },
   "Zed": {
     "Elite 🟡🟢🔵🔴": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -2798,7 +3100,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6697","3171", "6699", "6694", "6692", "3161"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2806,7 +3109,9 @@
       ],"Items_S": ["2055"]
     },
       "Assasin 🔴": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -2828,7 +3133,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6697","2422", "6698", "6694", "3142","6701"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2838,7 +3144,9 @@
   },
     "Rakan": {
     "Vanguard 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -2860,7 +3168,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3876","3050", "3171", "4629", "3002","2502"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2870,7 +3179,9 @@
   },
   "Rell": {
     "Vanguard 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -2892,7 +3203,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3876","3050", "3171", "3002", "3107","2502"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2902,7 +3214,9 @@
   },
 "Braum": {
     "Vanguard 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -2924,7 +3238,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3876","3190", "2422", "3002", "3107"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2934,7 +3249,9 @@
   },
   "Pyke": {
     "Playmaker 🟣🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -2956,7 +3273,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3877","6697","2422", "6701", "6696", "6610","3814"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2966,7 +3284,9 @@
   },
   "Ezreal": {
   "Spellblade": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Precisión",
         "runas": [
@@ -2988,7 +3308,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3006", "3078", "3004", "6694", "3153", "3072"],
     "spells": [
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -2997,7 +3318,9 @@
     "Items_S": ["2055"]
   },
   "Mage 🔵": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -3019,7 +3342,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["6697", "3004", "6694", "3161", "3158", "3814"],
     "spells": [
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3030,7 +3354,9 @@
 },
 "Kaisa": {
   "Assault 🟡": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Precisión",
         "runas": [
@@ -3052,7 +3378,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3087", "3006", "3124", "3302", "4645", "3073"],
     "spells": [
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3063,7 +3390,9 @@
 },
 "Lucian": {
   "Assault 🟡": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Precisión",
         "runas": [
@@ -3085,7 +3414,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3158", "3508", "6675", "3071", "3153", "6672"],
     "spells": [
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3096,7 +3426,9 @@
 },
 "Ashe": {
   "Assault 🟡": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Precisión",
         "runas": [
@@ -3118,7 +3450,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3006", "3032", "3085", "3071", "3031", "3072"],
     "spells": [
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3129,7 +3462,9 @@
 },
 "AurelionSol": {
   "Aegis 🔵🟢": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Brujería",
         "runas": [
@@ -3151,7 +3486,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["6657", "3158", "3116", "8010", "6653", "4633"],
     "spells": [
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
@@ -3160,7 +3496,9 @@
     "Items_S": ["2055"]
   },
   "Mage 🔵": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Brujería",
         "runas": [
@@ -3182,7 +3520,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["2503", "2422", "3116", "6653", "3135", "3089"],
     "spells": [
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
@@ -3193,7 +3532,9 @@
 },
   "XinZhao": {
     "Revenant 🟡🟢🔴": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -3215,7 +3556,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3748","2422", "6692", "3036", "6610", "6673"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3225,7 +3567,9 @@
   },
   "Akali": {
     "Aegis 🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -3247,7 +3591,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3116","2422", "4629", "6653", "8010","4633"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3255,7 +3600,9 @@
       ],"Items_S": ["2055"]
     },
     "Warlock 🔴🔵": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -3277,7 +3624,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["4646","3175", "3100", "4645", "3135","3089"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3285,7 +3633,9 @@
       ],"Items_S": ["2055"]
     },
     "Elite 🔴🔵🟢🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -3307,7 +3657,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3100","2422", "4629", "6653", "8010","4633","4646"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3317,7 +3668,9 @@
   },
   "Khazix": {
   "Asesino 🔴": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -3338,7 +3691,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["6697", "1001", "6698", "6694", "3142", "6701"],
     "spells": [
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3349,7 +3703,9 @@
 },
 "Viktor": {
   "Warlock 🔴🔵": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -3371,7 +3727,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["6655", "4646", "3100", "3135", "4645", "1001"],
     "spells": [
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
@@ -3380,7 +3737,9 @@
     "Items_S": ["3363"]
   },
   "Mage 🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -3402,7 +3761,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["2503", "3020", "4629", "3116", "8010", "6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3413,7 +3773,9 @@
 },
 "Elise": {
   "Assasin 🔴": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -3435,7 +3797,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["1001", "4646", "4645", "3100", "3135", "3152"],
     "spells": [
       { "nombre": "Smite", "icono": "spell/SummonerSmite.png" },
@@ -3446,7 +3809,9 @@
 },
 "JarvanIV": {
   "Assasin 🔴": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -3468,7 +3833,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["1103","1001", "6697", "6701", "6694", "6692", "3142"],
     "spells": [
       { "nombre": "Smite", "icono": "spell/SummonerSmite.png" },
@@ -3479,7 +3845,9 @@
 },
 "Blitzcrank": {
   "Assasin 🔴": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -3501,7 +3869,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3877","2422", "6655", "4646", "6610", "3135"],
     "spells": [
       { "nombre": "ignite", "icono": "spell/SummonerDot.png" },
@@ -3512,7 +3881,9 @@
 },
 "Udyr": {
     "Aegis 🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -3534,7 +3905,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3070","3068", "3170", "3121", "4633", "3065","2502"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3544,7 +3916,9 @@
   },
     "KSante": {
   "Tank 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -3566,7 +3940,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6662","2422", "3065", "6333", "6665"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3576,7 +3951,9 @@
   },
       "Maokai": {
   "Tank 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -3598,7 +3975,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["1103","6653","2422", "2502", "8020", "3065","3742"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3608,7 +3986,9 @@
   },
     "Veigar": {
     "Warlock 🔴🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -3630,7 +4010,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6655", "3020", "4646", "3135", "3089"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3641,7 +4022,9 @@
   },
   "Chogath": {
   "Tank 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -3663,7 +4046,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3084","2422", "3068", "2504", "2502","3083"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3673,7 +4057,9 @@
   },
     "Gragas": {
     "Rogue 🔴🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -3695,7 +4081,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6655", "3020", "4646", "4645","3135","4629"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3703,7 +4090,9 @@
       ],"Items_S": ["2055"]
     },
     "Arcanist 🔴🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "PhaseRush",
           "runas": [
@@ -3725,7 +4114,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6655", "3020", "4629", "3135", "6653","4633"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3733,7 +4123,9 @@
       ],"Items_S": ["2055"]
     },
     "Tank 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -3755,7 +4147,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3070","4629","2422", "3119", "6662", "6653","4633"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3765,7 +4158,9 @@
   },
     "Ambessa": {
     "Emberlord 🟡🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -3787,7 +4182,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3074","2422", "6699", "3071", "2501", "3161"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3795,7 +4191,9 @@
       ],"Items_S": ["2055"]
     },
     "Arcanist 🔴🟢🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -3817,14 +4215,18 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6697", "2422", "3161", "6699","2501","3071"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" }
       ],"Items_S": ["2055"]
-    },    "Aegis 🟢🔵": {
-      "runas": {
+    },    
+    "Aegis 🟢🔵": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -3846,7 +4248,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6692","2422", "3161", "6699", "2501","3071"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3856,7 +4259,9 @@
   },
       "Annie": {
     "Warlock 🔴🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -3878,7 +4283,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3118", "3020", "4646", "3135", "3089"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3889,7 +4295,9 @@
   },
     "Nidalee": {
     "Warlock 🔴🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -3911,7 +4319,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6655", "3020", "4646","4645", "3135", "3089"],
       "spells": [
         { "nombre": "Destellar", "icono": "spell/SummonerFlash.png" },
@@ -3922,7 +4331,9 @@
   },
     "Sion": {
   "Tank 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -3944,7 +4355,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3084","2422", "3068", "2504", "2502","3083"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3954,7 +4366,9 @@
   },
       "Sejuani": {
   "Tank 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -3976,7 +4390,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3084","2422", "6664", "3075", "2502","3083"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -3986,7 +4401,9 @@
   },
       "Aurora": {
     "Warlock 🔴🔵": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -4008,7 +4425,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["6655","3020", "4646", "4645", "3135", "3089"],
     "spells": [
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
@@ -4017,7 +4435,9 @@
     "Items_S": ["3363"]
   },
   "Mage 🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -4039,7 +4459,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["2503", "3020", "4629","6653", "8010", "3116"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -4050,7 +4471,9 @@
   },
       "Alistar": {
     "Vanguard 🟢": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "valor",
           "runas": [
@@ -4072,7 +4495,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3869","3050", "3171", "3002", "3109","3143"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -4082,7 +4506,9 @@
   },
   "Zeri": {
   "Assault 🟡": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Precisión",
         "runas": [
@@ -4104,7 +4530,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3006", "3032", "3046", "3036", "3031", "3073"],
     "spells": [
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -4115,7 +4542,9 @@
 },
     "Seraphine": {
   "Mage 🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Conqueror",
           "runas": [
@@ -4137,7 +4566,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["2503", "3020","3116","4629","3137","6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -4148,7 +4578,9 @@
   },
   "Senna": {
     "Assault 🟡": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "precision",
           "runas": [
@@ -4170,7 +4602,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["3032", "3006", "3071", "3085", "3508", "3031"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -4180,7 +4613,9 @@
   },
   "Malzahar": {
     "Warlock 🔴🔵": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -4202,7 +4637,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3118","3020", "4646", "4645", "3135", "3089"],
     "spells": [
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
@@ -4211,7 +4647,9 @@
     "Items_S": ["3137"]
   },
   "Mage 🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -4233,7 +4671,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["2503", "3020", "4629","6653", "8010", "4645"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -4244,7 +4683,9 @@
   },
     "Ryze": {
     "Warlock 🔴🔵": {
-    "runas": {
+    "opcionesRunas": [
+      {
+        "nombre": "Safe",
       "primario": {
         "nombre": "Dominación",
         "runas": [
@@ -4266,7 +4707,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
-    },
+    }
+  ],
     "items": ["3040","3175", "4646", "4645", "3137", "3089"],
     "spells": [
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
@@ -4275,7 +4717,9 @@
     "Items_S": ["4629"]
   },
   "Mage 🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -4297,7 +4741,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6657", "3171", "4629","6653", "3137", "3116"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -4308,7 +4753,9 @@
   },
   "Ziggs": {
   "Mage 🔵": {
-      "runas": {
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
@@ -4330,7 +4777,8 @@
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
-      },
+      }
+    ],
       "items": ["6655", "3171", "4646","4645", "3135", "6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
@@ -4339,6 +4787,7 @@
       "Items_S": ["2055","4633"]
     }
   }
+
   
   
 }
