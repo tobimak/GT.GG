@@ -568,54 +568,69 @@ h1 {
 /* 📱 Adaptación para celulares */
 @media (max-width: 768px) {
   /* Navbar */
-  /* Navbar como contenedor flexible */
   .navbar {
     display: flex;
-    justify-content: space-between; /* logo a la izq, iconos a la der */
+    justify-content: space-between; /* logo izq - iconos der */
     align-items: center;
     padding: 10px 15px;
+    flex-wrap: wrap; /* permite que el buscador baje */
+    background: #111; /* opcional */
   }
 
   /* Logo más chico */
-   .logo {
-    width: 58px;
-    height: 58px;
+  .logo {
+    width: 50px;
+    height: 50px;
     margin: 0;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
   }
 
   /* Iconos arriba a la derecha */
   .corner-icon, 
   .corner-icon2 {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     gap: 10px;
-    margin: 0; /* quita el margin 20px que los empuja hacia abajo */
+    margin: 0;
   }
 
   .corner-icon img,
   .corner-icon2 img {
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
     cursor: pointer;
   }
 
-  /* 🔍 Buscador debajo del header */
+  /* 🔍 Buscador siempre debajo */
   .search-wrapper {
+    order: 3; /* lo manda debajo de logo+iconos */
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    width: 100%;
     gap: 8px;
   }
 
   .search-wrapper input {
-    width: 35%;
+    flex: 1;
+    max-width: 70%;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
   }
 
   .search-wrapper button {
-    width: 20%;
-    padding: 8px;
-    font-size: 14px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(45deg, #ff007f, #ff4d4d);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
   }
 
   /* 🎠 Carrusel responsive */
