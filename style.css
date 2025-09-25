@@ -578,7 +578,8 @@ h1 {
 
   /* Logo más chico */
   .navbar .logo {
-    width: 5%; 
+    width: 28px;
+    height: 28px; 
     margin: 0;
   }
 
