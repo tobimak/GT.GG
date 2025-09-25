@@ -568,9 +568,17 @@ h1 {
 /* 📱 Adaptación para celulares */
 @media (max-width: 768px) {
   /* Navbar */
+  /* Navbar como contenedor flexible */
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* logo a la izq, iconos a la der */
+    align-items: center;
+    padding: 10px 15px;
+  }
+
   .navbar .logo {
-    width: 100px; /* ajusta según lo necesites */
-    margin: 0 auto;
+    width: 90px; 
+    margin: 0;
   }
 
    .search-wrapper input {
@@ -582,11 +590,20 @@ h1 {
     font-size: 14px;
   }
 
-  .corner-icon2,.corner-icon {
+  .corner-icon, 
+  .corner-icon2 {
     display: flex;
-    justify-content: center;
-    gap: 15px; /* ajusta espacio entre iconos */
-    margin: 20px 0;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin: 0; /* quita el margin 20px que los empuja hacia abajo */
+  }
+
+  .corner-icon img,
+  .corner-icon2 img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
   }
 
  /* 🎠 Carrusel responsive */
