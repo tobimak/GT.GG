@@ -578,7 +578,8 @@ h1 {
 
   /* Logo más chico */
   .navbar .logo {
-    width: 90%; 
+    width: 58px;
+    height: 58px;
     margin: 0;
   }
 
@@ -814,6 +815,7 @@ select option {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.6);
 }
+
 
 
 
