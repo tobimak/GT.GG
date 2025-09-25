@@ -576,20 +576,13 @@ h1 {
     padding: 10px 15px;
   }
 
+  /* Logo más chico */
   .navbar .logo {
     width: 90px; 
     margin: 0;
   }
 
-   .search-wrapper input {
-    width: 70%;
-  }
-  .search-wrapper button {
-    width: 25%;
-    padding: 8px;
-    font-size: 14px;
-  }
-
+  /* Iconos arriba a la derecha */
   .corner-icon, 
   .corner-icon2 {
     display: flex;
@@ -606,8 +599,26 @@ h1 {
     cursor: pointer;
   }
 
- /* 🎠 Carrusel responsive */
-    .carrusel {
+  /* 🔍 Buscador debajo del header */
+  .search-wrapper {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .search-wrapper input {
+    width: 65%;
+  }
+
+  .search-wrapper button {
+    width: 30%;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  /* 🎠 Carrusel responsive */
+  .carrusel {
     justify-content: center;
     overflow-x: auto;
     padding: 10px 0;
@@ -617,6 +628,7 @@ h1 {
     flex: 0 0 auto;
     margin: 0 5px;
   }
+
   .cuadro {
     width: 90px;
     height: 90px;
