@@ -1,7 +1,7 @@
 let builds = {};
 
 const nombreAId = {
-  Tobias: "MonkeyKing",
+  Wukong: "MonkeyKing",
   Aurelionsol: "AurelionSol",
   Reksai: "RekSai",
   Maestroyi: "MasterYi",
