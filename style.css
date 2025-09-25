@@ -579,7 +579,25 @@ h1 {
 
   /* Carrusel más chico */
   .carrusel {
-    height: 180px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 12px;
+    justify-items: center;
+    padding: 10px;
+  }
+
+  .carrusel .card {
+    width: 100%;
+    max-width: 140px;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .carrusel .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
   }
 
   .cuadro {
