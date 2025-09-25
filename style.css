@@ -571,32 +571,26 @@ h1 {
   /* Navbar como contenedor flexible */
   .navbar {
     display: flex;
-    justify-content: space-between; /* logo izq, iconos der */
+    justify-content: space-between; /* logo a la izq, iconos a la der */
     align-items: center;
     padding: 10px 15px;
-    background: #111; /* opcional */
-    flex-wrap: wrap;  /* permite que el buscador baje */
   }
 
   /* Logo más chico */
-  .logo {
-    width: 50px;
-    height: 50px;
+   .logo {
+    width: 58px;
+    height: 58px;
     margin: 0;
-  }
-
-  .logo img {
-    width: 100%;
-    height: auto;
   }
 
   /* Iconos arriba a la derecha */
   .corner-icon, 
   .corner-icon2 {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 10px;
-    margin: 0;
+    margin: 0; /* quita el margin 20px que los empuja hacia abajo */
   }
 
   .corner-icon img,
@@ -608,30 +602,20 @@ h1 {
 
   /* 🔍 Buscador debajo del header */
   .search-wrapper {
-    order: 3; /* fuerza que vaya debajo */
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    width: 100%;
     gap: 8px;
   }
 
   .search-wrapper input {
-    flex: 1;
-    max-width: 70%;
-    padding: 8px;
-    border-radius: 6px;
-    border: none;
+    width: 35%;
   }
 
   .search-wrapper button {
-    padding: 8px 12px;
-    border: none;
-    border-radius: 6px;
-    background: linear-gradient(45deg, #ff007f, #ff4d4d);
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
+    width: 20%;
+    padding: 8px;
+    font-size: 14px;
   }
 
   /* 🎠 Carrusel responsive */
