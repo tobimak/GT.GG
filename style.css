@@ -568,21 +568,37 @@ h1 {
 /* 📱 Adaptación para celulares */
 @media (max-width: 768px) {
   /* Navbar */
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  .navbar .logo {
+    width: 100px; /* ajusta según lo necesites */
+    margin: 0 auto;
   }
 
-  .search-wrapper {
-    width: 100%;
-    max-width: 90%;
-    margin: 10px auto;
+   .search-wrapper input {
+    width: 70%;
+  }
+  .search-wrapper button {
+    width: 25%;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .corner-icon2,.corner-icon {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* ajusta espacio entre iconos */
+    margin: 20px 0;
   }
 
  /* 🎠 Carrusel responsive */
+    .carrusel {
+    justify-content: center;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+
   .carrusel .card {
-    flex: 0 0 120px; /* un poco más chico en móvil */
+    flex: 0 0 auto;
+    margin: 0 5px;
   }
   .cuadro {
     width: 90px;
@@ -592,8 +608,7 @@ h1 {
   }
 
   /* Títulos más chicos */
-  .titulo,
-  h1 {
+  .titulo, h1 {
     font-size: 1.5em;
     text-align: center;
   }
