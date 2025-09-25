@@ -574,13 +574,11 @@ h1 {
     align-items: center;
     padding: 10px 15px;
     flex-wrap: wrap; /* permite que el buscador baje */
-    background: #111; /* opcional */
   }
 
   /* Logo más chico */
   .logo {
-    width: 50px;
-    height: 50px;
+    width: 90%;
     margin: 0;
   }
 
