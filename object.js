@@ -253,11 +253,12 @@ function isLegendary(item, id) {
   const idNum = Number(id);
 
   // lista de ids baneados (NUMÉRICOS)
-  const bannedIds = [323107]; 
+  const bannedIds = [323107,667666]; 
   if (bannedIds.includes(idNum)) {
     // console.log("Excluido por bannedIds:", idNum, item.name);
     return false;
   }
+  
 
   // rango de Arena
   if (idNum >= 320000 && idNum < 330000) {
