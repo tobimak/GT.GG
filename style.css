@@ -578,7 +578,7 @@ h1 {
 
   /* Logo más chico */
   .navbar .logo {
-    width: 90px; 
+    width: 5%; 
     margin: 0;
   }
 
@@ -608,7 +608,7 @@ h1 {
   }
 
   .search-wrapper input {
-    width: 65%;
+    width: 45%;
   }
 
   .search-wrapper button {
