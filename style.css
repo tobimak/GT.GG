@@ -569,39 +569,73 @@ h1 {
 @media (max-width: 768px) {
   /* Navbar */
   
+  /* 📌 Navbar contenedor */
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* logo izq - iconos der */
+    align-items: center;
+    padding: 10px 15px;
+    flex-wrap: wrap; /* permite que el buscador salte a la siguiente fila */
+    background: #111; /* opcional: color de fondo */
+  }
 
-  .navbar .logo {
-    width: 90px; 
+  /* 📌 Logo */
+  .logo {
+    width: 80px; 
     margin: 0;
   }
 
-   .search-wrapper input {
-    width: 70%;
-  }
-  .search-wrapper button {
-    width: 25%;
-    padding: 8px;
-    font-size: 14px;
+  .logo img {
+    width: 100%;
+    height: auto;
   }
 
+  /* 📌 Iconos */
   .corner-icon, 
   .corner-icon2 {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     gap: 10px;
-    margin: 0; /* quita el margin 20px que los empuja hacia abajo */
+    margin: 0;
   }
 
   .corner-icon img,
   .corner-icon2 img {
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
     cursor: pointer;
   }
 
- /* 🎠 Carrusel responsive */
-    .carrusel {
+  /* 📌 Buscador debajo del header */
+  .search-wrapper {
+    order: 3; /* fuerza que esté debajo */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .search-wrapper input {
+    flex: 1;
+    max-width: 70%;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+  }
+
+  .search-wrapper button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(45deg, #ff007f, #ff4d4d);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  /* 🎠 Carrusel responsive */
+  .carrusel {
     justify-content: center;
     overflow-x: auto;
     padding: 10px 0;
@@ -611,6 +645,7 @@ h1 {
     flex: 0 0 auto;
     margin: 0 5px;
   }
+
   .cuadro {
     width: 90px;
     height: 90px;
@@ -618,13 +653,13 @@ h1 {
     top: 70px;
   }
 
-  /* Títulos más chicos */
+  /* 📌 Títulos */
   .titulo, h1 {
     font-size: 1.5em;
     text-align: center;
   }
 
-  /* Botones */
+  /* 📌 Botones */
   #botones {
     gap: 10px;
   }
@@ -640,7 +675,7 @@ h1 {
     padding: 10px 18px;
   }
 
-  /* Imágenes de campeones */
+  /* 📌 Imágenes de campeones */
   .card {
     margin: 10px auto;
     padding: 12px;
@@ -652,7 +687,7 @@ h1 {
     height: 60px;
   }
 
-  /* Objetos y runas */
+  /* 📌 Objetos y runas */
   .items img,
   .Items_S img,
   .spells img {
