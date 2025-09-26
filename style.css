@@ -663,26 +663,45 @@ h1 {
   }
 
   /* 🎠 Carrusel responsive */
-.carrusel {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 4px;              /* espacio pequeño entre cards */
-  padding: 10px 0;
-}
+  .carrusel {
+    height: 300px; /* más bajo en móvil */
+  }
 
-.carrusel .cuadro {
-  flex: 0 0 auto;        /* no crece más de lo necesario */
-  margin: 0;             /* sin margen */
-  width: 120px;          /* ancho fijo más compacto */
-  scroll-snap-align: center;
-}
+  .cuadro {
+    width: 140px;
+    height: 200px;
+    font-size: 14px;
+  }
 
-.cuadro {
-  margin: 10px auto;
-  padding: 12px;
-  width: 90%;
-}
+  /* Coverflow adaptado */
+  .cuadro.pos0 {
+    transform: translate(calc(-50% - 220px), -50%) scale(0.5);
+    opacity: 0.2;
+  }
+  .cuadro.pos1 {
+    transform: translate(calc(-50% - 150px), -50%) scale(0.65);
+    opacity: 0.4;
+  }
+  .cuadro.pos2 {
+    transform: translate(calc(-50% - 80px), -50%) scale(0.8);
+    opacity: 0.7;
+  }
+  .cuadro.pos3 {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  .cuadro.pos4 {
+    transform: translate(calc(-50% + 80px), -50%) scale(0.8);
+    opacity: 0.7;
+  }
+  .cuadro.pos5 {
+    transform: translate(calc(-50% + 150px), -50%) scale(0.65);
+    opacity: 0.4;
+  }
+  .cuadro.pos6 {
+    transform: translate(calc(-50% + 220px), -50%) scale(0.5);
+    opacity: 0.2;
+  }
 
 
 
