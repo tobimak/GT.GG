@@ -663,23 +663,26 @@ h1 {
   }
 
   /* 🎠 Carrusel responsive */
-  .carrusel {
-    justify-content: center;
-    overflow-x: auto;
-    padding: 10px 0;
-  }
+ .carrusel {
+  display: flex;             /* asegura el modo flex */
+  overflow-x: auto;          /* scroll horizontal si se llena */
+  scroll-snap-type: x mandatory; /* efecto de encaje */
+  gap: 6px;                  /* espacio controlado entre items */
+  padding: 10px 0;
+}
 
-  .carrusel .card {
-    flex: 0 0 auto;
-    margin: 0 5px;
-  }
+.carrusel .card {
+  flex: 0 0 auto;            /* mantiene tamaño fijo */
+  margin: 0;                 /* quitamos margen extra */
+  scroll-snap-align: center; /* centra cada card al deslizar */
+}
 
-  .cuadro {
-    width: 90px;
-    height: 90px;
-    font-size: 12px;
-    top: 70px;
-  }
+.cuadro {
+  width: 90px;
+  height: 90px;
+  font-size: 12px;
+  top: 70px;
+}
 
   /* 📌 Títulos */
   .titulo, h1 {
