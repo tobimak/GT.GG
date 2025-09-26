@@ -572,47 +572,39 @@ h1 {
   /* 📌 Navbar contenedor */
   .navbar {
     display: flex;
-    justify-content: space-between; /* logo izq - iconos der */
+    justify-content: space-between; /* logo izq, iconos der */
     align-items: center;
     padding: 10px 15px;
-    flex-wrap: wrap; /* permite que el buscador salte a la siguiente fila */
-    background: #111; /* opcional: color de fondo */
+    flex-wrap: wrap; /* permite que el buscador baje */
+    background: #111; /* opcional */
   }
 
   /* 📌 Logo */
   .logo {
-    width: 80px; 
-    margin: 0;
-  }
-
-  .logo img {
-    width: 100%;
+    width: 80px;
     height: auto;
   }
 
   /* 📌 Iconos */
-  .corner-icon, 
-  .corner-icon2 {
+  .icons {
     display: flex;
-    align-items: center;
     gap: 10px;
-    margin: 0;
+    align-items: center;
   }
 
   .corner-icon img,
   .corner-icon2 img {
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
     cursor: pointer;
   }
 
-  /* 📌 Buscador debajo del header */
+  /* 📌 Buscador */
   .search-wrapper {
-    order: 3; /* fuerza que esté debajo */
+    flex: 1 1 100%;   /* ocupa toda la fila */
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    width: 100%;
     gap: 8px;
   }
 
