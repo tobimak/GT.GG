@@ -667,7 +667,7 @@ h1 {
   display: flex;             /* asegura el modo flex */
   overflow-x: auto;          /* scroll horizontal si se llena */
   scroll-snap-type: x mandatory; /* efecto de encaje */
-  gap: 6px;                  /* espacio controlado entre items */
+  gap: 2px;                  /* espacio controlado entre items */
   padding: 10px 0;
 }
 
