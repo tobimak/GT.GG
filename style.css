@@ -580,7 +580,7 @@ h1 {
     width: 100%;
     box-sizing: border-box;
     position: relative;
-    background: transparent; /* si quieres fondo, cámbialo aquí */
+    background: #1c252c; /* si quieres fondo, cámbialo aquí */
   }
 
   /* Logo (lado izquierdo) */
