@@ -571,59 +571,95 @@ h1 {
   
   /* 📌 Navbar contenedor */
   .navbar {
-    display: flex;
-    justify-content: space-between; /* logo izq, iconos der */
-    align-items: center;
-    padding: 10px 15px;
-    flex-wrap: wrap; /* permite que el buscador baje */
-    background: #111; /* opcional */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 10px 16px !important;
+    flex-wrap: wrap !important;         /* permite que el buscador baje */
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    background: transparent; /* si quieres fondo, cámbialo aquí */
   }
 
-  /* 📌 Logo */
+  /* Logo (lado izquierdo) */
   .logo {
+    flex: 0 0 auto;
     width: 80px;
     height: auto;
+    margin: 0;
   }
+  .logo img { display: block; width: 100%; height: auto; }
 
-  /* 📌 Iconos */
+  /* Si envolviste los iconos en <div class="icons"> */
   .icons {
+    flex: 0 0 auto;
     display: flex;
     gap: 10px;
     align-items: center;
   }
 
+  /* Si NO envolviste, también apuntamos a los anchors directos dentro de .navbar */
+  .icons .corner-icon, .icons .corner-icon2,
+  .navbar > .corner-icon, .navbar > .corner-icon2,
+  .navbar a.corner-icon, .navbar a.corner-icon2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+  }
+
   .corner-icon img,
   .corner-icon2 img {
-    width: 28px;
-    height: 28px;
-    cursor: pointer;
+    width: 28px !important;
+    height: 28px !important;
+    display: block;
+    object-fit: contain;
   }
 
-  /* 📌 Buscador */
+  /* BUSCADOR: siempre en la fila de abajo, centrado y sin sobreponerse */
   .search-wrapper {
-    flex: 1 1 100%;   /* ocupa toda la fila */
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
+    order: 2 !important;           /* fuerza que baje debajo del header */
+    flex: 1 1 100% !important;     /* ocupa toda la fila */
+    margin-top: 10px !important;
+    display: flex !important;
+    justify-content: center !important;
     gap: 8px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
-  .search-wrapper input {
-    flex: 1;
-    max-width: 70%;
-    padding: 8px;
-    border-radius: 6px;
-    border: none;
+  /* contenedor interno del input para limitar ancho */
+  .search-container {
+    width: 100%;
+    max-width: 520px; /* ajusta el ancho máximo del buscador */
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  /* input ocupa todo el ancho del contenedor, sin salirse ni superponer */
+  .search-container input {
+    width: 100% !important;
+    padding: 10px 14px !important;
+    border-radius: 8px !important;
+    border: none !important;
+    box-sizing: border-box !important;
+    background: rgba(255,255,255,0.05);
+    color: #ddd;
   }
 
   .search-wrapper button {
-    padding: 8px 12px;
+    margin-left: 8px;
+    padding: 10px 14px;
+    border-radius: 8px;
     border: none;
-    border-radius: 6px;
-    background: linear-gradient(45deg, #ff007f, #ff4d4d);
-    color: white;
-    font-weight: bold;
+    background: linear-gradient(45deg,#ff007f,#ff4d4d);
+    color: #fff;
+    font-weight: 700;
     cursor: pointer;
+    flex: 0 0 auto;
   }
 
   /* 🎠 Carrusel responsive */
