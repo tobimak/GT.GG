@@ -671,25 +671,20 @@ h1 {
   padding: 10px 0;
 }
 
-.carrusel .card {
+.carrusel .cuadro {
   flex: 0 0 auto;        /* no crece más de lo necesario */
   margin: 0;             /* sin margen */
   width: 120px;          /* ancho fijo más compacto */
   scroll-snap-align: center;
 }
 
-.card {
+.cuadro {
   margin: 10px auto;
   padding: 12px;
   width: 90%;
 }
 
-.cuadro {
-  width: 90px;
-  height: 90px;
-  font-size: 12px;
-  top: 70px;
-}
+
 
   /* 📌 Títulos */
   .titulo, h1 {
