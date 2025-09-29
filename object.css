@@ -172,3 +172,35 @@ text-align: center;
 .volver:hover {
   text-shadow: 0 0 8px #ffcc00;
 }
+
+/* Celulares */
+@media (max-width: 600px) {
+  .items-grid {
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    gap: 6px;
+    padding: 0 10px; /* pequeño margen en los costados */
+  }
+
+  .item img {
+    width: 40px;
+    height: 40px;
+  }
+
+  #itemModal {
+    max-width: 95%;
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  #itemDescription {
+    font-size: 0.8rem;
+  }
+
+  #itemGold {
+    font-size: 0.9rem;
+  }
+
+  #item-stats table {
+    font-size: 0.8rem;
+  }
+}
