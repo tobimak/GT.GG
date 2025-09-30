@@ -5984,7 +5984,43 @@
     ],
     "Items_S": ["2055"]
   }
-}
+},
+  "Heimerdinger": {
+    "Mage 🔵": {
+      "opcionesRunas": [
+      {
+      "nombre": "Safe",
+        "primario": {
+          "nombre": "brujeria",
+          "runas": [
+            { "nombre": "Cometa Arcano", "icono": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png" },
+            { "nombre": "PresenceOfMind", "icono": "perk-images/Styles/Sorcery/NullifyingOrb/Axiom_Arcanist.png" },
+            { "nombre": "celeridad", "icono": "perk-images/Styles/Sorcery/Celerity/CelerityTemp.png" },
+            { "nombre": "quemadura", "icono": "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+          { "nombre": "Calzado Mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "Velocidad de aproximación", "icono": "perk-images/Styles/Resolve/ApproachVelocity/ApproachVelocity.png" }
+          ]
+        },
+        "shards": [
+          { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      }
+    ],
+      "items": ["2422", "2503", "3116", "4629", "4010", "6653"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
+      ],
+      "Items_S": ["2055"]
+    }
+  }
 
   
   
@@ -6002,6 +6038,7 @@
  
 
   
+
 
 
 
