@@ -757,8 +757,23 @@ h1 {
     width: 28px;
     height: 28px;
   }
-  
-  *:focus {
+
+a:focus,
+button:focus,
+input:focus,
+img:focus,
+.corner-icon:focus,
+.corner-icon2:focus,
+.btn-home:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+a:active,
+button:active,
+img:active,
+.corner-icon:active,
+.corner-icon2:active,
+.btn-home:active {
   outline: none !important;
   box-shadow: none !important;
 }
