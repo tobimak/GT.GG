@@ -565,10 +565,6 @@ h1 {
     box-shadow: 0 0 0 3px #85c1e9;
   }
 
-  *:focus {
-  outline: none !important;
-  box-shadow: none !important;
-}
   
 /* 📱 Adaptación para celulares */
 @media (max-width: 768px) {
@@ -761,7 +757,11 @@ h1 {
     width: 28px;
     height: 28px;
   }
-
+  
+  *:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
 
 }
 
