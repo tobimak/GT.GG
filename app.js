@@ -379,7 +379,7 @@ const cuadros = Array.from(carrusel.querySelectorAll('.cuadro'));
 
 // Array con todos los campeones (puede tener cualquier cantidad)
 const campeoneslista = [
-  "Aatrox", "Ahri", "Akali", "Alistar", "Amumu", "Anivia", "Annie", "Aphelios", "Ashe",
+  "Aatrox", "Ahri", "Akali", "Alistar","Ambessa", "Amumu", "Anivia", "Annie", "Aphelios", "Ashe",
   "AurelionSol","Aurora", "Azir", "Bard", "Belveth", "Blitzcrank", "Brand", "Braum", "Briar", "Caitlyn",
   "Camille", "Cassiopeia", "Chogath", "Corki", "Darius", "Diana", "Draven", "DrMundo", "Ekko",
   "Elise", "Evelynn", "Ezreal", "FiddleSticks", "Fiora", "Fizz", "Galio", "Gangplank", "Garen",

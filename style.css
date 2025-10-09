@@ -564,6 +564,11 @@ h1 {
     outline: none;
     box-shadow: 0 0 0 3px #85c1e9;
   }
+
+  *:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
   
 /* 📱 Adaptación para celulares */
 @media (max-width: 768px) {
@@ -756,7 +761,10 @@ h1 {
     width: 28px;
     height: 28px;
   }
+
+
 }
+
 
 /* 📱 Extra para pantallas muy chicas (menos de 400px) */
 @media (max-width: 400px) {
