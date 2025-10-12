@@ -678,7 +678,7 @@
         "runas": [
           { "nombre": "Lluvia de espadas", "icono": "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png" },
           { "nombre": "Sabor a sangre", "icono": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png" },
-          { "nombre": "Recuerdos macabros", "icono": "perk-images/Styles/Domination/EyeballCollection/EyeballCollection.png" },
+          { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png" },
           { "nombre": "Cazador de tesoros", "icono": "perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png" }
         ]
       },
@@ -7517,6 +7517,7 @@
  
 
   
+
 
 
 
