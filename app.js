@@ -379,7 +379,7 @@ const cuadros = Array.from(carrusel.querySelectorAll('.cuadro'));
 
 // Array con todos los campeones (puede tener cualquier cantidad)
 const campeoneslista = [
-  "Aatrox", "Ahri", "Akali", "Alistar","Ambessa", "Amumu", "Anivia", "Annie", "Aphelios", "Ashe",
+  "Aatrox", "Ahri", "Akali","Akshan", "Alistar","Ambessa", "Amumu", "Anivia", "Annie", "Aphelios", "Ashe",
   "AurelionSol","Aurora", "Azir", "Bard", "Belveth", "Blitzcrank", "Brand", "Braum", "Briar", "Caitlyn",
   "Camille", "Cassiopeia", "Chogath", "Corki", "Darius", "Diana", "Draven", "DrMundo", "Ekko",
   "Elise", "Evelynn", "Ezreal", "FiddleSticks", "Fiora", "Fizz", "Galio", "Gangplank", "Garen",
@@ -396,7 +396,7 @@ const campeoneslista = [
   "Taliyah", "Talon", "Taric", "Teemo", "Thresh", "Tristana", "Trundle", "Tryndamere", "TwistedFate",
   "Twitch", "Udyr", "Urgot", "Varus", "Vayne", "Veigar", "Velkoz", "Vex", "Vi", "Viego", "Viktor",
   "Vladimir", "Volibear", "Warwick","MonkeyKing", "Xayah", "Xerath", "XinZhao", "Yasuo", "Yone", "Yorick","Yunara",
-  "Yuumi", "Zac", "Zed", "Zeri", "Ziggs", "Zilean", "Zoe", "Zyra"
+  "Yuumi","Zaahen", "Zac", "Zed", "Zeri", "Ziggs", "Zilean", "Zoe", "Zyra"
 ];
 
 const campeones = campeoneslista.map(nombreId => ({
@@ -629,4 +629,5 @@ document.addEventListener('DOMContentLoaded', () => {
       usuarioInteraccion();
     }
   }, { passive: false });
+
 });
