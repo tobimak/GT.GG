@@ -2,6 +2,7 @@
 {
   "Ahri": {
     "Mage 🔵" : {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Mage",
       "opcionesRunas": [
       {
@@ -39,6 +40,7 @@
   },
   "Yorick": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol": "Berserker",
       "opcionesRunas": [
       {
@@ -73,6 +75,7 @@
       ],"Items_S": ["2055"]
     },
     "Emberlord 🟡🟢🔵": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol": "Emberlord",
       "opcionesRunas": [
       {
@@ -108,6 +111,7 @@
     },
         "Tank 🟢": {
           "rol":"Tank",
+          "ordenHabilidades": ["Q", "E", "W"],
           "opcionesRunas": [
       {
         "nombre": "Safe",
@@ -141,6 +145,7 @@
       ],"Items_S": ["2055","3143","6610"]
     },    
     "Arcanist 🔴🟢🔵": {
+      "ordenHabilidades": ["E", "Q", "W"],
       "rol":"Arcanist",
       "opcionesRunas": [
       {
@@ -177,6 +182,7 @@
   },  
   "RekSai": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -211,6 +217,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -247,6 +254,7 @@
   },
   "Briar": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["W", "Q", "E"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -281,6 +289,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
+      "ordenHabilidades": ["W", "Q", "E"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -317,6 +326,7 @@
   },
    "Jinx": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -353,6 +363,7 @@
   },  
   "Viego": {
     "Berserker 🟡🟢": {
+    "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -387,6 +398,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -423,6 +435,7 @@
   },  
   "Nilah": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -459,6 +472,7 @@
   },
   "MasterYi": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -493,6 +507,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -529,6 +544,7 @@
   },
   "Hecarim": {
     "Rogue 🔴🟢": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Rogue",
       "opcionesRunas": [
       {
@@ -563,6 +579,7 @@
       ],"Items_S": ["2055"]
     },
     "Arcanist 🔴🟢🔵": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Arcanist",
       "opcionesRunas": [
       {
@@ -599,6 +616,7 @@
   },
   "Caitlyn": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -635,6 +653,7 @@
   },
     "Jhin": {
   "Assault 🟡": {
+    "ordenHabilidades": ["Q", "W", "E"],
     "rol":"Assault",
     "opcionesRunas": [
       {
@@ -669,6 +688,7 @@
     ],"Items_S": ["2055"]
   },
   "Duelist 🔴🟡": {
+    "ordenHabilidades": ["Q", "W", "E"],
     "rol":"Duelist",
     "opcionesRunas": [
       {
@@ -705,6 +725,7 @@
  }, 
  "Aphelios": {
   "Assault 🟡": {
+    "ordenHabilidades": ["Q", "E", "W"],
     "rol":"Assault",
     "opcionesRunas": [
       {
@@ -742,6 +763,7 @@
   },
   "Vi": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -776,6 +798,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -812,6 +835,7 @@
   },
   "Vayne": {
   "Assault 🟡": {
+    "ordenHabilidades": ["W", "Q", "E"],
     "rol":"Assault",
     "opcionesRunas": [
       {
@@ -847,6 +871,7 @@
     ]
   },
   "Duskbane 🔴🟡🔵": {
+    "ordenHabilidades": ["Q", "E", "W"],
     "rol":"Duskbane",
     "opcionesRunas": [
       {
@@ -884,6 +909,7 @@
   },
   "Malphite": {
     "Warlock 🔴🔵 ": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -918,6 +944,7 @@
       ],"Items_S": ["2055"]
     },
     "Tank 🟢": {
+      "ordenHabilidades": ["W", "E", "Q"],
       "rol":"Tank",
       "opcionesRunas": [
       {
@@ -954,6 +981,7 @@
   },
   "Shaco": {
   "Duelist 🔴🟡": {
+    "ordenHabilidades": ["E", "W", "Q"],
     "rol":"Duelist",
     "opcionesRunas": [
       {
@@ -988,6 +1016,7 @@
     ],"Items_S": ["2055"]
    },
    "Warlock 🔴🔵": {
+    "ordenHabilidades": ["W", "E", "Q"],
     "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -1024,6 +1053,7 @@
  },
  "Graves": {
     "Revenant 🔴🟢🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -1058,6 +1088,7 @@
       ],"Items_S": ["2055"]
     },
     "Duelist 🔴🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Duelist",
     "opcionesRunas": [
       {
@@ -1091,6 +1122,7 @@
       { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
     ],"Items_S": ["2055"]
    },"Rogue 🔴🟢": {
+    "ordenHabilidades": ["Q", "E", "W"],
     "rol":"Rogue",
       "opcionesRunas": [
       {
@@ -1127,6 +1159,7 @@
   },
   "Smolder": {
   "Assault 🟡": {
+    "ordenHabilidades": ["Q", "W", "E"],
     "rol":"Assault",
     "opcionesRunas": [
       {
@@ -1164,6 +1197,7 @@
 },
 "Yone": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -1198,6 +1232,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -1234,6 +1269,7 @@
   },
   "Yasuo": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -1268,6 +1304,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -1304,6 +1341,7 @@
   },
   "Volibear": {
     "Berserker 🟢🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -1338,6 +1376,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
+      "ordenHabilidades": ["E", "W", "Q"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -1372,6 +1411,7 @@
       ],"Items_S": ["2055"]
     },
     "Tank 🟢": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Tank",
       "opcionesRunas": [
       {
@@ -1408,6 +1448,7 @@
   },
   "Illaoi": {
     "Emberlord 🟡🟢🔵": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Emberlord",
       "opcionesRunas": [
       {
@@ -1444,6 +1485,7 @@
   },
   "Qiyana": {
   "Warlock 🔴🔵": {
+    "ordenHabilidades": ["Q", "W", "E"],
     "rol":"Warlock",
     "opcionesRunas": [
       {
@@ -1479,6 +1521,7 @@
     ]
   },
   "Duskbane 🔴🟡🔵": {
+    "ordenHabilidades": ["Q", "W", "E"],
     "rol":"Duskbane",
     "opcionesRunas": [
       {
@@ -1514,6 +1557,7 @@
       ]
     },
     "Assassin 🔴": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Assassin",
       "opcionesRunas": [
       {
@@ -1550,6 +1594,7 @@
   },
   "Diana": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -1584,6 +1629,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -1618,6 +1664,7 @@
       ],"Items_S": ["2055"]
     },
       "Arcanist 🔴🟢🔵": {
+        "ordenHabilidades": ["Q", "E", "W"],
         "rol":"Arcanist",
       "opcionesRunas": [
       {
@@ -1653,6 +1700,7 @@
     }
   },
   "Mordekaiser": {
+    "ordenHabilidades": ["Q", "E", "W"],
     "Aegis 🟢🔵": {
       "rol":"Aegis",
       "opcionesRunas": [
@@ -1690,6 +1738,7 @@
   },
   "Sett": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -1724,6 +1773,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟢🟡": {
+      "ordenHabilidades": ["W", "Q", "E"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -1760,6 +1810,7 @@
   },
   "MonkeyKing": {
     "Rogue 🔴🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Rogue",
       "opcionesRunas": [
       {
@@ -1794,6 +1845,7 @@
       ],"Items_S": ["2055"]
     },
     "Berserker 🟡🟢 ": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -1828,6 +1880,7 @@
       ],"Items_S": ["2055"]
     },
   "Tank 🟢": {
+    "ordenHabilidades": ["Q", "E", "W"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -1864,6 +1917,7 @@
   },
    "Sylas": {
     "Elite 🟡🟢🔵🔴": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Elite",
       "opcionesRunas": [
       {
@@ -1898,6 +1952,7 @@
       ],"Items_S": ["2055"]
     },
     "Rogue 🔴🟢": {
+      "ordenHabilidades": ["Q", "W","E"],
       "rol":"Rogue",
       "opcionesRunas": [
       {
@@ -1934,6 +1989,7 @@
   },
   "Kayn": {
     "Assassin 🔴 (blue)": {
+      "ordenHabilidades": ["Q", "W","E"],
       "rol":"Assassin",
       "opcionesRunas": [
       {
@@ -1968,6 +2024,7 @@
       ],"Items_S": ["2055"]
     },
   "Aegis 🟢🔵 (red)": {
+    "ordenHabilidades": ["Q", "W","E"],
     "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -2004,6 +2061,7 @@
   },
   "Fiora": {
     "Elite 🔴🟢🔵🟡": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Elite",
       "opcionesRunas": [
       {
@@ -2040,6 +2098,7 @@
   },
     "Hwei": {
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Warlock",
     "opcionesRunas": [
       {
@@ -2075,6 +2134,7 @@
     "Items_S": ["3363"]
   },
   "Mage 🔵": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -2112,6 +2172,7 @@
   },
     "Irelia": {
     "Elite 🟡🟢🔵🔴": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Elite",
       "opcionesRunas": [
       {
@@ -2146,6 +2207,7 @@
       ],"Items_S": ["2055"]
     },
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -2182,6 +2244,7 @@
   },
      "Jax": {
     "Rogue 🔴🟢": {
+      "ordenHabilidades": ["W","E","Q"],
       "rol":"Rogue",
       "opcionesRunas": [
       {
@@ -2216,6 +2279,7 @@
       ],"Items_S": ["2055"]
     },
     "Emberlord 🟡🟢🔵": {
+      "ordenHabilidades": ["W","E","Q"],
       "rol":"Emberlord",
       "opcionesRunas": [
       {
@@ -2252,6 +2316,7 @@
   },
   "Anivia": {
   "Warlock 🔴🔵": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -2288,6 +2353,7 @@
   },
   "Naafiri": {
     "Assassin 🔴": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Assassin",
       "opcionesRunas": [
       {
@@ -2322,6 +2388,7 @@
       ],"Items_S": ["2055"]
     },
     "Emberlord 🟡🟢🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Emberlord",
       "opcionesRunas": [
       {
@@ -2358,6 +2425,7 @@
   },
   "Riven": {
     "Elite 🟡🟢🔵🔴": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Elite",
       "opcionesRunas": [
       {
@@ -2392,6 +2460,7 @@
       ],"Items_S": ["2055"]
     },
     "Emberlord 🟡🟢🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Emberlord",
       "opcionesRunas": [
       {
@@ -2428,6 +2497,7 @@
   },
     "Aatrox": {
     "Aegis 🟢🔵": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -2464,6 +2534,7 @@
   },
   "Corki": {
     "Mage 🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Mage",
       "opcionesRunas": [
       {
@@ -2500,6 +2571,7 @@
   },
   "Rengar": {
     "Assassin 🔴": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Assasssin",
       "opcionesRunas": [
       {
@@ -2534,6 +2606,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🟡🔴🟢": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -2568,6 +2641,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🔴🟡🟢": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -2602,6 +2676,7 @@
       ],"Items_S": ["2055"]
     },
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -2638,6 +2713,7 @@
   },
   "Kassadin": {
     "Aegis 🟢🔵": {
+      "ordenHabilidades": ["E","Q","W"],
       "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -2674,6 +2750,7 @@
   },
   "LeeSin": {
     "Elite 🟡🟢🔵🔴": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Elite",
       "opcionesRunas": [
       {
@@ -2708,6 +2785,7 @@
       ],"Items_S": ["2055"]
     },
     "Rogue 🔴🟢": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Rogue",
       "opcionesRunas": [
       {
@@ -2744,6 +2822,7 @@
   },
    "Pantheon": {
     "Arcanist 🔴🟢🔵": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Arcanist",
       "opcionesRunas": [
       {
@@ -2778,6 +2857,7 @@
       ],"Items_S": ["2055"]
     },
     "Rogue 🔴🟢": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Rogue",
     "opcionesRunas": [
       {
@@ -2814,6 +2894,7 @@
   },
   "Orianna": {
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["W","Q","E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -2847,7 +2928,9 @@
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
       "Items_S": ["2055"]
-    },"mago 🔵": {
+    },
+    "mago 🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Mage",
       "opcionesRunas": [
       {
@@ -2885,6 +2968,7 @@
   },
     "Gwen": {
     "Emberlord 🟡🟢🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Emberlord",
       "opcionesRunas": [
       {
@@ -2919,6 +3003,7 @@
       ],"Items_S": ["2055"]
     },
         "Aegis 🔵🟢": {
+          "ordenHabilidades": ["Q","E","W"],
           "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -2953,6 +3038,7 @@
       ],"Items_S": ["2055"]
     },        
     "Aegis 🟢🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -2989,6 +3075,7 @@
   },
     "Warwick": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -3025,6 +3112,7 @@
   },
       "Yunara": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -3061,6 +3149,7 @@
   },
      "Galio": {
     "Aegis 🟢🔵": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -3095,7 +3184,8 @@
       ],"Items_S": ["2055"]
     },
     "Rogue 🔴🟢": {
-      "rol":"Rogue",
+    "ordenHabilidades": ["Q","E","W"],
+    "rol":"Rogue",
     "opcionesRunas": [
       {
         "nombre": "Safe",
@@ -3131,6 +3221,7 @@
   },
     "Lulu": {
     "Peeler 🟣": {
+      "ordenHabilidades": ["E","W","Q"],
       "rol":"Peeler",
       "opcionesRunas": [
       {
@@ -3167,6 +3258,7 @@
   },
   "Zed": {
     "Elite 🟡🟢🔵🔴": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Elite",
       "opcionesRunas": [
       {
@@ -3201,6 +3293,7 @@
       ],"Items_S": ["2055"]
     },
       "Assassin 🔴": {
+        "ordenHabilidades": ["Q","E","W"],
         "rol":"Assassin",
       "opcionesRunas": [
       {
@@ -3237,6 +3330,7 @@
   },
     "Rakan": {
     "Vanguard 🟢": {
+      "ordenHabilidades": ["W","E","Q"],
       "rol":"Vanguard",
       "opcionesRunas": [
       {
@@ -3272,6 +3366,7 @@
     }
   },
   "Rell": {
+    "ordenHabilidades": ["W","E","Q"],
     "Vanguard 🟢": {
       "rol":"Vanguard",
       "opcionesRunas": [
@@ -3308,6 +3403,7 @@
     }
   },
 "Braum": {
+  "ordenHabilidades": ["Q","E","W"],
     "Vanguard 🟢": {
       "rol":"Vanguard",
       "opcionesRunas": [
@@ -3345,6 +3441,7 @@
   },
   "Pyke": {
     "Playmaker 🟣🟢": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Playmaker",
       "opcionesRunas": [
       {
@@ -3381,6 +3478,7 @@
   },
   "Ezreal": {
   "Spellbade 🔵🟡": {
+  "ordenHabilidades": ["Q","E","W"],
     "rol":"Spellbade",
     "opcionesRunas": [
       {
@@ -3416,6 +3514,7 @@
     "Items_S": ["2055"]
   },
   "Mage 🔵": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Mage",
     "opcionesRunas": [
       {
@@ -3453,6 +3552,7 @@
 },
 "Kaisa": {
   "Assault 🟡": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Assault",
     "opcionesRunas": [
       {
@@ -3490,6 +3590,7 @@
 },
 "Lucian": {
   "Assault 🟡": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Assault",
     "opcionesRunas": [
       {
@@ -3527,6 +3628,7 @@
 },
 "Ashe": {
   "Assault 🟡": {
+    "ordenHabilidades": ["W","Q","E"],
     "rol":"Assault",
     "opcionesRunas": [
       {
@@ -3564,6 +3666,7 @@
 },
 "AurelionSol": {
   "Aegis 🔵🟢": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Aegis",
     "opcionesRunas": [
       {
@@ -3599,6 +3702,7 @@
     "Items_S": ["2055"]
   },
   "Mage 🔵": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Mage",
     "opcionesRunas": [
       {
@@ -3636,6 +3740,7 @@
 },
   "XinZhao": {
     "Revenant 🟡🟢🔴": {
+    "ordenHabilidades": ["W","E","Q"],
     "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -3672,6 +3777,7 @@
   },
   "Akali": {
     "Aegis 🟢🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -3706,6 +3812,7 @@
       ],"Items_S": ["2055"]
     },
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol": "Warlock",
     "opcionesRunas": [
       {
@@ -3740,6 +3847,7 @@
       ],"Items_S": ["2055"]
     },
     "Elite 🔴🔵🟢🟡": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Elite",
       "opcionesRunas": [
       {
@@ -3776,6 +3884,7 @@
   },
   "Khazix": {
   "Assassin 🔴": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Assassin",
     "opcionesRunas": [
       {
@@ -3812,6 +3921,7 @@
 },
 "Viktor": {
   "Warlock 🔴🔵": {
+    "ordenHabilidades": ["E","Q","W"],
     "rol":"Warlock",
     "opcionesRunas": [
       {
@@ -3847,6 +3957,7 @@
     "Items_S": ["3363"]
   },
   "Mage 🔵": {
+    "ordenHabilidades": ["E","Q","W"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -3884,6 +3995,7 @@
 },
 "Elise": {
   "Assassin 🔴": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Assassin",
     "opcionesRunas": [
       {
@@ -3921,6 +4033,7 @@
 },
 "JarvanIV": {
   "Assassin 🔴": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Assassin",
     "opcionesRunas": [
       {
@@ -3958,6 +4071,7 @@
 },
 "Blitzcrank": {
   "Assassin 🔴": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Assassin",
     "opcionesRunas": [
       {
@@ -3995,6 +4109,7 @@
 },
 "Udyr": {
     "Aegis 🟢🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -4031,6 +4146,7 @@
   },
     "KSante": {
   "Tank 🟢": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -4065,8 +4181,9 @@
       ],"Items_S": ["2055"]
     }
   },
-      "Maokai": {
+  "Maokai": {
   "Tank 🟢": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -4102,6 +4219,7 @@
     }
   },
     "Veigar": {
+    "ordenHabilidades": ["Q","W","E"],
     "Warlock 🔴🔵": {
       "rol":"Warlock",
       "opcionesRunas": [
@@ -4140,6 +4258,7 @@
   },
   "Chogath": {
   "Tank 🟢": {
+    "ordenHabilidades": ["E","Q","W"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -4176,6 +4295,7 @@
   },
     "Gragas": {
     "Rogue 🔴🟢": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Rogue",
       "opcionesRunas": [
       {
@@ -4210,6 +4330,7 @@
       ],"Items_S": ["2055"]
     },
     "Arcanist 🔴🟢🔵": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Arcanist",
       "opcionesRunas": [
       {
@@ -4244,6 +4365,7 @@
       ],"Items_S": ["2055"]
     },
     "Tank 🟢": {
+      "ordenHabilidades": ["W","Q","E"],
       "rol":"Tank",
       "opcionesRunas": [
       {
@@ -4280,6 +4402,7 @@
   },
     "Ambessa": {
     "Emberlord 🟡🟢🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Emberlord",
       "opcionesRunas": [
       {
@@ -4314,6 +4437,7 @@
       ],"Items_S": ["2055"]
     },
     "Arcanist 🔴🟢🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Arcanist",
       "opcionesRunas": [
       {
@@ -4348,6 +4472,7 @@
       ],"Items_S": ["2055"]
     },    
     "Aegis 🟢🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -4384,6 +4509,7 @@
   },
       "Annie": {
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -4421,6 +4547,7 @@
   },
     "Nidalee": {
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -4458,6 +4585,7 @@
   },
     "Sion": {
   "Tank 🟢": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -4494,6 +4622,7 @@
   },
       "Sejuani": {
   "Tank 🟢": {
+    "ordenHabilidades": ["W","Q","E"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -4530,6 +4659,7 @@
   },
       "Aurora": {
     "Warlock 🔴🔵": {
+    "ordenHabilidades": ["Q","E","W"],
       "rol":"Warlock",
     "opcionesRunas": [
       {
@@ -4565,6 +4695,7 @@
     "Items_S": ["3363"]
   },
   "Mage 🔵": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -4602,6 +4733,7 @@
   },
       "Alistar": {
     "Vanguard 🟢": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Vanguard",
       "opcionesRunas": [
       {
@@ -4638,6 +4770,7 @@
   },
   "Zeri": {
   "Assault 🟡": {
+    "ordenHabilidades": ["Q","E","W"],
 "rol":"Assault",    
 "opcionesRunas": [
       {
@@ -4675,6 +4808,7 @@
 },
     "Seraphine": {
   "Mage 🔵": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -4712,6 +4846,7 @@
   },
   "Senna": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -4748,6 +4883,7 @@
   },
   "Malzahar": {
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["E","Q","W"],
       "rol":"Warlock",
     "opcionesRunas": [
       {
@@ -4783,6 +4919,7 @@
     "Items_S": ["3137"]
   },
   "Mage 🔵": {
+    "ordenHabilidades": ["E","Q","W"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -4820,6 +4957,7 @@
   },
     "Ryze": {
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Warlock",
     "opcionesRunas": [
       {
@@ -4855,6 +4993,7 @@
     "Items_S": ["4629"]
   },
   "Mage 🔵": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -4892,6 +5031,7 @@
   },
   "Ziggs": {
   "Mage 🔵": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -4929,6 +5069,7 @@
   },
   "Evelynn": {
   "Assassin 🔴": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Assassin",
       "opcionesRunas": [
       {
@@ -4966,6 +5107,7 @@
   },
   "Fizz": {
   "Assassin 🔴": {
+    "ordenHabilidades": ["E","W","Q"],
     "rol":"Assassin",
       "opcionesRunas": [
       {
@@ -5003,6 +5145,7 @@
   },
   "Taliyah": {
   "Mage 🔵": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -5040,6 +5183,7 @@
   },
       "Zac": {
   "Tank 🟢": {
+    "ordenHabilidades": ["E","W","Q"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -5076,8 +5220,9 @@
   },
     "Kindred": {
   "Assault 🟡": {
-"rol":"Assault",    
-"opcionesRunas": [
+  "ordenHabilidades": ["Q","W","E"],
+  "rol":"Assault",    
+  "opcionesRunas": [
       {
         "nombre": "Safe",
       "primario": {
@@ -5113,6 +5258,7 @@
 },
     "Brand": {
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["W","Q","E"],
       "rol":"Warlock",
     "opcionesRunas": [
       {
@@ -5148,6 +5294,7 @@
     "Items_S": ["2055"]
   },
   "Mage 🔵": {
+    "ordenHabilidades": ["W","Q","E"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -5183,8 +5330,9 @@
       "Items_S": ["2055","4633"]
     }
   },
-        "Skarner": {
+  "Skarner": {
   "Tank 🟢": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -5221,6 +5369,7 @@
   },
     "Mel": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -5255,7 +5404,8 @@
       ],
       "Items_S": ["2055"]
     },
-      "Mage 🔵": {
+    "Mage 🔵": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -5292,8 +5442,9 @@
     }
 
   },
-      "Syndra": {
+  "Syndra": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -5329,8 +5480,9 @@
       "Items_S": ["2055"]
     }
   },
-        "Zoe": {
+    "Zoe": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -5368,6 +5520,7 @@
   },
     "Lux": {
     "Mage 🔵" : {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Mage",
       "opcionesRunas": [
       {
@@ -5403,8 +5556,9 @@
       "Items_S": ["2055"]
     }
   },
-      "Lillia": {
+    "Lillia": {
     "Aegis 🟢🔵" : {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -5439,7 +5593,8 @@
       ],
       "Items_S": ["2055"]
     },
-      "Mage 🔵": {
+    "Mage 🔵": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -5477,6 +5632,7 @@
   },
     "Xerath": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -5512,8 +5668,9 @@
       "Items_S": ["2055"]
     }
   },
-      "Vex": {
+  "Vex": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -5551,6 +5708,7 @@
   },
     "Cassiopeia": {
     "Aegis 🟢🔵" : {
+      "ordenHabilidades": ["E","Q","W"],
       "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -5585,7 +5743,8 @@
       ],
       "Items_S": ["2055"]
     },
-      "Mage 🔵": {
+    "Mage 🔵": {
+    "ordenHabilidades": ["E","Q","W"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -5623,6 +5782,7 @@
   },
     "Leblanc": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["W","Q","E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -5660,6 +5820,7 @@
   },
   "Zyra": {
   "Mage 🔵": {
+    "ordenHabilidades": ["E","Q","W"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -5697,6 +5858,7 @@
   },
   "Karthus": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -5732,6 +5894,7 @@
       "Items_S": ["2055"]
     },
       "Mage 🔵": {
+      "ordenHabilidades": ["Q","E","W"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -5770,6 +5933,7 @@
   },
     "Lissandra": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -5804,7 +5968,8 @@
       ],
       "Items_S": ["2055"]
     },
-        "Aegis 🟢🔵" : {
+      "Aegis 🟢🔵" : {
+        "ordenHabilidades": ["Q","W","E"],
       "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -5842,6 +6007,7 @@
   },
   "Vladimir": {
     "Warlock 🔴🔵": {
+    "ordenHabilidades": ["Q","E","W"],
       "rol":"Warlock",
     "opcionesRunas": [
       {
@@ -5877,6 +6043,7 @@
     "Items_S": ["2055"]
   },
   "Mage 🔵": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -5914,6 +6081,7 @@
   },
     "Velkoz": {
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Warlock",
     "opcionesRunas": [
       {
@@ -5951,6 +6119,7 @@
 },
     "Neeko": {
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Warlock",
     "opcionesRunas": [
       {
@@ -5988,6 +6157,7 @@
 },
     "Ekko": {
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Warlock",
     "opcionesRunas": [
       {
@@ -6025,6 +6195,7 @@
 },
   "Heimerdinger": {
   "Mage 🔵": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -6062,7 +6233,8 @@
 
   },
       "Garen": {
-        "Aegis 🟢🔵" : {
+      "Aegis 🟢🔵" : {
+      "ordenHabilidades": ["E","Q","W"],
       "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -6100,6 +6272,7 @@
   },
     "Fiddlesticks": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["W","Q","E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -6137,6 +6310,7 @@
   },
       "Zilean": {
     "Playmaker 🟣🟢" : {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Playmaker",
       "opcionesRunas": [
       {
@@ -6174,6 +6348,7 @@
   },
       "Darius": {
         "Emberlord 🟡🟢🔵" : {
+          "ordenHabilidades": ["W","Q","E"],
       "rol":"Emberlord",
       "opcionesRunas": [
       {
@@ -6211,6 +6386,7 @@
   },
     "Karma": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -6248,6 +6424,7 @@
   },
     "Rumble": {
       "Mage 🔵": {
+      "ordenHabilidades": ["Q","E","W"],
     "rol":"Mage",
       "opcionesRunas": [
       {
@@ -6286,6 +6463,7 @@
   },
       "TwistedFate": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -6323,6 +6501,7 @@
   },
   "Leona": {
     "Vanguard 🟢": {
+      "ordenHabilidades": ["W","E","Q"],
       "rol":"Vanguard",
       "opcionesRunas": [
       {
@@ -6359,6 +6538,7 @@
   },
   "Amumu": {
   "Tank 🟢": {
+    "ordenHabilidades": ["E","Q","W"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -6395,6 +6575,7 @@
   },
     "Nautilus": {
     "Vanguard 🟢": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Vanguard",
       "opcionesRunas": [
       {
@@ -6431,6 +6612,7 @@
   },
   "Ornn": {
   "Tank 🟢": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -6467,6 +6649,7 @@
   },
   "Poppy": {
   "Tank 🟢": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -6501,6 +6684,7 @@
       ],"Items_S": ["2055","2504","3143","3075"]
     },
     "Aegis 🟢🔵": {
+      "ordenHabilidades": ["Q","E","W"],
     "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -6537,6 +6721,7 @@
   },
   "TahmKench": {
   "Tank 🟢": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -6571,6 +6756,7 @@
       ],"Items_S": ["2055","2504","3143","3075"]
     },
     "Aegis 🟢🔵": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -6607,6 +6793,7 @@
   },
   "MissFortune": {
   "Assault 🟡": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Assault",
     "opcionesRunas": [
       {
@@ -6641,6 +6828,7 @@
     ],"Items_S": ["2055"]
   },
   "Duelist 🔴🟡": {
+    "ordenHabilidades": ["Q","W","E"],
     "rol":"Duelist",
     "opcionesRunas": [
       {
@@ -6677,6 +6865,7 @@
  },
   "Jayce": {
     "Assassin 🔴": {
+      "ordenHabilidades": ["Q","W","E"],
       "rol":"Assassin",
       "opcionesRunas": [
       {
@@ -6713,6 +6902,7 @@
   },
     "Singed": {
   "Aegis 🔵🟢": {
+    "ordenHabilidades": ["Q","E","W"],
     "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -6747,6 +6937,7 @@
       ],"Items_S": ["2055"]
     },
     "Aegis 🟢🔵": {
+      "ordenHabilidades": ["Q","E","W"],
     "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -6783,6 +6974,7 @@
   },
   "Thresh": {
     "Vanguard 🟢": {
+      "ordenHabilidades": ["Q","E","W"],
       "rol":"Vanguard",
       "opcionesRunas": [
       {
@@ -6819,6 +7011,7 @@
   },
   "Teemo": {
     "Mage 🔵" : {
+      "ordenHabilidades": ["E","Q","W"],
       "rol":"Mage",
       "opcionesRunas": [
       {
@@ -6856,6 +7049,7 @@
   },
     "Talon": {
       "Assassin 🔴": {
+        "ordenHabilidades": ["W","Q","E"],
         "rol":"Assassin",
       "opcionesRunas": [
       {
@@ -6892,6 +7086,7 @@
   },
   "Morgana": {
   "Aegis 🟢🔵": {
+    "ordenHabilidades": ["Q", "W", "E"],
     "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -6926,8 +7121,9 @@
       ],
       "Items_S": ["2055"]
     },
-      "Mage 🔵": {
-    "rol":"Mage",
+    "Mage 🔵": {
+      "ordenHabilidades": ["Q", "W", "E"],
+      "rol":"Mage",
       "opcionesRunas": [
       {
         "nombre": "Safe",
@@ -6962,8 +7158,9 @@
       "Items_S": ["2055"]
     }
   },
-    "Gnar": {
+  "Gnar": {
     "Emberlord 🟡🟢🔵": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol": "Emberlord",
       "opcionesRunas": [
       {
@@ -6998,9 +7195,10 @@
       ],"Items_S": ["2055"]
     }
   },
-    "Rammus": {
-  "Tank 🟢": {
-    "rol":"Tank",
+  "Rammus": {
+    "Tank 🟢": {
+      "ordenHabilidades": ["Q", "W", "E"],
+      "rol":"Tank",
       "opcionesRunas": [
       {
         "nombre": "Safe",
@@ -7034,8 +7232,9 @@
       ],"Items_S": ["2055","2504","3143","3083"]
     }
   },
-    "Nunu": {
+  "Nunu": {
     "Rogue 🔴🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Rogue",
       "opcionesRunas": [
       {
@@ -7071,8 +7270,9 @@
     }
   },
   "Swain": {
-  "Aegis 🟢🔵": {
-    "rol":"Aegis",
+    "Aegis 🟢🔵": {
+      "ordenHabilidades": ["Q", "W", "E"],
+      "rol":"Aegis",
       "opcionesRunas": [
       {
         "nombre": "Safe",
@@ -7107,138 +7307,142 @@
       "Items_S": ["2055"]
     }
   },
-    "Gangplank": {
-  "Duskbane 🔵🔴🟡": {
-    "rol":"Duskbane",
-    "opcionesRunas": [
-      {
-        "nombre": "Safe",
-      "primario": {
-        "nombre": "Precisión",
-        "runas": [
-          { "nombre": "Sobre la marcha", "icono": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png" },
-          { "nombre": "Concentración Profunda", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
-          { "nombre": "Leyenda: Linaje", "icono": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png" },
-          { "nombre": "Corte", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
-        ]
-      },
-      "secundario": {
-        "nombre": "Inspiración",
-        "runas": [
-          { "nombre": "Calzado mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
-          { "nombre": "Tónico triple", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
-        ]
-      },
-      "shards": [
-        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
-        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
-      ]
+  "Gangplank": {
+    "Duskbane 🔵🔴🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
+      "rol":"Duskbane",
+      "opcionesRunas": [
+        {
+          "nombre": "Safe",
+          "primario": {
+            "nombre": "Precisión",
+            "runas": [
+              { "nombre": "Sobre la marcha", "icono": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png" },
+              { "nombre": "Concentración Profunda", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
+              { "nombre": "Leyenda: Linaje", "icono": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png" },
+              { "nombre": "Corte", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
+            ]
+          },
+          "secundario": {
+            "nombre": "Inspiración",
+            "runas": [
+              { "nombre": "Calzado mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+              { "nombre": "Tónico triple", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+            ]
+          },
+          "shards": [
+            { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+            { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+            { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+          ]
+        }
+      ],
+      "items": ["3508","3078", "2422", "3036", "3031", "6673"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "Fantasmal", "icono": "spell/SummonerTeleport.png" }
+      ],"Items_S": ["2055"]
     }
-  ],
-    "items": ["3508","3078", "2422", "3036", "3031", "6673"],
-    "spells": [
-      { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
-      { "nombre": "Fantasmal", "icono": "spell/SummonerTeleport.png" }
-    ],"Items_S": ["2055"]
-  }
-},
+  },
   "Draven": {
-  "Assault 🟡": {
-    "rol":"Assault",
-    "opcionesRunas": [
-      {
-        "nombre": "Safe",
-      "primario": {
-        "nombre": "Precisión",
-        "runas": [
-          { "nombre": "Sobre la marcha", "icono": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png" },
-          { "nombre": "Concentración Profunda", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
-          { "nombre": "Leyenda: Linaje", "icono": "perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png" },
-          { "nombre": "Corte", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
-        ]
-      },
-      "secundario": {
-        "nombre": "Inspiración",
-        "runas": [
-          { "nombre": "Calzado mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
-          { "nombre": "Tónico triple", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
-        ]
-      },
-      "shards": [
-        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
-        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
-      ]
+    "Assault 🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
+      "rol":"Assault",
+      "opcionesRunas": [
+        {
+          "nombre": "Safe",
+          "primario": {
+            "nombre": "Precisión",
+            "runas": [
+              { "nombre": "Sobre la marcha", "icono": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png" },
+              { "nombre": "Concentración Profunda", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
+              { "nombre": "Leyenda: Linaje", "icono": "perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png" },
+              { "nombre": "Corte", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
+            ]
+          },
+          "secundario": {
+            "nombre": "Inspiración",
+            "runas": [
+              { "nombre": "Calzado mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+              { "nombre": "Tónico triple", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+            ]
+          },
+          "shards": [
+            { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+            { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+            { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+          ]
+        }
+      ],
+      "items": ["3072","3006", "6676", "3036", "3031", "6673"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "Fantasmal", "icono": "spell/SummonerHaste.png" }
+      ],"Items_S": ["2055"]
+    },
+    "Duelist 🔴🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
+      "rol":"Duelist",
+      "opcionesRunas": [
+        {
+          "nombre": "Safe",
+          "primario": {
+            "nombre": "Dominación",
+            "runas": [
+              { "nombre": "Sobre la marcha", "icono": "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png" },
+              { "nombre": "Concentración Profunda", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
+              { "nombre": "Leyenda: Linaje", "icono": "perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png" },
+              { "nombre": "Corte", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
+            ]
+          },
+          "secundario": {
+            "nombre": "Inspiración",
+            "runas": [
+              { "nombre": "Calzado mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"},
+              { "nombre": "Tónico triple", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+            ]
+          },
+          "shards": [
+            { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+            { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+            { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+          ]
+        }
+      ],
+      "items": ["6697", "3171", "3142","3078", "6694", "3072"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "Fantasmal", "icono": "spell/SummonerHaste.png" }
+      ],"Items_S": ["2055"]
     }
-  ],
-    "items": ["3072","3006", "6676", "3036", "3031", "6673"],
-    "spells": [
-      { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
-      { "nombre": "Fantasmal", "icono": "spell/SummonerHaste.png" }
-    ],"Items_S": ["2055"]
   },
-  "Duelist 🔴🟡": {
-    "rol":"Duelist",
-    "opcionesRunas": [
-      {
-        "nombre": "Safe",
-      "primario": {
-        "nombre": "Dominación",
-        "runas": [
-          { "nombre": "Sobre la marcha", "icono": "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png" },
-          { "nombre": "Concentración Profunda", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
-          { "nombre": "Leyenda: Linaje", "icono": "perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png" },
-          { "nombre": "Corte", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
-        ]
-      },
-      "secundario": {
-        "nombre": "Inspiración",
-        "runas": [
-          { "nombre": "Calzado mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"},
-          { "nombre": "Tónico triple", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
-        ]
-      },
-      "shards": [
-        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
-        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
-      ]
-    }
-  ],
-    "items": ["6697", "3171", "3142","3078", "6694", "3072"],
-    "spells": [
-      { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
-      { "nombre": "Fantasmal", "icono": "spell/SummonerHaste.png" }
-    ],"Items_S": ["2055"]
-   }
-  },
-    "Bard": {
+  "Bard": {
     "Playmaker 🟣🟢" : {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Playmaker",
       "opcionesRunas": [
       {
-      "nombre": "Safe",
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
-          { "nombre": "DarkHarvest", "icono": "perk-images/Styles/Sorcery/SummonAery/SummonAery.png" },
-          { "nombre": "Golpe bajo", "icono": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" },
-          { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" },
-          { "nombre": "Cazador Definitivo", "icono": "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
+            { "nombre": "DarkHarvest", "icono": "perk-images/Styles/Sorcery/SummonAery/SummonAery.png" },
+            { "nombre": "Golpe bajo", "icono": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" },
+            { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" },
+            { "nombre": "Cazador Definitivo", "icono": "perk-images/Styles/Sorcery/Scorch/Scorch.png" }
           ]
         },
         "secundario": {
           "nombre": "Inspiración",
           "runas": [
-          { "nombre": "botas", "icono": "perk-images/Styles/Domination/SixthSense/SixthSense.png" },
-          { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png" }
+            { "nombre": "botas", "icono": "perk-images/Styles/Domination/SixthSense/SixthSense.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png" }
           ]
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
-        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+          { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
+          { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
     ],
@@ -7250,113 +7454,117 @@
       "Items_S": ["2055"]
     },
     "Mage 🔵" : {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Mage",
       "opcionesRunas": [
       {
-      "nombre": "Safe",
+        "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
-          { "nombre": "DarkHarvest", "icono": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png" },
-          { "nombre": "Sabor a Sangre", "icono": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png" },
-          { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png" },
-          { "nombre": "Cazador Definitivo", "icono": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+            { "nombre": "DarkHarvest", "icono": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png" },
+            { "nombre": "Sabor a Sangre", "icono": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png" },
+            { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png" },
+            { "nombre": "Cazador Definitivo", "icono": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
           ]
         },
         "secundario": {
           "nombre": "Inspiración",
           "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+          { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      }
+    ],
+    "items": ["6655", "3020", "4646", "3137", "4645", "3089"],
+    "spells": [
+      { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+      { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
+    ],
+    "Items_S": ["2055"]
+  }
+},
+"Olaf": {
+  "Berserker 🟡🟢": {
+    "ordenHabilidades": ["Q", "W", "E"],
+    "rol": "Berserker",
+    "opcionesRunas": [
+    {
+      "nombre": "Safe",
+      "primario": {
+        "nombre": "Conqueror",
+        "runas": [
+          { "nombre": "Conqueror", "icono": "perk-images/Styles/Precision/Conqueror/Conqueror.png" },
+          { "nombre": "PresenceOfMind", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
+          { "nombre": "LegendHaste", "icono": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png" },
+          { "nombre": "CutDown", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
+        ]
+      },
+      "secundario": {
+        "nombre": "Inspiración",
+        "runas": [
           { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
           { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
-          ]
-        },
-        "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        ]
+      },
+      "shards": [
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
-        ]
-      }
-    ],
-      "items": ["6655", "3020", "4646", "3137", "4645", "3089"],
-      "spells": [
-        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
-        { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],
-      "Items_S": ["2055"]
+      ]
     }
-  },
-    "Olaf": {
-    "Berserker 🟡🟢": {
-      "rol": "Berserker",
-      "opcionesRunas": [
-      {
-        "nombre": "Safe",
-        "primario": {
-          "nombre": "Conqueror",
-          "runas": [
-            { "nombre": "Conqueror", "icono": "perk-images/Styles/Precision/Conqueror/Conqueror.png" },
-            { "nombre": "PresenceOfMind", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
-            { "nombre": "LegendHaste", "icono": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png" },
-            { "nombre": "CutDown", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
-          ]
-        },
-        "secundario": {
-          "nombre": "Inspiración",
-          "runas": [
-            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
-            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
-          ]
-        },
-        "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
-        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
-        ]
-      }
-    ],
-      "items": ["3074","2422", "3078", "6694", "3053", "2501"],
-      "spells": [
-        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
-        { "nombre": "elias_gay", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+  ],
+  "items": ["3074","2422", "3078", "6694", "3053", "2501"],
+  "spells": [
+    { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+    { "nombre": "elias_gay", "icono": "spell/SummonerTeleport.png" }
+  ],"Items_S": ["2055"]
+},
+"Emberlord 🟡🟢🔵": {
+  "ordenHabilidades": ["Q", "W", "E"],
+  "rol": "Emberlord",
+  "opcionesRunas": [
+  {
+    "nombre": "Safe",
+    "primario": {
+      "nombre": "Conqueror",
+      "runas": [
+        { "nombre": "Conqueror", "icono": "perk-images/Styles/Precision/Conqueror/Conqueror.png" },
+        { "nombre": "PresenceOfMind", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
+        { "nombre": "LegendHaste", "icono": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png" },
+        { "nombre": "CutDown", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
+      ]
     },
-    "Emberlord 🟡🟢🔵": {
-      "rol": "Emberlord",
-      "opcionesRunas": [
-      {
-        "nombre": "Safe",
-        "primario": {
-          "nombre": "Conqueror",
-          "runas": [
-            { "nombre": "Conqueror", "icono": "perk-images/Styles/Precision/Conqueror/Conqueror.png" },
-            { "nombre": "PresenceOfMind", "icono": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png" },
-            { "nombre": "LegendHaste", "icono": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png" },
-            { "nombre": "CutDown", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
-          ]
-        },
-        "secundario": {
-          "nombre": "Inspiración",
-          "runas": [
-            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
-            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
-          ]
-        },
-        "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
-        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
-        ]
-      }
-    ],
-      "items": ["6631","2422", "3073", "3071", "2501", "3053"],
-      "spells": [
-        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
-        { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
-    }
-  },
-      "Shen": {
+    "secundario": {
+      "nombre": "Inspiración",
+      "runas": [
+        { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+        { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+      ]
+    },
+    "shards": [
+      { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+      { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+      { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+    ]
+  }
+],
+"items": ["6631","2422", "3073", "3071", "2501", "3053"],
+"spells": [
+  { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+  { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
+],"Items_S": ["2055"]
+}
+},
+"Shen": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol": "Berserker",
       "opcionesRunas": [
       {
@@ -7390,7 +7598,8 @@
         { "nombre": "elias_gay", "icono": "spell/SummonerTeleport.png" }
       ],"Items_S": ["2055"]
     },
-        "Tank 🟢": {
+    "Tank 🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Tank",
       "opcionesRunas": [
       {
@@ -7427,6 +7636,7 @@
   },
   "Renata": {
     "Peeler 🟣": {
+      "ordenHabilidades": ["W", "Q", "E"],
       "rol":"Peeler",
       "opcionesRunas": [
       {
@@ -7463,6 +7673,7 @@
   },
     "Nasus": {
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -7499,6 +7710,7 @@
   },
   "Kennen": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -7536,6 +7748,7 @@
   },
     "Kayle": {
     "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -7573,6 +7786,7 @@
   },
   "Twitch": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -7609,6 +7823,7 @@
   },
   "Akshan": {
   "Assault 🟡": {
+    "ordenHabilidades": ["Q", "W", "E"],
     "rol":"Assault",
     "opcionesRunas": [
       {
@@ -7646,6 +7861,7 @@
   },
     "Camille": {
     "Revenant 🔴🟢🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -7682,6 +7898,7 @@
   },
     "Kled": {
     "Rogue 🔴🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Rogue",
       "opcionesRunas": [
       {
@@ -7716,6 +7933,7 @@
       ],"Items_S": ["2055"]
     },
     "Mage 🔵": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Mage",
       "opcionesRunas": [
       {
@@ -7752,6 +7970,7 @@
   },
   "Varus": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -7786,6 +8005,7 @@
       ],"Items_S": ["2055"]
     },
     "Mage 🔵": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Mage",
       "opcionesRunas": [
       {
@@ -7822,6 +8042,7 @@
   },
     "Azir": {
     "Mage 🔵": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Mage",
       "opcionesRunas": [
       {
@@ -7856,6 +8077,7 @@
       ],"Items_S": ["2055"]
     },
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -7892,6 +8114,7 @@
   },
   "Nocturne": {
     "Assassin 🔴": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Assasssin",
       "opcionesRunas": [
       {
@@ -7926,6 +8149,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🟡🔴🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -7960,6 +8184,7 @@
       ],"Items_S": ["2055"]
     },
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -7996,6 +8221,7 @@
   },
     "Belveth": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -8030,6 +8256,7 @@
       ],"Items_S": ["2055"]
     },
     "Revenant 🟡🔴🟢": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -8066,6 +8293,7 @@
   },
     "Katarina": {
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol": "Warlock",
     "opcionesRunas": [
       {
@@ -8100,6 +8328,7 @@
       ],"Items_S": ["2055"]
     },
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -8136,6 +8365,7 @@
   },
       "Tryndamere": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -8172,6 +8402,7 @@
   },
       "Shyvana": {
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["E", "W", "Q"],
       "rol": "Warlock",
     "opcionesRunas": [
       {
@@ -8206,6 +8437,7 @@
       ],"Items_S": ["2055"]
     },
     "Aegis 🟢🔵": {
+      "ordenHabilidades": ["E", "W", "Q"],
       "rol":"Aegis",
       "opcionesRunas": [
       {
@@ -8240,6 +8472,7 @@
       ],"Items_S": ["2055"]
     },
     "Emberlord 🟡🟢🔵": {
+      "ordenHabilidades": ["E", "W", "Q"],
       "rol":"Emberlord",
       "opcionesRunas": [
       {
@@ -8276,6 +8509,7 @@
   },
   "Trundle": {
     "Duelist 🟡🔴": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Duelist",
       "opcionesRunas": [
       {
@@ -8310,6 +8544,7 @@
       ],"Items_S": ["2055"]
     },
     "Berserker 🟡🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Berserker",
       "opcionesRunas": [
       {
@@ -8344,6 +8579,7 @@
       ],"Items_S": ["2055"]
     },
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -8380,6 +8616,7 @@
   },
     "Urgot": {
     "Revenant 🟡🟢🔴": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Duelist",
       "opcionesRunas": [
       {
@@ -8414,6 +8651,7 @@
       ],"Items_S": ["2055"]
     },
     "Tank 🟢": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Tank",
       "opcionesRunas": [
       {
@@ -8450,6 +8688,7 @@
   },
   "Yuumi": {
     "Peeler 🟣": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Peeler",
       "opcionesRunas": [
       {
@@ -8486,6 +8725,7 @@
   },
     "Milio": {
     "Peeler 🟣": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Peeler",
       "opcionesRunas": [
       {
@@ -8522,6 +8762,7 @@
   },
   "Sona": {
     "Peeler 🟣": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Peeler",
       "opcionesRunas": [
       {
@@ -8558,6 +8799,7 @@
   },
       "Soraka": {
     "Peeler 🟣": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Peeler",
       "opcionesRunas": [
       {
@@ -8594,6 +8836,7 @@
   },
   "Ivern": {
     "Peeler 🟣": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Peeler",
       "opcionesRunas": [
       {
@@ -8630,6 +8873,7 @@
   },
   "Janna": {
     "Peeler 🟣": {
+      "ordenHabilidades": ["W", "Q", "E"],
       "rol":"Peeler",
       "opcionesRunas": [
       {
@@ -8666,6 +8910,7 @@
   },
   "Taric": {
     "Peeler 🟣": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Peeler",
       "opcionesRunas": [
       {
@@ -8700,6 +8945,7 @@
       ],"Items_S": ["2055"]
     },
     "Playmaker 🟢🟣": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Playmaker",
       "opcionesRunas": [
       {
@@ -8734,6 +8980,7 @@
       ],"Items_S": ["2055"]
     },
        "Emberlord 🟢🟡🔵": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Emberlord",
       "opcionesRunas": [
       {
@@ -8770,6 +9017,7 @@
   },
   "Renekton": {
     "Emberlord 🟡🟢🔵": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol": "Emberlord",
       "opcionesRunas": [
       {
@@ -8804,6 +9052,7 @@
       ],"Items_S": ["2055"]
     },
     "Rogue 🔴🟢": {
+      "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Rogue",
       "opcionesRunas": [
       {
@@ -8837,10 +9086,10 @@
         { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" }
       ],"Items_S": ["2055"]
     }
-
   },
   "Samira": {
     "Emberlord 🟡🟢🔵": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol": "Emberlord",
       "opcionesRunas": [
       {
@@ -8875,6 +9124,7 @@
       ],"Items_S": ["2055"]
     },
     "Warlock 🔴🔵": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol": "Warlock",
       "opcionesRunas": [
       {
@@ -8911,6 +9161,7 @@
   },
     "Quinn": {
       "Assassin 🔴": {
+        "ordenHabilidades": ["Q", "W", "E"],
         "rol":"Assassin",
       "opcionesRunas": [
       {
@@ -8947,6 +9198,7 @@
   },
   "Sivir": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -8983,6 +9235,7 @@
   },
   "Tristana": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -9017,6 +9270,7 @@
       ],"Items_S": ["2055"]
     },
     "Duelist 🟡🔴": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -9053,6 +9307,7 @@
   },
   "Xayah": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -9089,6 +9344,7 @@
   },
   "Kalista": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -9125,6 +9381,7 @@
   },
     "KogMaw": {
     "Assault 🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Assault",
       "opcionesRunas": [
       {
@@ -9161,6 +9418,7 @@
   },
     "Zaahen": {
     "Revenant 🟢🔴🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Revenant",
       "opcionesRunas": [
       {
@@ -9195,6 +9453,7 @@
       ],"Items_S": ["2055"]
     },
     "Emberlord 🟢🔵🟡": {
+      "ordenHabilidades": ["Q", "W", "E"],
       "rol":"Emberlord",
       "opcionesRunas": [
       {
@@ -9231,6 +9490,7 @@
   },
 "DrMundo": {
   "Tank 🟢": {
+    "ordenHabilidades": ["Q", "W", "E"],
     "rol":"Tank",
       "opcionesRunas": [
       {
@@ -9265,7 +9525,6 @@
       ],"Items_S": ["2055"]
     }
   }
-    
   
   
   

@@ -289,42 +289,56 @@ h1 {
   transform: scale(1.05);
 }
 
-.corner-icon {
+.icons {
+  position: absolute;
   top: 35px;
   right: 35px;
-  z-index: 10000; /* siempre por encima */
-  transition: transform 0.2s ease, filter 0.2s ease;
-  margin-right: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 10000;
 }
-
+.corner-icon,
+.corner-icon2 {
+  position: static; /* Cambia de absolute a static para que sigan el flujo de flex */
+  transition: transform 0.2s ease, filter 0.2s ease;
+  margin: 0; /* Quita márgenes si los hay */
+}
 .corner-icon img {
-  width: 60px;   /* ajustá el tamaño */
+  width: 60px;
   cursor: pointer;
   filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
-
 }
-
 .corner-icon:hover {
   transform: scale(1.1);
   filter: drop-shadow(0 0 10px rgb(255, 0, 102));
 }
-.corner-icon2 {
-  top: 35px;
-  right: 60px;
-  z-index: 10000; /* siempre por encima */
-  transition: transform 0.2s ease, filter 0.2s ease;
-}
-
 .corner-icon2 img {
-  width: 45px;   /* ajustá el tamaño */
+  width: 45px;
   cursor: pointer;
   filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
 }
-
 .corner-icon2:hover {
   transform: scale(1.1);
   filter: drop-shadow(0 0 10px rgb(255, 0, 102));
 }
+
+
+.random-btn{
+  background: linear-gradient(90deg, #ff0080, #ff0000);
+  border:none;
+  padding:12px 30px;
+  border-radius:30px;
+  color:white;
+  font-weight:700;
+  cursor:pointer;
+  font-size:18px;
+}
+.random-btn:hover{
+  opacity:0.8;
+}
+
+
 
 /* 📱 Adaptación para celulares */
 @media (max-width: 768px) {

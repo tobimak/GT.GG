@@ -3,22 +3,45 @@ let versionActual = "";
 let campeonIdGlobal = ""; 
 let campeones = []; // Almacenará la lista de campeones para sugerencias
 
-// =======================
-//     MAPEOS Y CONSTANTES
-// =======================
+// ==========================================================
+// 1. MAPEOS Y UTILIDADES DE NAVEGACIÓN
+// ==========================================================
+// mapping manual (solo para casos especiales)
 const nombreAId = {
   Wukong: "MonkeyKing",
-  Aurelionsol: "AurelionSol",
-  Reksai: "RekSai",
-  Maestroyi: "MasterYi",
-  // Agrega otros si quieres
+  AurelionSol: "AurelionSol",
+  RekSai: "RekSai",
+  MasterYi: "MasterYi",
+  DrMundo: "DrMundo",
+  JarvanIV: "JarvanIV",
+  KogMaw: "KogMaw",
+  TahmKench: "TahmKench",
+  XinZhao: "XinZhao",
+  TwistedFate: "TwistedFate",
 };
 
-function obtenerIdOficial(nombreAmigable) {
-  const nombreCap = nombreAmigable.charAt(0).toUpperCase() + nombreAmigable.slice(1);
-  return nombreAId[nombreCap] || nombreCap; 
+// Normalizador universal
+function normalizar(str) {
+  return str
+    .normalize("NFD")                  // elimina acentos
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, "")               // quita espacios
+    .toLowerCase();                    // minúsculas
 }
 
+// genera una tabla "normalizada → key real"
+const tablaNormalizada = {};
+Object.keys(nombreAId).forEach(n => {
+  tablaNormalizada[ normalizar(n) ] = nombreAId[n];
+});
+
+// función principal
+function obtenerIdOficial(nombreUsuario) {
+  const key = normalizar(nombreUsuario);
+  return tablaNormalizada[key] || nombreUsuario; // fallback
+}
+
+// MAPEO INVERSO (ID → nombre amigable)
 const idANombre = {};
 for (const [nombre, id] of Object.entries(nombreAId)) {
   idANombre[id] = nombre;
@@ -179,6 +202,7 @@ function mostrarBuild(campeonId, rol, opcionRunasIndex = 0) {
   const resultadoDiv = document.getElementById("resultado");
   if (!resultadoDiv) return;
   
+  
   // 1. Control de botón activo (RolesBox)
   document.querySelectorAll("#botones button").forEach(btn => {
       if (btn.textContent === rol.toUpperCase()) {
@@ -254,6 +278,10 @@ function mostrarBuild(campeonId, rol, opcionRunasIndex = 0) {
         </div>
       </div>
 
+      <div class="skills-order-container">
+        <h3>Orden de habilidades</h3>
+        <div id="skillsOrder"></div>
+      </div>
       <!-- 🔹 Info del rol -->
       <div class="section1">
         <h3>Rol: ${inforoles[build.rol]?.nombre || build.rol}</h3>
@@ -266,7 +294,26 @@ function mostrarBuild(campeonId, rol, opcionRunasIndex = 0) {
     <button class="btn-stats" onclick="window.location.href='stats.html?champ=${campeonId}'">Stats</button>
   </div>
   `;
+mostrarSkillsOrder(build.ordenHabilidades);
 }
+
+function mostrarSkillsOrder(orden) {
+  const contenedor = document.getElementById("skillsOrder");
+  if (!contenedor) return;
+
+  contenedor.innerHTML = "";
+
+  orden.forEach((habilidad, index) => {
+    contenedor.innerHTML += `
+      <div class="skill-item">${habilidad}</div>
+    `;
+
+    if(index < orden.length - 1){
+      contenedor.innerHTML += `<span class="arrow">></span>`;
+    }
+  })
+}
+
 
 
 // =======================

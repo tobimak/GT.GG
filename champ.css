@@ -93,9 +93,17 @@ body {
 }
 .card {
   background: #1c252c;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
+  padding: 15px;                 /* más chico */
+  margin: 15px auto;             /* centrado */
+  border-radius: 12px;
+  width: 85%;                    /* achica el ancho */
+  max-width: 1500px;              /* no se hace gigante */
+
+  /* Borde rosado brillante */
+  border: 2px solid #7f0ef0;     /* color del borde */
+  box-shadow:
+    0 0 8px #7f0ef0,
+    0 0 15px rgba(255, 47, 114, 0.5); /* brillo extra */
 }
 .logo {
   height: 100px;
@@ -406,6 +414,41 @@ body {
 
 
 
+
+
+.skills-order-container{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.skills-order-container h3{
+  color:#fff;
+  font-size:18px;
+  margin-bottom: 8px;
+}
+
+#skillsOrder{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+}
+
+.skill-item{
+  background:#0f1418;
+  padding:8px 14px;
+  border:1px solid #ff2f72;
+  border-radius:8px;
+  box-shadow:0 0 8px rgba(255,47,114,0.6);
+  font-weight:bold;
+  color:#ff2f72;
+}
+
+.arrow{
+  color:#fff;
+  font-weight:bold;
+  font-size:14px;
+}
 
 
 

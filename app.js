@@ -4,23 +4,47 @@ let versionActual = "";
 // ==========================================================
 // 1. MAPEOS Y UTILIDADES DE NAVEGACIÓN
 // ==========================================================
+// mapping manual (solo para casos especiales)
 const nombreAId = {
   Wukong: "MonkeyKing",
-  Aurelionsol: "AurelionSol",
-  Reksai: "RekSai",
-  Maestroyi: "MasterYi",
-  // Agrega aca otros si queres
+  AurelionSol: "AurelionSol",
+  RekSai: "RekSai",
+  MasterYi: "MasterYi",
+  DrMundo: "DrMundo",
+  JarvanIV: "JarvanIV",
+  KogMaw: "KogMaw",
+  TahmKench: "TahmKench",
+  XinZhao: "XinZhao",
+  TwistedFate: "TwistedFate",
 };
-function obtenerIdOficial(nombreAmigable) {
-  // Capitaliza para evitar problemas de mayúsculas/minúsculas
-  const nombreCapitalizado = nombreAmigable.charAt(0).toUpperCase() + nombreAmigable.slice(1);
-  return nombreAId[nombreCapitalizado] || nombreCapitalizado;
+
+// Normalizador universal
+function normalizar(str) {
+  return str
+    .normalize("NFD")                  // elimina acentos
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, "")               // quita espacios
+    .toLowerCase();                    // minúsculas
 }
-// Mapeo inverso ID oficial → nombre amigable (Necesario para el carrusel)
+
+// genera una tabla "normalizada → key real"
+const tablaNormalizada = {};
+Object.keys(nombreAId).forEach(n => {
+  tablaNormalizada[ normalizar(n) ] = nombreAId[n];
+});
+
+// función principal
+function obtenerIdOficial(nombreUsuario) {
+  const key = normalizar(nombreUsuario);
+  return tablaNormalizada[key] || nombreUsuario; // fallback
+}
+
+// MAPEO INVERSO (ID → nombre amigable)
 const idANombre = {};
 for (const [nombre, id] of Object.entries(nombreAId)) {
   idANombre[id] = nombre;
 }
+
 
 // Obtener versión actual de Data Dragon
 async function getVersion() {
@@ -280,4 +304,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 // Listener para el botón de reseteo/recarga (si existe en index.html)
 document.getElementById("resetDePagina")?.addEventListener("click", () => {
   location.reload();
+});
+
+//buscador Random
+document.getElementById("btnRandom").addEventListener("click", () => {
+
+  if (!campeones || campeones.length === 0) return;
+
+  // elegimos un objeto random
+  const elegido = campeones[Math.floor(Math.random() * campeones.length)];
+
+  // usamos su id
+  window.location.href = `champ.html?champ=${elegido.id}`;
 });
