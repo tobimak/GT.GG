@@ -4919,12 +4919,12 @@
         ]
       }
     ],
-      "items": ["6655", "3171", "4646","4645", "3135", "6653"],
+      "items": ["2503", "3171", "4629","3137", "3089", "6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055","4633"]
+      "Items_S": ["2055"]
     }
   },
   "Evelynn": {
@@ -7206,7 +7206,7 @@
       ]
     }
   ],
-    "items": ["6697", "3171", "3142","6694", "6701", "3814"],
+    "items": ["6697", "3171", "3142","3078", "6694", "3072"],
     "spells": [
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
       { "nombre": "Fantasmal", "icono": "spell/SummonerHaste.png" }

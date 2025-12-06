@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>buld del campeon</title>
+  <link rel="stylesheet" href="champ.css">
+</head>
+<body>
+
+<header class="navbar">
+  <!-- Logo -->
+  <a href="index.html">
+        <img src="imagenes/icono.png" alt="Logo" class="logo">
+    </a>
+
+  <!-- Buscador -->
+  <div class="search-wrapper">
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Buscar campeón..."
+        autocomplete="off" 
+        autocorrect="off" 
+        autocapitalize="off" 
+        spellcheck="false"/>
+      <div id="sugerencias" class="sugerencias"></div>
+    </div>
+    <button onclick="buscarCampeon()">Buscar</button>
+  </div>
+
+    <div class="icons">
+    <a href="creditos.html" class="corner-icon2">
+      <img src="imagenes/creditos.png" alt="Ir a otra página">
+    </a>
+    <a href="donation.html" class="corner-icon">
+      <img src="imagenes/donation.png" alt="Ir a otra página">
+    </a>
+  </div>
+</header>
+
+    <!-- 2. Contenedor de Botones de Roles (se llena con JS) -->
+    <div id="botones"></div>
+
+    <!-- 3. Contenedor Principal de la Build (se llena con JS, contiene todo) -->
+    <div id="resultado"></div>
+
+    <!-- El script JS se carga al final para asegurar que todos los elementos (botones, resultado) existan antes de que intente manipularlos. -->
+    <script src="champ.js"></script>
+</body>
+</html>
