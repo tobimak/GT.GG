@@ -4504,8 +4504,8 @@
     }
   },
     "Veigar": {
-    "ordenHabilidades": ["Q","W","E"],
     "Warlock 🔴🔵": {
+    "ordenHabilidades": ["Q","W","E"],
       "rol":"Warlock",
       "opcionesRunas": [
       {
@@ -9877,7 +9877,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "barrera", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","6631"]
     },
     "Emberlord 🟢🔵🟡": {
       "ordenHabilidades": ["Q", "W", "E"],
