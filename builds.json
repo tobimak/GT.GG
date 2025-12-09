@@ -3546,8 +3546,8 @@
     }
   },
   "Rell": {
-    "ordenHabilidades": ["W","E","Q"],
     "Vanguard 🟢": {
+      "ordenHabilidades": ["W","E","Q"],
       "rol":"Vanguard",
       "opcionesRunas": [
       {
