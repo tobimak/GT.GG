@@ -20,6 +20,7 @@ const nombreAId = {
   TwistedFate: "TwistedFate",
   MissFortune : "MissFortune",
   LeeSin : "LeeSin",
+  KSante : "KSante",
 };
 
 // Normalizador universal
