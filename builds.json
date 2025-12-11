@@ -5422,7 +5422,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055","4633"]
+      "Items_S": ["2055"]
     }
   },
   "Fizz": {
@@ -7512,6 +7512,42 @@
         { "nombre": "Teleportar", "icono": "spell/SummonerExhaust.png" }
       ],
       "Items_S": ["2055"]
+    },    
+    "Warlock 🔴🔵" : {
+      "ordenHabilidades": ["Q","W","E"],
+      "rol":"Warlock",
+      "opcionesRunas": [
+      {
+      "nombre": "Safe",
+        "primario": {
+          "nombre": "Dominación",
+          "runas": [
+          { "nombre": "DarkHarvest", "icono": "perk-images/Styles/Domination/Electrocute/Electrocute.png" },
+          { "nombre": "Sabor a Sangre", "icono": "perk-images/Styles/Domination/CheapShot/CheapShot.png" },
+          { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png" },
+          { "nombre": "Cazador Definitivo", "icono": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+          { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      }
+    ],
+      "items": ["3871","6655", "3020", "4646", "3135", "3089"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
+      ],
+      "Items_S": ["2055","4645"]
     }
   },
   "Gnar": {
