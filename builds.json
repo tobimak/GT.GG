@@ -3620,16 +3620,16 @@
     }
   },
   "Pyke": {
-    "Playmaker 🟣🟢": {
+        "Assassin 🔴": {
       "ordenHabilidades": ["Q","E","W"],
-      "rol":"Playmaker",
+      "rol":"Assassin",
       "opcionesRunas": [
       {
         "nombre": "Safe",
         "primario": {
           "nombre": "Dominación",
           "runas": [
-          { "nombre": "electrocutar", "icono": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png" },
+          { "nombre": "electrocutar", "icono": "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png" },
           { "nombre": "Sabor a Sangre", "icono": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png" },
           { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png" },
           { "nombre": "RelentlessHunter", "icono": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png" }
@@ -3649,7 +3649,77 @@
         ]
       }
     ],
-      "items": ["3877","6697","2422", "6701", "6696", "6610","3814"],
+      "items": ["3877","6697","2422","6698", "6701", "3142","6699"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "ignite", "icono": "spell/SummonerDot.png" }
+      ],"Items_S": ["2055"]
+    },
+    "Rogue 🔴🟢": {
+      "ordenHabilidades": ["Q","E","W"],
+      "rol":"Rogue",
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
+        "primario": {
+          "nombre": "Dominación",
+          "runas": [
+          { "nombre": "electrocutar", "icono": "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png" },
+          { "nombre": "Sabor a Sangre", "icono": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png" },
+          { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png" },
+          { "nombre": "RelentlessHunter", "icono": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      }
+    ],
+      "items": ["3877","6697","2422", "6698", "6694", "6610","3814"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "ignite", "icono": "spell/SummonerDot.png" }
+      ],"Items_S": ["2055","6701","3142"]
+    },
+    "Playmaker 🟣🟢": {
+      "ordenHabilidades": ["Q","E","W"],
+      "rol":"Playmaker",
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
+        "primario": {
+          "nombre": "Dominación",
+          "runas": [
+          { "nombre": "electrocutar", "icono": "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png" },
+          { "nombre": "Sabor a Sangre", "icono": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png" },
+          { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png" },
+          { "nombre": "RelentlessHunter", "icono": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      }
+    ],
+      "items": ["3877","6697","2422", "6701", "6696", "3142","3814"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "ignite", "icono": "spell/SummonerDot.png" }
@@ -8576,7 +8646,7 @@
     }
   },
   "Nocturne": {
-    "Assasin 🔴": {
+    "Assassin 🔴": {
       "ordenHabilidades": ["Q", "E", "W"],
       "rol":"Assassin",
       "opcionesRunas": [
