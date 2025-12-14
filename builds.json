@@ -1,9 +1,9 @@
 
 {
   "Ahri": {
-    "Mage 🔵" : {
+    "Warlock 🔵🔴" : {
       "ordenHabilidades": ["Q", "W", "E"],
-      "rol":"Mage",
+      "rol":"Warlock",
       "opcionesRunas": [
       {
       "nombre": "Safe",
@@ -24,7 +24,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsCDRScalingIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -35,7 +35,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     }
   },
   "Yorick": {
@@ -133,7 +133,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -167,7 +167,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsCDRScalingIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -395,7 +395,7 @@
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerSmite.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3181"]
     },
     "Revenant 🔴🟢🟡": {
       "ordenHabilidades": ["Q", "E", "W"],
@@ -430,7 +430,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerSmite.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3181"]
     }
   },  
   "Nilah": {
@@ -553,8 +553,8 @@
           "nombre": "PhaseRush",
           "runas": [
             { "nombre": "PhaseRush", "icono": "perk-images/Styles/Sorcery/PhaseRush/PhaseRush.png" },
-            { "nombre": "Triumph", "icono": "perk-images/Styles/Sorcery/Celerity/CelerityTemp.png" },
             { "nombre": "LegendHaste", "icono": "perk-images/Styles/Sorcery/NimbusCloak/6361.png" },
+            { "nombre": "Triumph", "icono": "perk-images/Styles/Sorcery/Celerity/CelerityTemp.png" },
             { "nombre": "Last Stand", "icono": "perk-images/Styles/Sorcery/Waterwalking/Waterwalking.png" }
           ]
         },
@@ -566,7 +566,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -601,7 +601,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -966,17 +966,17 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
     ],
-      "items": ["3118","3171", "4646", "3137", "4628"],
+      "items": ["3118","3171", "4646", "3137", "4628","3089"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "elias_gay", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3041","4645"]
     },
     "Tank 🟢": {
       "ordenHabilidades": ["W", "E", "Q"],
@@ -1002,7 +1002,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -1011,7 +1011,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3143","2504","3083"]
     }
   },
   "Shaco": {
@@ -1073,7 +1073,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -1083,7 +1083,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerDot.png" },
         { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3041"]
     }
  },
  "Graves": {
@@ -1156,7 +1156,8 @@
       { "nombre": "ignite", "icono": "spell/SummonerDot.png" },
       { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
     ],"Items_S": ["2055"]
-   },"Rogue 🔴🟢": {
+   },
+   "Rogue 🔴🟢": {
     "ordenHabilidades": ["Q", "E", "W"],
     "rol":"Rogue",
       "opcionesRunas": [
@@ -1179,7 +1180,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -1541,7 +1542,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -1614,7 +1615,7 @@
         ]
       },
       "shards": [
-        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
@@ -1686,7 +1687,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -1926,8 +1927,8 @@
           "nombre": "PhaseRush",
           "runas": [
             { "nombre": "PhaseRush", "icono": "perk-images/Styles/Sorcery/PhaseRush/PhaseRush.png" },
-            { "nombre": "Triumph", "icono": "perk-images/Styles/Sorcery/Celerity/CelerityTemp.png" },
-            { "nombre": "LegendHaste", "icono": "perk-images/Styles/Sorcery/NimbusCloak/6361.png" },
+            { "nombre": "Triumph", "icono": "perk-images/Styles/Sorcery/NimbusCloak/6361.png" },
+            { "nombre": "LegendHaste", "icono": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png" },
             { "nombre": "Last Stand", "icono": "perk-images/Styles/Sorcery/Waterwalking/Waterwalking.png" }
           ]
         },
@@ -1939,15 +1940,15 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
     ],
-      "items": ["1101","6699", "3170", "3142", "6694", "6692"],
+      "items": ["1101","6697","3171","6690","6698","3142","3071","6692"],
       "spells": [
-        { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
+        { "nombre": "fantasmal", "icono": "spell/SummonerFlash.png" },
         { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
       ],"Items_S": ["2055"]
     },
@@ -1980,9 +1981,9 @@
         ]
       }
     ],
-      "items": ["1102","3042", "3171", "3161", "3071","3053"],
+      "items": ["1102","6631", "3171", "3078", "3071","3181","3073"],
       "spells": [
-        { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
+        { "nombre": "fantasmal", "icono": "spell/SummonerFlash.png" },
         { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
       ],"Items_S": ["2055"]
     },
@@ -1996,9 +1997,9 @@
           "nombre": "valor",
           "runas": [
             { "nombre": "valor", "icono": "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png" },
-            { "nombre": "golpe de escudo", "icono": "perk-images/Styles/Resolve/MirrorShell/MirrorShell.png" },
+            { "nombre": "golpe de escudo", "icono": "perk-images/Styles/Resolve/Demolish/Demolish.png" },
             { "nombre": "segundo aire", "icono": "perk-images/Styles/Resolve/SecondWind/SecondWind.png" },
-            { "nombre": "Revitalizar", "icono": "perk-images/Styles/Resolve/Revitalize/Revitalize.png" }
+            { "nombre": "Revitalizar", "icono": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png" }
           ]
         },
         "secundario": {
@@ -2010,12 +2011,12 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
     ],
-      "items": ["6662","2422", "3065", "4633", "3053","2502"],
+      "items": ["6662","2422", "3748", "3071", "3053","2501"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
@@ -2056,7 +2057,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3152","4629"]
     },
     "Rogue 🔴🟢": {
       "ordenHabilidades": ["Q", "W","E"],
@@ -2081,7 +2082,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -2091,7 +2092,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "ignite", "icono": "spell/SummonerDot.png" }
-      ],"Items_S": ["2055","3152"]
+      ],"Items_S": ["2055","3152","4629"]
     }
   },
   "Kayn": {
@@ -2118,7 +2119,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -2238,7 +2239,7 @@
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],
-    "Items_S": ["3363"]
+    "Items_S": ["2055","3041"]
   },
   "Mage 🔵": {
     "ordenHabilidades": ["Q","E","W"],
@@ -2373,7 +2374,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -2445,7 +2446,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -2455,7 +2456,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3041"]
     }
   },
   "Naafiri": {
@@ -2603,7 +2604,7 @@
     }
   },
     "Aatrox": {
-    "Aegis 🟢🔵": {
+    "Aegis 🔵🟢": {
       "ordenHabilidades": ["Q","W","E"],
       "rol":"Aegis",
       "opcionesRunas": [
@@ -2636,7 +2637,42 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","6692","3065","6333","3156"]
+    },
+    "Aegis 🟢🔵": {
+      "ordenHabilidades": ["Q","W","E"],
+      "rol":"Aegis",
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
+        "primario": {
+          "nombre": "Conqueror",
+          "runas": [
+            { "nombre": "Conqueror", "icono": "perk-images/Styles/Precision/Conqueror/Conqueror.png" },
+            { "nombre": "Triumph", "icono": "perk-images/Styles/Precision/Triumph.png" },
+            { "nombre": "LegendHaste", "icono": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png" },
+            { "nombre": "Last Stand", "icono": "perk-images/Styles/Sorcery/LastStand/LastStand.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      }
+    ],
+      "items": ["3161","3171", "6694", "6610", "2501", "3053"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
+      ],"Items_S": ["2055","6692","3065","6333","3156"]
     }
   },
   "Corki": {
@@ -2877,7 +2913,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -2888,7 +2924,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     }
   },
   "LeeSin": {
@@ -2950,7 +2986,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -3022,7 +3058,7 @@
         ]
       },
       "shards": [
-        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
@@ -3059,7 +3095,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -3070,7 +3106,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     },
     "mago 🔵": {
       "ordenHabilidades": ["Q","E","W"],
@@ -3287,7 +3323,7 @@
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerHaste.png" },
         { "nombre": "barrera", "icono": "spell/SummonerBarrier.png" }
-      ],"Items_S": ["2055","3033","3153"]
+      ],"Items_S": ["2055","3033"]
     }
   },
      "Galio": {
@@ -3349,7 +3385,7 @@
         ]
       },
       "shards": [
-        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
@@ -3495,7 +3531,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -3643,7 +3679,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -3678,7 +3714,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -3949,7 +3985,7 @@
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],
-    "Items_S": ["2055"]
+    "Items_S": ["2055","3157"]
   },
   "Mage 🔵": {
     "ordenHabilidades": ["Q","E","W"],
@@ -4059,7 +4095,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3152"]
     },
     "Warlock 🔴🔵": {
       "ordenHabilidades": ["Q","E","W"],
@@ -4084,7 +4120,7 @@
         ]
       },
       "shards": [
-        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
@@ -4094,7 +4130,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3152","3041"]
     },
     "Elite 🔴🔵🟢🟡": {
       "ordenHabilidades": ["Q","E","W"],
@@ -4129,7 +4165,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3152"]
     }
   },
   "Khazix": {
@@ -4204,7 +4240,7 @@
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],
-    "Items_S": ["3363"]
+    "Items_S": ["2055","3041"]
   },
   "Mage 🔵": {
     "ordenHabilidades": ["E","Q","W"],
@@ -4423,7 +4459,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "ignite", "icono": "spell/SummonerExhaust.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3222"]
     },
   "Assassin 🔴": {
     "ordenHabilidades": ["Q","E","W"],
@@ -4459,7 +4495,7 @@
       { "nombre": "ignite", "icono": "spell/SummonerDot.png" },
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],
-    "Items_S": ["3363"]
+    "Items_S": ["2055","3041","4645"]
   }
 },
 "Udyr": {
@@ -4524,22 +4560,22 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
     ],
-      "items": ["6662","2422", "3065", "6333", "6665"],
+      "items": ["6662","2422", "3065", "6333", "6665","2502"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3143","2504","3083"]
     }
   },
   "Maokai": {
-  "Tank 🟢": {
+  "Aegis 🟢🔵": {
     "ordenHabilidades": ["Q","W","E"],
-    "rol":"Tank",
+    "rol":"Aegis",
       "opcionesRunas": [
       {
         "nombre": "Safe",
@@ -4561,7 +4597,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -4597,18 +4633,18 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
     ],
-      "items": ["6655", "3020", "4646", "3135", "3089"],
+      "items": ["6655", "3020", "4646","4645", "3135", "3089"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055","4645","3157","3041"]
+      "Items_S": ["2055","3157","3041"]
     }
   },
   "Chogath": {
@@ -4636,7 +4672,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -4645,7 +4681,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055","4633"]
+      ],"Items_S": ["2055","4633","3143"]
     }
   },
     "Gragas": {
@@ -4672,7 +4708,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -4743,7 +4779,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -4789,7 +4825,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "elias_gay", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3053","6333","3156"]
     },
     "Arcanist 🔴🟢🔵": {
       "ordenHabilidades": ["Q","E","W"],
@@ -4824,7 +4860,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3053","6333","3156"]
     },    
     "Aegis 🟢🔵": {
       "ordenHabilidades": ["Q","E","W"],
@@ -4859,7 +4895,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3053","6333","3156"]
     }
   },
       "Annie": {
@@ -4886,18 +4922,18 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
     ],
-      "items": ["3118", "3020", "4646", "3135", "3089"],
+      "items": ["3118", "3020", "4646","4645", "3135", "3089"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055","4645","3157","3041"]
+      "Items_S": ["2055","3157","3041"]
     }
   },
     "Nidalee": {
@@ -4924,7 +4960,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -4963,7 +4999,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -5000,7 +5036,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -5047,7 +5083,7 @@
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],
-    "Items_S": ["3363"]
+    "Items_S": ["2055","3041"]
   },
   "Mage 🔵": {
     "ordenHabilidades": ["Q","E","W"],
@@ -5083,10 +5119,10 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     }
   },
-      "Alistar": {
+    "Alistar": {
     "Vanguard 🟢": {
       "ordenHabilidades": ["Q","W","E"],
       "rol":"Vanguard",
@@ -5120,7 +5156,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "ignite", "icono": "spell/SummonerExhaust.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3222"]
     }
   },
   "Zeri": {
@@ -5306,7 +5342,7 @@
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],
-    "Items_S": ["3137"]
+    "Items_S": ["2055","3041"]
   },
   "Mage 🔵": {
     "ordenHabilidades": ["E","Q","W"],
@@ -5380,7 +5416,7 @@
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],
-    "Items_S": ["4629"]
+    "Items_S": ["2055","3041","4629"]
   },
   "Mage 🔵": {
     "ordenHabilidades": ["Q","E","W"],
@@ -5596,7 +5632,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -5605,7 +5641,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerSmite.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3143","2504"]
     }
   },
     "Kindred": {
@@ -5681,7 +5717,7 @@
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],
-    "Items_S": ["2055"]
+    "Items_S": ["2055","3041"]
   },
   "Mage 🔵": {
     "ordenHabilidades": ["W","Q","E"],
@@ -5745,7 +5781,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -5781,7 +5817,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -5792,7 +5828,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     },
     "Mage 🔵": {
     "ordenHabilidades": ["Q","W","E"],
@@ -5856,7 +5892,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -5867,7 +5903,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     }
   },
     "Zoe": {
@@ -5894,7 +5930,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -5905,7 +5941,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     }
   },
     "Lux": {
@@ -6044,7 +6080,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -6055,7 +6091,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     }
   },
   "Vex": {
@@ -6082,7 +6118,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -6093,7 +6129,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     }
   },
     "Cassiopeia": {
@@ -6192,7 +6228,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -6203,7 +6239,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     }
   },
     "Leblanc": {
@@ -6230,7 +6266,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -6241,7 +6277,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     }
   },
   "Zyra": {
@@ -6306,7 +6342,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -6381,7 +6417,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -6392,7 +6428,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     },
       "Aegis 🟢🔵" : {
         "ordenHabilidades": ["Q","W","E"],
@@ -6466,7 +6502,7 @@
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],
-    "Items_S": ["2055"]
+    "Items_S": ["2055","3041"]
   },
   "Mage 🔵": {
     "ordenHabilidades": ["Q","E","W"],
@@ -6540,7 +6576,7 @@
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],
-    "Items_S": ["2055"]
+    "Items_S": ["2055","3041"]
   }
 },
     "Neeko": {
@@ -6578,7 +6614,7 @@
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],
-    "Items_S": ["2055"]
+    "Items_S": ["2055","3041"]
   }
 },
     "Ekko": {
@@ -6616,7 +6652,7 @@
       { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" },
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" }
     ],
-    "Items_S": ["2055"]
+    "Items_S": ["2055","3041"]
   }
 },
   "Heimerdinger": {
@@ -6720,7 +6756,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -6731,7 +6767,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055","6653","3157"]
+      "Items_S": ["2055","3041","6653","3157"]
     }
   },
       "Zilean": {
@@ -6834,7 +6870,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -6845,7 +6881,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     }
   },
     "Rumble": {
@@ -6911,7 +6947,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -6922,7 +6958,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     }
   },
   "Leona": {
@@ -6987,7 +7023,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -7061,7 +7097,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -7098,7 +7134,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -7170,7 +7206,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -7313,7 +7349,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -7497,7 +7533,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -7606,7 +7642,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -7617,7 +7653,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055","4645"]
+      "Items_S": ["2055","3041","4645"]
     }
   },
   "Gnar": {
@@ -7682,7 +7718,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -7718,7 +7754,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -7949,7 +7985,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerExhaust.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerHaste.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3222"]
     },
     "Mage 🔵" : {
       "ordenHabilidades": ["Q", "W", "E"],
@@ -7985,7 +8021,7 @@
       { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
       { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
     ],
-    "Items_S": ["2055"]
+    "Items_S": ["2055","3041","3135"]
   }
 },
 "Olaf": {
@@ -8082,7 +8118,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -8155,7 +8191,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -8164,7 +8200,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3143","2504","3083"]
     }
   },
   "Renata": {
@@ -8265,7 +8301,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -8276,7 +8312,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3041"]
     }
   },
     "Kayle": {
@@ -8303,7 +8339,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -8453,7 +8489,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -8607,7 +8643,7 @@
       "spells": [
         { "nombre": "Destellar", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3041"]
     },
     "Warlock 🔴🔵": {
       "ordenHabilidades": ["Q", "W", "E"],
@@ -8632,7 +8668,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -8642,7 +8678,7 @@
       "spells": [
         { "nombre": "Destellar", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3041","4646"]
     }
   },
   "Nocturne": {
@@ -8669,7 +8705,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -8786,7 +8822,7 @@
       "spells": [
         { "nombre": "fantasmal", "icono": "spell/SummonerFlash.png" },
         { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3181"]
     },
     "Revenant 🟡🔴🟢": {
       "ordenHabilidades": ["Q", "W", "E"],
@@ -8821,7 +8857,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3032"]
     }
   },
     "Katarina": {
@@ -8848,7 +8884,7 @@
         ]
       },
       "shards": [
-        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
@@ -8858,7 +8894,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3041"]
     },
     "Assault 🟡": {
       "ordenHabilidades": ["Q", "E", "W"],
@@ -8957,7 +8993,7 @@
         ]
       },
       "shards": [
-        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+        { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
       ]
@@ -8967,7 +9003,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerSmite.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3041"]
     },
     "Aegis 🟢🔵": {
       "ordenHabilidades": ["E", "W", "Q"],
@@ -9033,11 +9069,11 @@
         ]
       }
     ],
-      "items": ["1102","3161", "3171", "6675", "3302", "6653","3124","4633"],
+      "items": ["1102","3161", "3171", "6675", "3302", "6653","3124"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","4633"]
     }
   },
   "Trundle": {
@@ -9207,7 +9243,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -9607,7 +9643,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -9679,7 +9715,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -9716,7 +9752,7 @@
           ]
         },
         "shards": [
-          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
@@ -10046,7 +10082,7 @@
         },
         "shards": [
           { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAttackSpeedIcon.png" },
-        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" },
         { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
         ]
       }
@@ -10055,7 +10091,7 @@
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055"]
+      ],"Items_S": ["2055","3143","2504","3075"]
     }
   }
   
