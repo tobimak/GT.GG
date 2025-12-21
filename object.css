@@ -61,7 +61,7 @@ body {
   font-size: 34px;
   cursor: pointer;
   color: red;
-  text-align: center;
+  
 }
 
 /* Título */
@@ -161,15 +161,28 @@ body {
 }
 
 .volver {
-margin-top: 40px;
-font-size: 18px;
-color: #FFD700;
-text-decoration: underline;
-cursor: pointer;
-user-select: none;
-text-align: center;
+  display: block;
+  margin: 40px auto;   /* ← CENTRADO REAL */
+  
+  background: linear-gradient(145deg, #1c2733, #121a22);
+  border: 1px solid #2f3f50;
+  font-size: 18px;
+  color: #FFD700;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  padding: 8px 18px;
+  transition: all 0.25s ease;
 }
 .volver:hover {
   text-shadow: 0 0 8px #ffcc00;
+  background: linear-gradient(145deg, #27374a, #1a2533);
+  transform: translateY(-2px);
+}
+.contenedor-boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 

@@ -243,6 +243,56 @@ body {
   }
 }
 
+.champions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.champ-card {
+  text-align: center;
+  cursor: pointer;
+}
+
+.champ-card img {
+  width: 72px;
+  height: 72px;
+  border-radius: 12px;
+  transition: transform .2s;
+}
+
+.champ-card:hover img {
+  transform: scale(1.1);
+}
 
 
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: linear-gradient(160deg, #15202b, #0d141c);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
 
+th {
+  background: linear-gradient(135deg, #7a1cff, #ff00cc);
+  color: white;
+  font-size: 20px;
+  padding: 14px;
+  text-align: center;
+}
+
+td {
+  padding: 14px 18px;
+  border-top: 1px solid #2f3f50;
+  color: #e6e6e6;
+  font-size: 16px;
+}
+
+tr:hover td {
+  background: rgba(124, 199, 255, 0.08);
+}

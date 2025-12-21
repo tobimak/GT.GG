@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="roles.css">
     <link rel="icon" type="image/png" href="imagenes/icono.png">
     <title>roles</title>
+    <script src="roles.js"></script>
 </head>
 <body>
     <header class="navbar">
@@ -21,22 +22,22 @@
 
 <div class="roles-wrapper">
     <div class="roles-container">
-      <div class="role-card assassin">   
+      <div class="role-card assassin" onclick="irARol('Assassin')">   
         <span>ASSASSIN</span>
         <img src="imagenes/assasin.png" alt="Assassin">
          <span class="tooltip">Daño Explosivo, penetración...</span>
       </div>
-      <div class="role-card assault">
+      <div class="role-card assault" onclick="irARol('Assault')">
         <span>ASSAULT</span>
         <img src="imagenes/assault.png" alt="Assault">
         <span class="tooltip">DPS On-Hit/Attack, Velocidad de Ataque, Crit...</span>
       </div>
-      <div class="role-card mage">
+      <div class="role-card mage" onclick="irARol('Mage')">
         <span>MAGE</span>
         <img src="imagenes/mage.png" alt="Mage">
         <span class="tooltip">DPS On-Spell, no es necesario que sea ap, Aceleración de Habilidad, Mana...</span>
       </div>
-      <div class="role-card tank">
+      <div class="role-card tank" onclick="irARol('Tank')">
         <span>TANK</span>
         <img src="imagenes/tank.png" alt="Tank">
         <span class="tooltip">Resistencias, Curaciones, Escudos...</span>
@@ -47,37 +48,37 @@
     <hr class="roles-separator">
     
     <div class="roles-container">
-      <div class="role-card2 Aegis ">
+      <div class="role-card2 Aegis " onclick="irARol('Aegis')">
         <span>Aegis </span>
         <img src="imagenes/tank.png" alt="Tank">
         <img src="imagenes/mage.png" alt="Mage">
           <span class="tooltip">Tank + Mage</span>
       </div>
-      <div class="role-card2 Spellbade ">
+      <div class="role-card2 Spellbade " onclick="irARol('Spellbade')">
         <span>Spellbade </span>
         <img src="imagenes/assault.png" alt="Assault">
         <img src="imagenes/mage.png" alt="Mage">
         <span class="tooltip">Assault + Mage</span>
       </div>
-      <div class="role-card2 Berserker ">
+      <div class="role-card2 Berserker " onclick="irARol('Berserker')">
         <span>Berserker </span>
         <img src="imagenes/tank.png" alt="Tank">
         <img src="imagenes/assault.png" alt="Assault">
         <span class="tooltip">Tank + Assault</span>
       </div>
-      <div class="role-card2 Warlock">
+      <div class="role-card2 Warlock" onclick="irARol('Warlock')">
         <span>Warlock</span>
         <img src="imagenes/assasin.png" alt="Assassin">
         <img src="imagenes/mage.png" alt="Mage">
         <span class="tooltip">Assasin + Mage</span>
       </div>
-      <div class="role-card2 Duelist ">
+      <div class="role-card2 Duelist " onclick="irARol('Duelist')">
         <span>Duelist </span>
         <img src="imagenes/assasin.png" alt="Assassin">
         <img src="imagenes/assault.png" alt="Assault">
         <span class="tooltip">Assasin + Assault </span>
       </div>
-      <div class="role-card2 Rogue ">
+      <div class="role-card2 Rogue " onclick="irARol('Rogue')">
         <span>Rogue </span>
         <img src="imagenes/tank.png" alt="Tank">
         <img src="imagenes/assasin.png" alt="Assassin">
@@ -88,28 +89,28 @@
     <hr class="roles-separator">
 
     <div class="roles-container">
-      <div class="role-card3 Emberlord">
+      <div class="role-card3 Emberlord" onclick="irARol('Emberlord')">
         <span>Emberlord</span>
         <img src="imagenes/tank.png" alt="Tank">
         <img src="imagenes/assault.png" alt="Assault">
         <img src="imagenes/mage.png" alt="Mage">
         <span class="tooltip">Tank + Assault + Mage</span>
       </div>
-      <div class="role-card3 Arcanist">
+      <div class="role-card3 Arcanist" onclick="irARol('Arcanist')">
         <span>Arcanist</span>
         <img src="imagenes/assasin.png" alt="Assassin">
         <img src="imagenes/mage.png" alt="Mage">
         <img src="imagenes/tank.png" alt="Tank">
         <span class="tooltip">Assasin + Mage + Tank </span>
       </div>
-      <div class="role-card3 Revenant">
+      <div class="role-card3 Revenant" onclick="irARol('Revenant')">
         <span>Revenant</span>
         <img src="imagenes/assasin.png" alt="Assassin">
         <img src="imagenes/tank.png" alt="Tank">
         <img src="imagenes/assault.png" alt="Assault">
         <span class="tooltip">Assasin + Tanl + Assault </span>
       </div>
-      <div class="role-card3 Duskbane">
+      <div class="role-card3 Duskbane" onclick="irARol('Duskbane')">
         <span>Duskbane</span>
         <img src="imagenes/assasin.png" alt="Assassin">
         <img src="imagenes/mage.png" alt="Mage">
@@ -121,7 +122,7 @@
     <hr class="roles-separator">
 
     <div class="roles-container">
-      <div class="role-card4 Elite">
+      <div class="role-card4 Elite" onclick="irARol('Elite')">
         <span>Elite</span>
         <img src="imagenes/assasin.png" alt="Assassin">
         <img src="imagenes/tank.png" alt="Tank">
@@ -138,34 +139,48 @@
 
 <div class="roles-wrapper">
     <div class="roles-container">
-      <div class="role-card5 Peeler">
+      <div class="role-card5 Peeler" onclick="irARol('Peeler')">
         <span>Peeler</span>
         <img src="imagenes/Peeler.png" alt="Peeler">
+        <span class="tooltip">Shielding y Buff</span>
       </div>
-      <div class="role-card5 Vanguard">
+      <div class="role-card5 Vanguard" onclick="irARol('Vanguard')">
         <span>Vanguard</span>
         <img src="imagenes/Vanguard.png" alt="Vanguard">
+        <span class="tooltip">Crowd Control y Nerf</span>
       </div>
     </div>
 
     <hr class="roles-separator">
 
     <div class="roles-container">
-      <div class="role-card6 Playmaker">
+      <div class="role-card6 Playmaker" onclick="irARol('Playmaker')">
         <span>Playmaker</span>
         <img src="imagenes/Peeler.png" alt="Peeler">
         <img src="imagenes/Vanguard.png" alt="Vanguard">
+        <span class="tooltip">Peeler + Vanguard</span>
       </div>
     
     </div>
-
 </div>
 
-<h3 class="h3">Aclaraciones</h3>
-<h5 class="h5">Las clases tienen su dificultar</h5>
-<h5 class="h5">mientras más clases = más habilidad y conocimiento necesario para jugar ese macro</h5>
-<h5 class="h5">mientras más clases = versatilidad en el game</h5>
-<h5 class="h5">mientras menos clases = mejor realiza su trabajo especifico</h5>
+<table>
+  <tr>
+    <th>Aclaraciones</th>
+  </tr>
+  <tr>
+    <td>Las clases tienen su dificultad</td>
+  </tr>
+  <tr>
+    <td>Mientras más clases = más habilidad y conocimiento necesario para jugar ese macro</td>
+  </tr>
+  <tr>
+    <td>Mientras más clases = mayor versatilidad en la partida</td>
+  </tr>
+  <tr>
+    <td>Mientras menos clases = mejor desempeño en su trabajo específico</td>
+  </tr>
+</table>
 
 
 </body>

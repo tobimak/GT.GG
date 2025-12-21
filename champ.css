@@ -263,7 +263,32 @@ body {
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
 }
 
+/* =========================
+   BOTÓN VOLVER
+========================= */
+.btn-volver {
+  background: linear-gradient(145deg, #1c2733, #121a22);
+  border: 1px solid #2f3f50;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.25s ease;
+  display: flex;
+  position: absolute;
+  left: 0;
+  margin-left: 10px;
 
+}
+
+button:hover {
+  background: linear-gradient(145deg, #27374a, #1a2533);
+  transform: translateY(-2px);
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
 
 
 #resultados p {
@@ -446,6 +471,9 @@ body {
   font-weight:bold;
   font-size:14px;
 }
+
+
+
 
 
 

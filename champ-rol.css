@@ -1,0 +1,162 @@
+/* =========================
+   RESET BÁSICO
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at top, #0f1519, #0f1519);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  color: #e6e6e6;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* =========================
+   BOTÓN VOLVER
+========================= */
+button {
+  background: linear-gradient(145deg, #1c2733, #121a22);
+  border: 1px solid #2f3f50;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  background: linear-gradient(145deg, #27374a, #1a2533);
+  transform: translateY(-2px);
+}
+
+/* =========================
+   TÍTULO
+========================= */
+#tituloRol {
+  text-align: center;
+  font-size: 32px;
+  margin: 25px 0 35px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(124,199,255,0.25);
+}
+
+/* =========================
+   GRID DE CAMPEONES
+========================= */
+.champ-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* =========================
+   CARD DE CAMPEÓN
+========================= */
+.champ-card {
+  background: linear-gradient(160deg, #15202b, #0d141c);
+  border: 1px solid #223244;
+  border-radius: 14px;
+  padding: 18px 10px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* Glow suave */
+.champ-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(124,199,255,0.25),
+    transparent
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.champ-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+  border-color: #7cc7ff;
+}
+
+/* =========================
+   TEXTO DEL CAMPEÓN
+========================= */
+.champ-card {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 600px) {
+  #tituloRol {
+    font-size: 24px;
+  }
+
+  .champ-card {
+    font-size: 16px;
+    padding: 14px 8px;
+  }
+}
+.tobi{
+background-color:#1c252c;
+margin-left: 150px;
+margin-right: 150px;
+padding-top: 5px;
+padding-bottom: 50px;
+border-radius: 40px;
+}
+
+/* =========================
+   TITULO POR CLASE
+========================= */
+.titulo {
+  text-align: center;
+  font-size: 32px;
+  margin: 30px 0 40px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+/* ASSASSIN (rojo) */
+.titulo.Assassin {
+  color: #ff3b3b;
+  text-shadow: 0 0 14px rgba(255, 59, 59, 0.45);
+}
+
+/* MAGE (azul) */
+.titulo.Mage {
+  color: #3a6cff;
+  text-shadow: 0 0 14px rgba(58, 108, 255, 0.45);
+}
+
+/* TANK (verde) */
+.titulo.Tank {
+  color: #1ed67a;
+  text-shadow: 0 0 14px rgba(30, 214, 122, 0.45);
+}
+
+/* ASSAULT (amarillo) */
+.titulo.Assault {
+  color: #ffd84d;
+  text-shadow: 0 0 14px rgba(255, 216, 77, 0.45);
+}

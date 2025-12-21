@@ -1268,7 +1268,7 @@
   },
       "Spellbade 🔵🟡": {
     "ordenHabilidades": ["Q", "W", "E"],
-    "rol":"Assault",
+    "rol":"Spellbade",
     "opcionesRunas": [
       {
         "nombre": "Safe",
@@ -9256,7 +9256,7 @@
     "Urgot": {
     "Revenant 🟡🟢🔴": {
       "ordenHabilidades": ["Q", "W", "E"],
-      "rol":"Duelist",
+      "rol":"Revenant",
       "opcionesRunas": [
       {
         "nombre": "Safe",
