@@ -1050,9 +1050,9 @@
       { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
     ],"Items_S": ["2055"]
    },
-   "Warlock 🔴🔵": {
+   "Mage 🔵": {
     "ordenHabilidades": ["W", "E", "Q"],
-    "rol":"Warlock",
+    "rol":"Mage",
       "opcionesRunas": [
       {
         "nombre": "Safe",
@@ -1079,11 +1079,11 @@
         ]
       }
     ],
-      "items": ["1101","2503", "3171", "6653", "8010", "3116"],
+      "items": ["1101","2503", "3171", "6653", "8010", "3116","4629"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerDot.png" },
         { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
-      ],"Items_S": ["2055","3041"]
+      ],"Items_S": ["2055","3041","4633"]
     }
  },
  "Graves": {
@@ -2275,7 +2275,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3137"]
     }
   },
     "Irelia": {
@@ -2993,6 +2993,41 @@
       }
     ],
       "items": ["1101","6697", "2422", "6692", "6694", "3142", "3814"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
+      ],"Items_S": ["2055"]
+    },
+        "Assassin 🔴": {
+      "ordenHabilidades": ["Q","E","W"],
+      "rol":"Assassin",
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
+        "primario": {
+          "nombre": "Dominación",
+          "runas": [
+          { "nombre": "DarkHarvest","icono": "perk-images/Styles/Inspiration/FirstStrike/FirstStrike.png" },
+          { "nombre": "impacto", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" },
+          { "nombre": "RelentlessHunter", "icono": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Domination/SixthSense/SixthSense.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+          ]
+        },
+        "shards": [
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsMovementSpeedIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      }
+    ],
+      "items": ["1103","6698", "2422", "6696", "6701", "3814", "6692"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "smite", "icono": "spell/SummonerSmite.png" }
@@ -3969,8 +4004,8 @@
       "secundario": {
         "nombre": "Valor",
         "runas": [
-          { "nombre": "Coraza ósea", "icono": "perk-images/Styles/Resolve/BonePlating/BonePlating.png" },
-          { "nombre": "Crecimiento Excesivo", "icono": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png" }
+          { "nombre": "Calzado mágico", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "galletitas", "icono": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" }
         ]
       },
       "shards": [
@@ -4276,7 +4311,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3137"]
     }
 },
 "Elise": {
@@ -4628,8 +4663,8 @@
         "secundario": {
           "nombre": "Inspiración",
           "runas": [
-          { "nombre": "botas", "icono": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" },
-          { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png" }
+          { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
           ]
         },
         "shards": [
@@ -4917,8 +4952,8 @@
         "secundario": {
           "nombre": "Inspiración",
           "runas": [
-          { "nombre": "botas", "icono": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" },
-          { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png" }
+          { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
           ]
         },
         "shards": [
@@ -5119,7 +5154,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055","3041"]
+      "Items_S": ["2055","3041","3137"]
     }
   },
     "Alistar": {
@@ -5373,12 +5408,12 @@
         ]
       }
     ],
-      "items": ["2503", "3020", "4629","6653", "8010", "4645"],
+      "items": ["2503", "3020", "4629","6653", "8010", "3116"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055","3116"]
+      "Items_S": ["2055","3137"]
     }
   },
     "Ryze": {
@@ -5418,7 +5453,7 @@
     ],
     "Items_S": ["2055","3041","4629"]
   },
-  "Mage 🔵": {
+  "Aegis 🔵🟢": {
     "ordenHabilidades": ["Q","E","W"],
     "rol":"Mage",
       "opcionesRunas": [
@@ -5599,15 +5634,15 @@
         ]
       }
     ],
-      "items": ["2503", "3116", "4629","4010", "6653", "3158"],
+      "items": ["2503","3158", "3116", "4629","4010", "6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055","4633"]
+      "Items_S": ["2055","4633","3137"]
     }
   },
-      "Zac": {
+  "Zac": {
   "Tank 🟢": {
     "ordenHabilidades": ["E","W","Q"],
     "rol":"Tank",
@@ -5748,12 +5783,12 @@
         ]
       }
     ],
-      "items": ["2503", "3171", "4646","4629", "8010", "6653"],
+      "items": ["2503", "3171", "3116","4629", "8010", "6653"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055","4633"]
+      "Items_S": ["2055","4633","3137"]
     }
   },
   "Skarner": {
@@ -5864,7 +5899,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055","4633"]
+      "Items_S": ["2055","4633","3137"]
     }
 
   },
@@ -6053,7 +6088,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3137"]
     }
   },
     "Xerath": {
@@ -6203,7 +6238,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3137"]
     },
     "Warlock 🔴🔵" : {
       "ordenHabilidades": ["Q","E","W"],
@@ -6234,7 +6269,7 @@
         ]
       }
     ],
-      "items": ["3118", "3020", "4646", "4645", "3135", "3089"],
+      "items": ["3118", "4646", "4645", "3135", "3089","3157"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
@@ -6315,7 +6350,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3137"]
     }
   },
   "Karthus": {
@@ -6389,7 +6424,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3137"]
     }
 
   },
@@ -6690,7 +6725,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3137"]
     }
 
   },
@@ -6839,6 +6874,42 @@
       }
     ],
       "items": ["6631", "3171", "3053", "3742", "2501","3071"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
+      ],
+      "Items_S": ["2055"]
+    },
+    "Revenant 🟡🟢🔴" : {
+      "ordenHabilidades": ["W","Q","E"],
+      "rol":"Emberlord",
+      "opcionesRunas": [
+      {
+      "nombre": "Safe",
+        "primario": {
+          "nombre": "Dominación",
+          "runas": [
+          { "nombre": "Cometa Arcano", "icono": "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png" },
+          { "nombre": "Anillo de flujo de maná", "icono": "perk-images/Styles/Domination/CheapShot/CheapShot.png" },
+          { "nombre": "Concentración Absoluta", "icono": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png" },
+          { "nombre": "Tormenta Creciente", "icono": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+          { "nombre": "galletitas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+          { "nombre": "Velocidad de aproximación", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsMovementSpeedIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      }
+    ],
+      "items": ["3748", "3171", "3142", "6610", "3053","2501"],
       "spells": [
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerTeleport.png" }
@@ -7544,6 +7615,41 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "ignite", "icono": "spell/SummonerDot.png" }
       ],"Items_S": ["2055"]
+    },
+      "Duskbane 🔴🔵🟡": {
+        "ordenHabilidades": ["W","Q","E"],
+        "rol":"Duskbane",
+      "opcionesRunas": [
+      {
+        "nombre": "Safe",
+        "primario": {
+          "nombre": "Dominación",
+          "runas": [
+          { "nombre": "electrocutar", "icono": "perk-images/Styles/Precision/Conqueror/Conqueror.png" },
+          { "nombre": "Sabor a Sangre", "icono": "perk-images/Styles/Precision/Triumph.png" },
+          { "nombre": "GrislyMementos", "icono": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png" },
+          { "nombre": "UltimateHunter", "icono": "perk-images/Styles/Precision/CutDown/CutDown.png" }
+          ]
+        },
+        "secundario": {
+          "nombre": "Inspiración",
+          "runas": [
+            { "nombre": "botas", "icono": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png" },
+            { "nombre": "Perspicacia Cósmica", "icono": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png" }
+          ]
+        },
+        "shards": [
+          { "nombre": "Velocidad de ataque", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Fuerza adaptable", "icono": "perk-images/StatMods/StatModsAdaptiveForceIcon.png" },
+        { "nombre": "Progresión de vida", "icono": "perk-images/StatMods/StatModsHealthPlusIcon.png" }
+        ]
+      }
+    ],
+      "items": ["6697","2422", "6699", "6694", "6692","3161"],
+      "spells": [
+        { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
+        { "nombre": "ignite", "icono": "spell/SummonerDot.png" }
+      ],"Items_S": ["2055"]
     }
   },
   "Morgana": {
@@ -7617,7 +7723,7 @@
         { "nombre": "Destello", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportar", "icono": "spell/SummonerExhaust.png" }
       ],
-      "Items_S": ["2055"]
+      "Items_S": ["2055","3137"]
     },    
     "Warlock 🔴🔵" : {
       "ordenHabilidades": ["Q","W","E"],
@@ -8713,7 +8819,7 @@
       "spells": [
         { "nombre": "Destellar", "icono": "spell/SummonerFlash.png" },
         { "nombre": "Teleportación", "icono": "spell/SummonerTeleport.png" }
-      ],"Items_S": ["2055","3041"]
+      ],"Items_S": ["2055","3041","3137"]
     },
     "Warlock 🔴🔵": {
       "ordenHabilidades": ["Q", "W", "E"],
